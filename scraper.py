@@ -213,24 +213,26 @@ BESEN_KATALOG = [
             ("2027-04-22", "2027-04-25"),
         ]
     },
-    {
+     {
         "id": "banzhaf",
-        "title": "Weingut Banzhaf",
-        "ort": "Pfedelbach-Untersteinbach (ca. 10 km)",
-        "location": "Öhringer Str. 12, 74629 Pfedelbach",
-        "hours": "Fr & Sa ab 15:00 Uhr, So ab 11:30 Uhr",
-        "color": "#2874a6",
-        "url": "https://www.weingut-banzhaf.de/",
+        "title": "Weinausschank Banzhaf",
+        "ort": "Bretzfeld-Siebeneich (ca. 8 km)",
+        "location": "Wengertstraße 16, 74626 Bretzfeld-Siebeneich",
+        "hours": "Do - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+        "color": "#a83232",
+        "url": "https://www.besen-banzhaf.de/",
+        # Ausschließlich die reinen Weinausschank-/Besen-Termine (ohne externe Feste & Caterings):
         "fallback_ranges": [
-            ("2026-10-09", "2026-10-11"),
-            ("2026-10-23", "2026-10-25"),
-            ("2026-11-06", "2026-11-08"),
-            ("2026-11-20", "2026-11-22"),
-            ("2027-01-15", "2027-01-17"),
-            ("2027-01-29", "2027-01-31"),
-            ("2027-02-12", "2027-02-14"),
-            ("2027-03-12", "2027-03-14"),
-            ("2027-04-02", "2027-04-04"),
+            ("2026-01-22", "2026-01-25"),
+            ("2026-02-19", "2026-02-22"),
+            ("2026-03-26", "2026-03-29"),
+            ("2026-04-23", "2026-04-26"),
+            ("2026-05-14", "2026-05-17"),
+            ("2026-08-06", "2026-08-09"),
+            ("2026-09-03", "2026-09-06"),
+            ("2026-10-15", "2026-10-18"),
+            ("2026-11-12", "2026-11-15"),
+            ("2026-12-07", "2026-12-13"),  # Weinausschank mit hauseigenem Weihnachtsmarkt
         ]
     },
     {
