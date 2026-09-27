@@ -3,6 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Besenwirtschaften Öhringen & Umgebung</title>
+    
+    <!-- FullCalendar CSS & JS -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
+    <!-- Tailwind CSS für schönes, modernes Design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        .fc-event {
+            cursor: pointer;
+            border: none;
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        .fc-toolbar-title {
+            font-size: 1.25rem !important;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen">
+
+    <div class="max-w-6xl mx-auto px-4 py-6">
+        <!-- Header -->
+        <header class="mb-6 flex flex-col md:flex-row md:items-end justify-between border-b pb-4 gap-2">
+            <div>
+                <h1 class="text-2xl md:text-3xl font-extrabold text-amber-950 flex items-center gap-2">
+                    <i class="fa-solid fa-wine-glass text-rose-800"></i>
+                    Besenkalender Öhringen & Umgebung
+                </h1>
+                <p class="text-sm text-slate-500 mt-1">Aktuelle Öffnungszeiten & Weinstuben im Umkreis von ca. 15 km</p>
+            </div>
+            <!-- Hier wird das Aktualisierungsdatum eingefügt -->
+            <div id="last-updated" class="text-xs bg-amber-100 text-amber-900 px-3 py-1.5 rounded-full inline-flex items-center gap-1.5 font-medium self-start md:self-auto shadow-sm">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <span>Wird geladen...</span>
+            </div>
+        </header>
+
+        <!-- Kalender-Container -->
+        <div class="bg-white p-4 md:p-6 rounded-2xl shadow-sm border border-slate-200">
+            <div id="calendar"></div>
+        </div>
+    </div>
+
+    <!-- Info-Modal beim Anklicken -->
+    <div id="eventModal" class="fixed inset-0 bg-black/50 hidden items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+            <h3 id="modalTitle" class="text-xl font-bold text-slate-900 mb-2"></h3>
+            <div class="space-y-3 text-sm text-slate-600 mt-4">
+                <p><i class="fa-solid fa-location-dot text-rose-700 w-5"></i> <strong id="modalOrt"></strong></p>
+                <p><i class="fa-solid fa-map-pin text-slate-400 w-5"></i> <span id="modalLocation"></span></p>
+                <p><i class="fa-solid fa-clock text-amber-600 w-5"></i> <span id="modalHours"></span></p>
+                <div class="p-3 bg-amber-50 rounded-lg text-amber-950 text-xs border border-amber-200" id="modalNotes"></div>
+            </div>
+            <div class="mt-6 flex justify-end">
+                <button onclick="closeModal()" class="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-lg text-sm font-medium">Schließen</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const calendarEl = document.getElementById('calendar');
+            const updatedEl = document.querySelector('#last-updated span');
+
+            // events.json mit Cache-Busting abrufen
+            fetch('events.json?t=' + new Date().getTime())
+                .then(response => response.json())
+                .then(data => {
+                    let eventsList = [];
+                    
+                    // Unterstützt sowohl altes als auch neues JSON-Format
+                    if (Array.isArray(data)) {
+                        eventsList = data;
+                        updatedEl.textContent = "Zuletzt aktualisiert: Heute";
+                    } else {
+                        eventsList = data.events || [];
+                        updatedEl.textContent = "Zuletzt aktualisiert: " + (data.last_updated || "Unbekannt");
+                    }
+
+                    const calendar = new FullCalendar.Calendar(calendarEl, {
+                        initialView: window.innerWidth < 768 ? 'listMonth' : 'dayGridMonth',
+                        locale: 'de',
+                        headerToolbar: {
+                            left: 'prev,next today',
+                            center: 'title',
+                            right: 'dayGridMonth,listMonth'
+                        },
+                        buttonText: {
+                            today: 'Heute',
+                            month: 'Monat',
+                            list: 'Liste'
+                        },
+                        events: eventsList,
+                        eventClick: function(info) {
+                            const props = info.event.extendedProps;
+                            document.getElementById('modalTitle').textContent = info.event.title;
+                            document.getElementById('modalOrt').textContent = props.ort || '';
+                            document.getElementById('modalLocation').textContent = props.location || '';
+                            document.getElementById('modalHours').textContent = props.hours || '';
+                            document.getElementById('modalNotes').textContent = props.notes || '';
+                            document.getElementById('eventModal').classList.remove('hidden');
+                            document.getElementById('eventModal').classList.add('flex');
+                        }
+                    });
+
+                    calendar.render();
+                })
+                .catch(err => {
+                    console.error("Fehler beim Laden der events.json:", err);
+                    updatedEl.textContent = "Stand: Offline";
+                });
+        });
+
+        function closeModal() {
+            document.getElementById('eventModal').classList.add('hidden');
+            document.getElementById('eventModal').classList.remove('flex');
+        }
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Besenkalender Öhringen & Umgebung</title>
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
