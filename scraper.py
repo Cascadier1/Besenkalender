@@ -49,23 +49,16 @@ BESEN_KATALOG = [
             ("2026-11-19", "2026-11-22"),
         ]
     },
-    {
+       {
         "id": "baldele",
-        "title": "Besenwirtschaft Baldele",
+        "title": "Baldele's Weinstube",
         "ort": "Öhringen-Michelbach (ca. 4 km)",
-        "location": "Kelterstraße 12, 74613 Öhringen-Michelbach",
-        "hours": "Mi - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+        "location": "Obersteinbacher Str. 23, 74613 Öhringen-Michelbach",
+        "hours": "Do & Fr ab 17:00 Uhr, Sa & So ab 11:00 Uhr (ca. 2 WE pro Monat)",
         "color": "#2c5e3b",
-        "url": "https://www.weingut-baldele.de/besenwirtschaft/",
-        "fallback_ranges": [
-            ("2026-01-08", "2026-01-18"),
-            ("2026-02-05", "2026-02-15"),
-            ("2026-03-05", "2026-03-15"),
-            ("2026-04-09", "2026-04-19"),
-            ("2026-09-17", "2026-09-27"),
-            ("2026-10-15", "2026-10-25"),
-            ("2026-11-12", "2026-11-22"),
-        ]
+        "url": "http://www.baldeles-weinstube.de/",
+        # Keine erfundenen Jahrestermine – Scraper liest nur echte Ankündigungen ein:
+        "fallback_ranges": []
     },
     {
         "id": "schwab",
