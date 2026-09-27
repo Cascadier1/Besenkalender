@@ -47,8 +47,8 @@ BESEN_KATALOG = [
             ("2026-09-24", "2026-09-27"),
             ("2026-10-22", "2026-10-25"),
             ("2026-11-19", "2026-11-22"),
-        ]
-    },
+       ]
+       },
        {
         "id": "baldele",
         "title": "Baldele's Weinstube",
@@ -58,9 +58,9 @@ BESEN_KATALOG = [
         "color": "#2c5e3b",
         "url": "http://www.baldeles-weinstube.de/",
         # Keine erfundenen Jahrestermine – Scraper liest nur echte Ankündigungen ein:
-        "fallback_ranges": []
-    },
-    {
+        "fallback_ranges": [
+        },
+        {
         "id": "schwab",
         "title": "Weingut & Besenwirtschaft Schwab",
         "ort": "Bretzfeld-Dimbach (ca. 7 km)",
