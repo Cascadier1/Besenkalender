@@ -1,5 +1,5 @@
 {
-  "last_updated": "27.09.2026 um 14:07 Uhr",
+  "last_updated": "27.09.2026 um 14:13 Uhr",
   "events": [
     {
       "id": "banzhaf_2026-01-22",
@@ -326,381 +326,453 @@
       }
     },
     {
-      "id": "schwab_2026-01-29",
-      "besenId": "schwab",
-      "title": "Weingut & Besenwirtschaft Schwab",
-      "start": "2026-01-29",
-      "end": "2026-02-02",
-      "backgroundColor": "#995c1f",
-      "borderColor": "#995c1f",
+      "id": "borth_2026-12-03",
+      "besenId": "borth",
+      "title": "Weingut & Weinstube Borth",
+      "start": "2026-12-03",
+      "end": "2026-12-07",
+      "backgroundColor": "#722f37",
+      "borderColor": "#722f37",
       "allDay": true,
       "extendedProps": {
-        "besenTitle": "Weingut & Besenwirtschaft Schwab",
-        "ort": "Bretzfeld-Dimbach (ca. 7 km)",
-        "location": "Schwabbacher Str. 18, 74626 Bretzfeld-Dimbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr (Mo-Mi Ruhetag)",
-        "url": "https://www.weingut-schwab.de/",
-        "period": "29.01.2026 – 01.02.2026"
+        "besenTitle": "Weingut & Weinstube Borth",
+        "ort": "Bretzfeld-Adolzfurt (ca. 9 km)",
+        "location": "Unterheimbacher Str. 35, 74626 Bretzfeld-Adolzfurt",
+        "hours": "Do - Sa ab 11:00 Uhr (Küche bis 21:00 Uhr), So ab 11:00 Uhr (Küche bis 19:30 Uhr)",
+        "url": "https://www.weingut-borth.de/pages/offnungszeiten-aktuelle-speisen",
+        "period": "03.12.2026 – 06.12.2026"
       }
     },
     {
-      "id": "schwab_2026-02-26",
+      "id": "schwab_2026-01-09",
       "besenId": "schwab",
-      "title": "Weingut & Besenwirtschaft Schwab",
-      "start": "2026-02-26",
-      "end": "2026-03-02",
-      "backgroundColor": "#995c1f",
-      "borderColor": "#995c1f",
+      "title": "Besenwirtschaft Schwab",
+      "start": "2026-01-09",
+      "end": "2026-01-19",
+      "backgroundColor": "#1f5f8b",
+      "borderColor": "#1f5f8b",
       "allDay": true,
       "extendedProps": {
-        "besenTitle": "Weingut & Besenwirtschaft Schwab",
-        "ort": "Bretzfeld-Dimbach (ca. 7 km)",
-        "location": "Schwabbacher Str. 18, 74626 Bretzfeld-Dimbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr (Mo-Mi Ruhetag)",
-        "url": "https://www.weingut-schwab.de/",
-        "period": "26.02.2026 – 01.03.2026"
+        "besenTitle": "Besenwirtschaft Schwab",
+        "ort": "Pfedelbach-Dimbach (ca. 6 km)",
+        "location": "Schwabbacher Str. 8, 74629 Pfedelbach-Dimbach",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weinbau-schwab.de/",
+        "period": "09.01.2026 – 18.01.2026"
       }
     },
     {
-      "id": "schwab_2026-03-19",
+      "id": "schwab_2026-02-06",
       "besenId": "schwab",
-      "title": "Weingut & Besenwirtschaft Schwab",
-      "start": "2026-03-19",
+      "title": "Besenwirtschaft Schwab",
+      "start": "2026-02-06",
+      "end": "2026-02-16",
+      "backgroundColor": "#1f5f8b",
+      "borderColor": "#1f5f8b",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Besenwirtschaft Schwab",
+        "ort": "Pfedelbach-Dimbach (ca. 6 km)",
+        "location": "Schwabbacher Str. 8, 74629 Pfedelbach-Dimbach",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weinbau-schwab.de/",
+        "period": "06.02.2026 – 15.02.2026"
+      }
+    },
+    {
+      "id": "schwab_2026-03-06",
+      "besenId": "schwab",
+      "title": "Besenwirtschaft Schwab",
+      "start": "2026-03-06",
+      "end": "2026-03-16",
+      "backgroundColor": "#1f5f8b",
+      "borderColor": "#1f5f8b",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Besenwirtschaft Schwab",
+        "ort": "Pfedelbach-Dimbach (ca. 6 km)",
+        "location": "Schwabbacher Str. 8, 74629 Pfedelbach-Dimbach",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weinbau-schwab.de/",
+        "period": "06.03.2026 – 15.03.2026"
+      }
+    },
+    {
+      "id": "schwab_2026-04-10",
+      "besenId": "schwab",
+      "title": "Besenwirtschaft Schwab",
+      "start": "2026-04-10",
+      "end": "2026-04-20",
+      "backgroundColor": "#1f5f8b",
+      "borderColor": "#1f5f8b",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Besenwirtschaft Schwab",
+        "ort": "Pfedelbach-Dimbach (ca. 6 km)",
+        "location": "Schwabbacher Str. 8, 74629 Pfedelbach-Dimbach",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weinbau-schwab.de/",
+        "period": "10.04.2026 – 19.04.2026"
+      }
+    },
+    {
+      "id": "schwab_2026-05-08",
+      "besenId": "schwab",
+      "title": "Besenwirtschaft Schwab",
+      "start": "2026-05-08",
+      "end": "2026-05-18",
+      "backgroundColor": "#1f5f8b",
+      "borderColor": "#1f5f8b",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Besenwirtschaft Schwab",
+        "ort": "Pfedelbach-Dimbach (ca. 6 km)",
+        "location": "Schwabbacher Str. 8, 74629 Pfedelbach-Dimbach",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weinbau-schwab.de/",
+        "period": "08.05.2026 – 17.05.2026"
+      }
+    },
+    {
+      "id": "schwab_2026-09-11",
+      "besenId": "schwab",
+      "title": "Besenwirtschaft Schwab",
+      "start": "2026-09-11",
+      "end": "2026-09-21",
+      "backgroundColor": "#1f5f8b",
+      "borderColor": "#1f5f8b",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Besenwirtschaft Schwab",
+        "ort": "Pfedelbach-Dimbach (ca. 6 km)",
+        "location": "Schwabbacher Str. 8, 74629 Pfedelbach-Dimbach",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weinbau-schwab.de/",
+        "period": "11.09.2026 – 20.09.2026"
+      }
+    },
+    {
+      "id": "schwab_2026-10-09",
+      "besenId": "schwab",
+      "title": "Besenwirtschaft Schwab",
+      "start": "2026-10-09",
+      "end": "2026-10-19",
+      "backgroundColor": "#1f5f8b",
+      "borderColor": "#1f5f8b",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Besenwirtschaft Schwab",
+        "ort": "Pfedelbach-Dimbach (ca. 6 km)",
+        "location": "Schwabbacher Str. 8, 74629 Pfedelbach-Dimbach",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weinbau-schwab.de/",
+        "period": "09.10.2026 – 18.10.2026"
+      }
+    },
+    {
+      "id": "schwab_2026-11-06",
+      "besenId": "schwab",
+      "title": "Besenwirtschaft Schwab",
+      "start": "2026-11-06",
+      "end": "2026-11-16",
+      "backgroundColor": "#1f5f8b",
+      "borderColor": "#1f5f8b",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Besenwirtschaft Schwab",
+        "ort": "Pfedelbach-Dimbach (ca. 6 km)",
+        "location": "Schwabbacher Str. 8, 74629 Pfedelbach-Dimbach",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weinbau-schwab.de/",
+        "period": "06.11.2026 – 15.11.2026"
+      }
+    },
+    {
+      "id": "ungerer_2026-01-09",
+      "besenId": "ungerer",
+      "title": "Weingut Ungerer",
+      "start": "2026-01-09",
+      "end": "2026-01-19",
+      "backgroundColor": "#d48806",
+      "borderColor": "#d48806",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Weingut Ungerer",
+        "ort": "Pfedelbach-Renzen (ca. 7 km)",
+        "location": "Harsberger Str. 15, 74629 Pfedelbach-Renzen",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weingut-ungerer.de/",
+        "period": "09.01.2026 – 18.01.2026"
+      }
+    },
+    {
+      "id": "ungerer_2026-02-13",
+      "besenId": "ungerer",
+      "title": "Weingut Ungerer",
+      "start": "2026-02-13",
+      "end": "2026-02-23",
+      "backgroundColor": "#d48806",
+      "borderColor": "#d48806",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Weingut Ungerer",
+        "ort": "Pfedelbach-Renzen (ca. 7 km)",
+        "location": "Harsberger Str. 15, 74629 Pfedelbach-Renzen",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weingut-ungerer.de/",
+        "period": "13.02.2026 – 22.02.2026"
+      }
+    },
+    {
+      "id": "ungerer_2026-03-13",
+      "besenId": "ungerer",
+      "title": "Weingut Ungerer",
+      "start": "2026-03-13",
       "end": "2026-03-23",
-      "backgroundColor": "#995c1f",
-      "borderColor": "#995c1f",
+      "backgroundColor": "#d48806",
+      "borderColor": "#d48806",
       "allDay": true,
       "extendedProps": {
-        "besenTitle": "Weingut & Besenwirtschaft Schwab",
-        "ort": "Bretzfeld-Dimbach (ca. 7 km)",
-        "location": "Schwabbacher Str. 18, 74626 Bretzfeld-Dimbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr (Mo-Mi Ruhetag)",
-        "url": "https://www.weingut-schwab.de/",
-        "period": "19.03.2026 – 22.03.2026"
-      }
-    },
-    {
-      "id": "schwab_2026-04-23",
-      "besenId": "schwab",
-      "title": "Weingut & Besenwirtschaft Schwab",
-      "start": "2026-04-23",
-      "end": "2026-04-27",
-      "backgroundColor": "#995c1f",
-      "borderColor": "#995c1f",
-      "allDay": true,
-      "extendedProps": {
-        "besenTitle": "Weingut & Besenwirtschaft Schwab",
-        "ort": "Bretzfeld-Dimbach (ca. 7 km)",
-        "location": "Schwabbacher Str. 18, 74626 Bretzfeld-Dimbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr (Mo-Mi Ruhetag)",
-        "url": "https://www.weingut-schwab.de/",
-        "period": "23.04.2026 – 26.04.2026"
-      }
-    },
-    {
-      "id": "schwab_2026-09-10",
-      "besenId": "schwab",
-      "title": "Weingut & Besenwirtschaft Schwab",
-      "start": "2026-09-10",
-      "end": "2026-09-14",
-      "backgroundColor": "#995c1f",
-      "borderColor": "#995c1f",
-      "allDay": true,
-      "extendedProps": {
-        "besenTitle": "Weingut & Besenwirtschaft Schwab",
-        "ort": "Bretzfeld-Dimbach (ca. 7 km)",
-        "location": "Schwabbacher Str. 18, 74626 Bretzfeld-Dimbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr (Mo-Mi Ruhetag)",
-        "url": "https://www.weingut-schwab.de/",
-        "period": "10.09.2026 – 13.09.2026"
-      }
-    },
-    {
-      "id": "schwab_2026-10-08",
-      "besenId": "schwab",
-      "title": "Weingut & Besenwirtschaft Schwab",
-      "start": "2026-10-08",
-      "end": "2026-10-12",
-      "backgroundColor": "#995c1f",
-      "borderColor": "#995c1f",
-      "allDay": true,
-      "extendedProps": {
-        "besenTitle": "Weingut & Besenwirtschaft Schwab",
-        "ort": "Bretzfeld-Dimbach (ca. 7 km)",
-        "location": "Schwabbacher Str. 18, 74626 Bretzfeld-Dimbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr (Mo-Mi Ruhetag)",
-        "url": "https://www.weingut-schwab.de/",
-        "period": "08.10.2026 – 11.10.2026"
-      }
-    },
-    {
-      "id": "schwab_2026-11-05",
-      "besenId": "schwab",
-      "title": "Weingut & Besenwirtschaft Schwab",
-      "start": "2026-11-05",
-      "end": "2026-11-09",
-      "backgroundColor": "#995c1f",
-      "borderColor": "#995c1f",
-      "allDay": true,
-      "extendedProps": {
-        "besenTitle": "Weingut & Besenwirtschaft Schwab",
-        "ort": "Bretzfeld-Dimbach (ca. 7 km)",
-        "location": "Schwabbacher Str. 18, 74626 Bretzfeld-Dimbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr (Mo-Mi Ruhetag)",
-        "url": "https://www.weingut-schwab.de/",
-        "period": "05.11.2026 – 08.11.2026"
-      }
-    },
-    {
-      "id": "ungerer_2026-01-14",
-      "besenId": "ungerer",
-      "title": "Weingut Ungerer Besenstube",
-      "start": "2026-01-14",
-      "end": "2026-01-26",
-      "backgroundColor": "#1f6f8b",
-      "borderColor": "#1f6f8b",
-      "allDay": true,
-      "extendedProps": {
-        "besenTitle": "Weingut Ungerer Besenstube",
-        "ort": "Pfedelbach-Heuholz (ca. 7 km)",
-        "location": "Heuholzer Str. 15, 74629 Pfedelbach-Heuholz",
-        "hours": "Mi - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+        "besenTitle": "Weingut Ungerer",
+        "ort": "Pfedelbach-Renzen (ca. 7 km)",
+        "location": "Harsberger Str. 15, 74629 Pfedelbach-Renzen",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
         "url": "https://www.weingut-ungerer.de/",
-        "period": "14.01.2026 – 25.01.2026"
+        "period": "13.03.2026 – 22.03.2026"
       }
     },
     {
-      "id": "ungerer_2026-02-18",
+      "id": "ungerer_2026-04-10",
       "besenId": "ungerer",
-      "title": "Weingut Ungerer Besenstube",
-      "start": "2026-02-18",
+      "title": "Weingut Ungerer",
+      "start": "2026-04-10",
+      "end": "2026-04-20",
+      "backgroundColor": "#d48806",
+      "borderColor": "#d48806",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Weingut Ungerer",
+        "ort": "Pfedelbach-Renzen (ca. 7 km)",
+        "location": "Harsberger Str. 15, 74629 Pfedelbach-Renzen",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weingut-ungerer.de/",
+        "period": "10.04.2026 – 19.04.2026"
+      }
+    },
+    {
+      "id": "ungerer_2026-05-08",
+      "besenId": "ungerer",
+      "title": "Weingut Ungerer",
+      "start": "2026-05-08",
+      "end": "2026-05-18",
+      "backgroundColor": "#d48806",
+      "borderColor": "#d48806",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Weingut Ungerer",
+        "ort": "Pfedelbach-Renzen (ca. 7 km)",
+        "location": "Harsberger Str. 15, 74629 Pfedelbach-Renzen",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weingut-ungerer.de/",
+        "period": "08.05.2026 – 17.05.2026"
+      }
+    },
+    {
+      "id": "ungerer_2026-06-12",
+      "besenId": "ungerer",
+      "title": "Weingut Ungerer",
+      "start": "2026-06-12",
+      "end": "2026-06-22",
+      "backgroundColor": "#d48806",
+      "borderColor": "#d48806",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Weingut Ungerer",
+        "ort": "Pfedelbach-Renzen (ca. 7 km)",
+        "location": "Harsberger Str. 15, 74629 Pfedelbach-Renzen",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weingut-ungerer.de/",
+        "period": "12.06.2026 – 21.06.2026"
+      }
+    },
+    {
+      "id": "ungerer_2026-07-10",
+      "besenId": "ungerer",
+      "title": "Weingut Ungerer",
+      "start": "2026-07-10",
+      "end": "2026-07-20",
+      "backgroundColor": "#d48806",
+      "borderColor": "#d48806",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Weingut Ungerer",
+        "ort": "Pfedelbach-Renzen (ca. 7 km)",
+        "location": "Harsberger Str. 15, 74629 Pfedelbach-Renzen",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weingut-ungerer.de/",
+        "period": "10.07.2026 – 19.07.2026"
+      }
+    },
+    {
+      "id": "ungerer_2026-09-11",
+      "besenId": "ungerer",
+      "title": "Weingut Ungerer",
+      "start": "2026-09-11",
+      "end": "2026-09-21",
+      "backgroundColor": "#d48806",
+      "borderColor": "#d48806",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Weingut Ungerer",
+        "ort": "Pfedelbach-Renzen (ca. 7 km)",
+        "location": "Harsberger Str. 15, 74629 Pfedelbach-Renzen",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weingut-ungerer.de/",
+        "period": "11.09.2026 – 20.09.2026"
+      }
+    },
+    {
+      "id": "ungerer_2026-11-06",
+      "besenId": "ungerer",
+      "title": "Weingut Ungerer",
+      "start": "2026-11-06",
+      "end": "2026-11-16",
+      "backgroundColor": "#d48806",
+      "borderColor": "#d48806",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Weingut Ungerer",
+        "ort": "Pfedelbach-Renzen (ca. 7 km)",
+        "location": "Harsberger Str. 15, 74629 Pfedelbach-Renzen",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weingut-ungerer.de/",
+        "period": "06.11.2026 – 15.11.2026"
+      }
+    },
+    {
+      "id": "ungerer_2026-12-04",
+      "besenId": "ungerer",
+      "title": "Weingut Ungerer",
+      "start": "2026-12-04",
+      "end": "2026-12-14",
+      "backgroundColor": "#d48806",
+      "borderColor": "#d48806",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Weingut Ungerer",
+        "ort": "Pfedelbach-Renzen (ca. 7 km)",
+        "location": "Harsberger Str. 15, 74629 Pfedelbach-Renzen",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "url": "https://www.weingut-ungerer.de/",
+        "period": "04.12.2026 – 13.12.2026"
+      }
+    },
+    {
+      "id": "schluchter_2026-01-23",
+      "besenId": "schluchter",
+      "title": "Weingut Schluchter",
+      "start": "2026-01-23",
+      "end": "2026-02-02",
+      "backgroundColor": "#843b62",
+      "borderColor": "#843b62",
+      "allDay": true,
+      "extendedProps": {
+        "besenTitle": "Weingut Schluchter",
+        "ort": "Pfedelbach-Baierbach (ca. 7 km)",
+        "location": "Baierbacher Str. 12, 74629 Pfedelbach-Baierbach",
+        "hours": "Mo - Sa ab 11:00 Uhr, So ab 10:30 Uhr",
+        "url": "https://www.weingut-schluchter.de/",
+        "period": "23.01.2026 – 01.02.2026"
+      }
+    },
+    {
+      "id": "schluchter_2026-02-20",
+      "besenId": "schluchter",
+      "title": "Weingut Schluchter",
+      "start": "2026-02-20",
       "end": "2026-03-02",
-      "backgroundColor": "#1f6f8b",
-      "borderColor": "#1f6f8b",
+      "backgroundColor": "#843b62",
+      "borderColor": "#843b62",
       "allDay": true,
       "extendedProps": {
-        "besenTitle": "Weingut Ungerer Besenstube",
-        "ort": "Pfedelbach-Heuholz (ca. 7 km)",
-        "location": "Heuholzer Str. 15, 74629 Pfedelbach-Heuholz",
-        "hours": "Mi - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
-        "url": "https://www.weingut-ungerer.de/",
-        "period": "18.02.2026 – 01.03.2026"
+        "besenTitle": "Weingut Schluchter",
+        "ort": "Pfedelbach-Baierbach (ca. 7 km)",
+        "location": "Baierbacher Str. 12, 74629 Pfedelbach-Baierbach",
+        "hours": "Mo - Sa ab 11:00 Uhr, So ab 10:30 Uhr",
+        "url": "https://www.weingut-schluchter.de/",
+        "period": "20.02.2026 – 01.03.2026"
       }
     },
     {
-      "id": "ungerer_2026-03-18",
-      "besenId": "ungerer",
-      "title": "Weingut Ungerer Besenstube",
-      "start": "2026-03-18",
+      "id": "schluchter_2026-03-20",
+      "besenId": "schluchter",
+      "title": "Weingut Schluchter",
+      "start": "2026-03-20",
       "end": "2026-03-30",
-      "backgroundColor": "#1f6f8b",
-      "borderColor": "#1f6f8b",
+      "backgroundColor": "#843b62",
+      "borderColor": "#843b62",
       "allDay": true,
       "extendedProps": {
-        "besenTitle": "Weingut Ungerer Besenstube",
-        "ort": "Pfedelbach-Heuholz (ca. 7 km)",
-        "location": "Heuholzer Str. 15, 74629 Pfedelbach-Heuholz",
-        "hours": "Mi - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
-        "url": "https://www.weingut-ungerer.de/",
-        "period": "18.03.2026 – 29.03.2026"
+        "besenTitle": "Weingut Schluchter",
+        "ort": "Pfedelbach-Baierbach (ca. 7 km)",
+        "location": "Baierbacher Str. 12, 74629 Pfedelbach-Baierbach",
+        "hours": "Mo - Sa ab 11:00 Uhr, So ab 10:30 Uhr",
+        "url": "https://www.weingut-schluchter.de/",
+        "period": "20.03.2026 – 29.03.2026"
       }
     },
     {
-      "id": "ungerer_2026-04-15",
-      "besenId": "ungerer",
-      "title": "Weingut Ungerer Besenstube",
-      "start": "2026-04-15",
-      "end": "2026-04-27",
-      "backgroundColor": "#1f6f8b",
-      "borderColor": "#1f6f8b",
+      "id": "schluchter_2026-04-24",
+      "besenId": "schluchter",
+      "title": "Weingut Schluchter",
+      "start": "2026-04-24",
+      "end": "2026-05-04",
+      "backgroundColor": "#843b62",
+      "borderColor": "#843b62",
       "allDay": true,
       "extendedProps": {
-        "besenTitle": "Weingut Ungerer Besenstube",
-        "ort": "Pfedelbach-Heuholz (ca. 7 km)",
-        "location": "Heuholzer Str. 15, 74629 Pfedelbach-Heuholz",
-        "hours": "Mi - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
-        "url": "https://www.weingut-ungerer.de/",
-        "period": "15.04.2026 – 26.04.2026"
+        "besenTitle": "Weingut Schluchter",
+        "ort": "Pfedelbach-Baierbach (ca. 7 km)",
+        "location": "Baierbacher Str. 12, 74629 Pfedelbach-Baierbach",
+        "hours": "Mo - Sa ab 11:00 Uhr, So ab 10:30 Uhr",
+        "url": "https://www.weingut-schluchter.de/",
+        "period": "24.04.2026 – 03.05.2026"
       }
     },
     {
-      "id": "ungerer_2026-09-16",
-      "besenId": "ungerer",
-      "title": "Weingut Ungerer Besenstube",
-      "start": "2026-09-16",
-      "end": "2026-09-28",
-      "backgroundColor": "#1f6f8b",
-      "borderColor": "#1f6f8b",
+      "id": "schluchter_2026-10-09",
+      "besenId": "schluchter",
+      "title": "Weingut Schluchter",
+      "start": "2026-10-09",
+      "end": "2026-10-19",
+      "backgroundColor": "#843b62",
+      "borderColor": "#843b62",
       "allDay": true,
       "extendedProps": {
-        "besenTitle": "Weingut Ungerer Besenstube",
-        "ort": "Pfedelbach-Heuholz (ca. 7 km)",
-        "location": "Heuholzer Str. 15, 74629 Pfedelbach-Heuholz",
-        "hours": "Mi - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
-        "url": "https://www.weingut-ungerer.de/",
-        "period": "16.09.2026 – 27.09.2026"
+        "besenTitle": "Weingut Schluchter",
+        "ort": "Pfedelbach-Baierbach (ca. 7 km)",
+        "location": "Baierbacher Str. 12, 74629 Pfedelbach-Baierbach",
+        "hours": "Mo - Sa ab 11:00 Uhr, So ab 10:30 Uhr",
+        "url": "https://www.weingut-schluchter.de/",
+        "period": "09.10.2026 – 18.10.2026"
       }
     },
     {
-      "id": "ungerer_2026-10-14",
-      "besenId": "ungerer",
-      "title": "Weingut Ungerer Besenstube",
-      "start": "2026-10-14",
-      "end": "2026-10-26",
-      "backgroundColor": "#1f6f8b",
-      "borderColor": "#1f6f8b",
-      "allDay": true,
-      "extendedProps": {
-        "besenTitle": "Weingut Ungerer Besenstube",
-        "ort": "Pfedelbach-Heuholz (ca. 7 km)",
-        "location": "Heuholzer Str. 15, 74629 Pfedelbach-Heuholz",
-        "hours": "Mi - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
-        "url": "https://www.weingut-ungerer.de/",
-        "period": "14.10.2026 – 25.10.2026"
-      }
-    },
-    {
-      "id": "ungerer_2026-11-18",
-      "besenId": "ungerer",
-      "title": "Weingut Ungerer Besenstube",
-      "start": "2026-11-18",
+      "id": "schluchter_2026-11-20",
+      "besenId": "schluchter",
+      "title": "Weingut Schluchter",
+      "start": "2026-11-20",
       "end": "2026-11-30",
-      "backgroundColor": "#1f6f8b",
-      "borderColor": "#1f6f8b",
+      "backgroundColor": "#843b62",
+      "borderColor": "#843b62",
       "allDay": true,
       "extendedProps": {
-        "besenTitle": "Weingut Ungerer Besenstube",
-        "ort": "Pfedelbach-Heuholz (ca. 7 km)",
-        "location": "Heuholzer Str. 15, 74629 Pfedelbach-Heuholz",
-        "hours": "Mi - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
-        "url": "https://www.weingut-ungerer.de/",
-        "period": "18.11.2026 – 29.11.2026"
-      }
-    },
-    {
-      "id": "schluchter_2026-01-08",
-      "besenId": "schluchter",
-      "title": "Besenstube Schluchter",
-      "start": "2026-01-08",
-      "end": "2026-01-12",
-      "backgroundColor": "#6a329f",
-      "borderColor": "#6a329f",
-      "allDay": true,
-      "extendedProps": {
-        "besenTitle": "Besenstube Schluchter",
-        "ort": "Bretzfeld-Schwabbach (ca. 6 km)",
-        "location": "Hauptstraße 30, 74626 Bretzfeld-Schwabbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr",
-        "url": "https://www.besenstube-schluchter.de/",
-        "period": "08.01.2026 – 11.01.2026"
-      }
-    },
-    {
-      "id": "schluchter_2026-02-05",
-      "besenId": "schluchter",
-      "title": "Besenstube Schluchter",
-      "start": "2026-02-05",
-      "end": "2026-02-09",
-      "backgroundColor": "#6a329f",
-      "borderColor": "#6a329f",
-      "allDay": true,
-      "extendedProps": {
-        "besenTitle": "Besenstube Schluchter",
-        "ort": "Bretzfeld-Schwabbach (ca. 6 km)",
-        "location": "Hauptstraße 30, 74626 Bretzfeld-Schwabbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr",
-        "url": "https://www.besenstube-schluchter.de/",
-        "period": "05.02.2026 – 08.02.2026"
-      }
-    },
-    {
-      "id": "schluchter_2026-03-05",
-      "besenId": "schluchter",
-      "title": "Besenstube Schluchter",
-      "start": "2026-03-05",
-      "end": "2026-03-09",
-      "backgroundColor": "#6a329f",
-      "borderColor": "#6a329f",
-      "allDay": true,
-      "extendedProps": {
-        "besenTitle": "Besenstube Schluchter",
-        "ort": "Bretzfeld-Schwabbach (ca. 6 km)",
-        "location": "Hauptstraße 30, 74626 Bretzfeld-Schwabbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr",
-        "url": "https://www.besenstube-schluchter.de/",
-        "period": "05.03.2026 – 08.03.2026"
-      }
-    },
-    {
-      "id": "schluchter_2026-04-02",
-      "besenId": "schluchter",
-      "title": "Besenstube Schluchter",
-      "start": "2026-04-02",
-      "end": "2026-04-06",
-      "backgroundColor": "#6a329f",
-      "borderColor": "#6a329f",
-      "allDay": true,
-      "extendedProps": {
-        "besenTitle": "Besenstube Schluchter",
-        "ort": "Bretzfeld-Schwabbach (ca. 6 km)",
-        "location": "Hauptstraße 30, 74626 Bretzfeld-Schwabbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr",
-        "url": "https://www.besenstube-schluchter.de/",
-        "period": "02.04.2026 – 05.04.2026"
-      }
-    },
-    {
-      "id": "schluchter_2026-09-03",
-      "besenId": "schluchter",
-      "title": "Besenstube Schluchter",
-      "start": "2026-09-03",
-      "end": "2026-09-07",
-      "backgroundColor": "#6a329f",
-      "borderColor": "#6a329f",
-      "allDay": true,
-      "extendedProps": {
-        "besenTitle": "Besenstube Schluchter",
-        "ort": "Bretzfeld-Schwabbach (ca. 6 km)",
-        "location": "Hauptstraße 30, 74626 Bretzfeld-Schwabbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr",
-        "url": "https://www.besenstube-schluchter.de/",
-        "period": "03.09.2026 – 06.09.2026"
-      }
-    },
-    {
-      "id": "schluchter_2026-10-01",
-      "besenId": "schluchter",
-      "title": "Besenstube Schluchter",
-      "start": "2026-10-01",
-      "end": "2026-10-05",
-      "backgroundColor": "#6a329f",
-      "borderColor": "#6a329f",
-      "allDay": true,
-      "extendedProps": {
-        "besenTitle": "Besenstube Schluchter",
-        "ort": "Bretzfeld-Schwabbach (ca. 6 km)",
-        "location": "Hauptstraße 30, 74626 Bretzfeld-Schwabbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr",
-        "url": "https://www.besenstube-schluchter.de/",
-        "period": "01.10.2026 – 04.10.2026"
-      }
-    },
-    {
-      "id": "schluchter_2026-11-05",
-      "besenId": "schluchter",
-      "title": "Besenstube Schluchter",
-      "start": "2026-11-05",
-      "end": "2026-11-09",
-      "backgroundColor": "#6a329f",
-      "borderColor": "#6a329f",
-      "allDay": true,
-      "extendedProps": {
-        "besenTitle": "Besenstube Schluchter",
-        "ort": "Bretzfeld-Schwabbach (ca. 6 km)",
-        "location": "Hauptstraße 30, 74626 Bretzfeld-Schwabbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr",
-        "url": "https://www.besenstube-schluchter.de/",
-        "period": "05.11.2026 – 08.11.2026"
+        "besenTitle": "Weingut Schluchter",
+        "ort": "Pfedelbach-Baierbach (ca. 7 km)",
+        "location": "Baierbacher Str. 12, 74629 Pfedelbach-Baierbach",
+        "hours": "Mo - Sa ab 11:00 Uhr, So ab 10:30 Uhr",
+        "url": "https://www.weingut-schluchter.de/",
+        "period": "20.11.2026 – 29.11.2026"
       }
     }
   ]
