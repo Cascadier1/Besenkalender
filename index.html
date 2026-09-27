@@ -1,219 +1,565 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Besenwirtschaften Öhringen & Umgebung</title>
-    
-    <!-- FullCalendar CSS & JS -->
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
-    <!-- Tailwind CSS für schönes, modernes Design -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    
-    <style>
-        .fc-event {
-            cursor: pointer;
-            border: none;
-            padding: 3px 6px;
-            border-radius: 4px;
-            font-size: 0.85rem;
-            font-weight: 500;
-        }
-        .fc-toolbar-title {
-            font-size: 1.25rem !important;
-            font-weight: 700;
-        }
-    </style>
-</head>
-<body class="bg-slate-50 text-slate-800 min-h-screen">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Besenkalender Öhringen & Umgebung</title>
+  
+  <!-- Google Fonts & FontAwesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- FullCalendar CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.css" rel="stylesheet" />
+  
+  <style>
+    :root {
+      --primary: #800020;       /* Weinfarbe / Burgundy */
+      --primary-hover: #5c0017;
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -1px rgba(0,0,0,0.04);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -2px rgba(0,0,0,0.03);
+    }
 
-    <div class="max-w-6xl mx-auto px-4 py-6">
-        <!-- Header -->
-        <header class="mb-6 flex flex-col md:flex-row md:items-end justify-between border-b pb-4 gap-2">
-            <div>
-                <h1 class="text-2xl md:text-3xl font-extrabold text-amber-950 flex items-center gap-2">
-                    <i class="fa-solid fa-wine-glass text-rose-800"></i>
-                    Besenkalender Öhringen & Umgebung
-                </h1>
-                <p class="text-sm text-slate-500 mt-1">Aktuelle Öffnungszeiten & Weinstuben im Umkreis von ca. 15 km</p>
-            </div>
-            <!-- Hier wird das Aktualisierungsdatum eingefügt -->
-            <div id="last-updated" class="text-xs bg-amber-100 text-amber-900 px-3 py-1.5 rounded-full inline-flex items-center gap-1.5 font-medium self-start md:self-auto shadow-sm">
-                <i class="fa-solid fa-clock-rotate-left"></i>
-                <span>Wird geladen...</span>
-            </div>
-        </header>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-        <!-- Kalender-Container -->
-        <div class="bg-white p-4 md:p-6 rounded-2xl shadow-sm border border-slate-200">
-            <div id="calendar"></div>
-        </div>
-    </div>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      padding: 24px 16px;
+      display: flex;
+      justify-content: center;
+    }
 
-    <!-- Info-Modal beim Anklicken -->
-    <div id="eventModal" class="fixed inset-0 bg-black/50 hidden items-center justify-center p-4 z-50">
-        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl relative">
-            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600">
-                <i class="fa-solid fa-xmark text-xl"></i>
-            </button>
-            <h3 id="modalTitle" class="text-xl font-bold text-slate-900 mb-2"></h3>
-            <div class="space-y-3 text-sm text-slate-600 mt-4">
-                <p><i class="fa-solid fa-location-dot text-rose-700 w-5"></i> <strong id="modalOrt"></strong></p>
-                <p><i class="fa-solid fa-map-pin text-slate-400 w-5"></i> <span id="modalLocation"></span></p>
-                <p><i class="fa-solid fa-clock text-amber-600 w-5"></i> <span id="modalHours"></span></p>
-                <div class="p-3 bg-amber-50 rounded-lg text-amber-950 text-xs border border-amber-200" id="modalNotes"></div>
-            </div>
-            <div class="mt-6 flex justify-end">
-                <button onclick="closeModal()" class="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-lg text-sm font-medium">Schließen</button>
-            </div>
-        </div>
-    </div>
+    .container {
+      max-width: 1100px;
+      width: 100%;
+    }
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const calendarEl = document.getElementById('calendar');
-            const updatedEl = document.querySelector('#last-updated span');
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
 
-            // events.json mit Cache-Busting abrufen
-            fetch('events.json?t=' + new Date().getTime())
-                .then(response => response.json())
-                .then(data => {
-                    let eventsList = [];
-                    
-                    // Unterstützt sowohl altes als auch neues JSON-Format
-                    if (Array.isArray(data)) {
-                        eventsList = data;
-                        updatedEl.textContent = "Zuletzt aktualisiert: Heute";
-                    } else {
-                        eventsList = data.events || [];
-                        updatedEl.textContent = "Zuletzt aktualisiert: " + (data.last_updated || "Unbekannt");
-                    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #fdf2f2;
+      color: var(--primary);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      border: 1px solid rgba(128, 0, 32, 0.15);
+    }
 
-                    const calendar = new FullCalendar.Calendar(calendarEl, {
-                        initialView: window.innerWidth < 768 ? 'listMonth' : 'dayGridMonth',
-                        locale: 'de',
-                        headerToolbar: {
-                            left: 'prev,next today',
-                            center: 'title',
-                            right: 'dayGridMonth,listMonth'
-                        },
-                        buttonText: {
-                            today: 'Heute',
-                            month: 'Monat',
-                            list: 'Liste'
-                        },
-                        events: eventsList,
-                        eventClick: function(info) {
-                            const props = info.event.extendedProps;
-                            document.getElementById('modalTitle').textContent = info.event.title;
-                            document.getElementById('modalOrt').textContent = props.ort || '';
-                            document.getElementById('modalLocation').textContent = props.location || '';
-                            document.getElementById('modalHours').textContent = props.hours || '';
-                            document.getElementById('modalNotes').textContent = props.notes || '';
-                            document.getElementById('eventModal').classList.remove('hidden');
-                            document.getElementById('eventModal').classList.add('flex');
-                        }
-                    });
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
 
-                    calendar.render();
-                })
-                .catch(err => {
-                    console.error("Fehler beim Laden der events.json:", err);
-                    updatedEl.textContent = "Stand: Offline";
-                });
-        });
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-top: 6px;
+    }
 
-        function closeModal() {
-            document.getElementById('eventModal').classList.add('hidden');
-            document.getElementById('eventModal').classList.remove('flex');
-        }
-    </script>
-</body>
-</html><!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Besenkalender Öhringen & Umgebung</title>
-    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/locales/de.global.min.js"></script>
-    <style>
-        :root { --primary: #831843; --primary-dark: #500724; --bg: #f8fafc; --card: #ffffff; }
-        body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 15px; background: var(--bg); color: #1e293b; }
-        .container { max-width: 1100px; margin: 0 auto; }
-        header { text-align: center; margin-bottom: 20px; }
-        header h1 { color: var(--primary); margin: 0 0 6px 0; }
-        header p { color: #64748b; margin: 0; }
-        .calendar-card { background: var(--card); padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
-        .fc-event { cursor: pointer; }
-        .modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); justify-content: center; align-items: center; z-index: 1000; }
-        .modal.active { display: flex; }
-        .modal-content { background: white; padding: 24px; border-radius: 12px; width: 90%; max-width: 480px; position: relative; }
-        .modal-close { position: absolute; top: 12px; right: 14px; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #64748b; }
-        .modal h2 { margin: 0 0 4px 0; color: var(--primary); font-size: 1.3rem; }
-        .sub { color: #64748b; font-weight: bold; margin-bottom: 12px; font-size: 0.9rem; }
-        .row { margin-bottom: 10px; font-size: 0.95rem; }
-        .row strong { display: block; font-size: 0.8rem; text-transform: uppercase; color: #475569; }
-        .map-btn { display: inline-block; margin-top: 10px; background: #2563eb; color: white; text-decoration: none; padding: 8px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 600; }
-    </style>
+    .updated-bar {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 10px;
+      font-size: 0.8rem;
+      color: #64748b;
+      background: #ffffff;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--border-color);
+    }
+
+    /* Filter & Controls */
+    .controls-card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 18px 22px;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-color);
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      flex: 1;
+    }
+
+    .filter-group label {
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    select.besen-select {
+      flex: 1;
+      min-width: 260px;
+      max-width: 400px;
+      padding: 10px 14px;
+      font-size: 0.95rem;
+      font-family: inherit;
+      border: 1.5px solid var(--border-color);
+      border-radius: 10px;
+      background-color: #fff;
+      color: var(--text-main);
+      cursor: pointer;
+      outline: none;
+      transition: all 0.2s;
+    }
+
+    select.besen-select:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(128, 0, 32, 0.15);
+    }
+
+    /* Besen Info Card */
+    #besenDetailCard {
+      display: none;
+      background: linear-gradient(135deg, #ffffff 0%, #fff7f7 100%);
+      border-left: 5px solid var(--primary);
+      border-radius: 14px;
+      padding: 18px 22px;
+      margin-bottom: 20px;
+      box-shadow: var(--shadow-md);
+      border-top: 1px solid var(--border-color);
+      border-right: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .detail-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+
+    .detail-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+      font-size: 0.9rem;
+    }
+
+    .detail-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .detail-item i {
+      color: var(--primary);
+      margin-top: 3px;
+    }
+
+    .maps-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+
+    .maps-btn:hover {
+      background: var(--primary-hover);
+    }
+
+    /* Kalender Wrapper */
+    .calendar-card {
+      background: var(--card-bg);
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--border-color);
+    }
+
+    /* FullCalendar Styling Anpassungen */
+    .fc {
+      font-family: inherit;
+    }
+    .fc .fc-toolbar-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .fc .fc-button-primary {
+      background-color: #fff;
+      border-color: var(--border-color);
+      color: var(--text-main);
+      font-weight: 600;
+      font-size: 0.85rem;
+      border-radius: 8px !important;
+      padding: 6px 14px;
+      box-shadow: var(--shadow-sm);
+      text-transform: capitalize;
+    }
+    .fc .fc-button-primary:hover {
+      background-color: #f1f5f9;
+      border-color: #cbd5e1;
+      color: #000;
+    }
+    .fc .fc-button-primary:not(:disabled).fc-button-active, 
+    .fc .fc-button-primary:not(:disabled):active {
+      background-color: var(--primary);
+      border-color: var(--primary);
+      color: #fff;
+    }
+    .fc-event {
+      border: none;
+      border-radius: 6px;
+      padding: 3px 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .fc-event:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    }
+    .fc-daygrid-day-number {
+      font-weight: 600;
+      color: #475569;
+    }
+    .fc-day-today {
+      background: #fff8f8 !important;
+    }
+
+    /* Modal / Pop-up */
+    .modal-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.6);
+      backdrop-filter: blur(4px);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+    .modal {
+      background: #fff;
+      border-radius: 18px;
+      max-width: 480px;
+      width: 100%;
+      padding: 24px;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      animation: modalFadeIn 0.2s ease-out;
+    }
+    @keyframes modalFadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .modal-close {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      background: #f1f5f9;
+      border: none;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: background 0.2s;
+    }
+    .modal-close:hover {
+      background: #e2e8f0;
+      color: #0f172a;
+    }
+    .modal-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 16px;
+      padding-right: 30px;
+    }
+    .modal-info-row {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 12px;
+      font-size: 0.92rem;
+      line-height: 1.4;
+    }
+    .modal-info-row i {
+      color: var(--primary);
+      width: 18px;
+      margin-top: 2px;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      h1 { font-size: 1.6rem; }
+      .calendar-card { padding: 12px; }
+      .fc .fc-toolbar {
+        flex-direction: column;
+        gap: 10px;
+      }
+      select.besen-select { width: 100%; min-width: 100%; }
+    }
+  </style>
 </head>
 <body>
-<div class="container">
+
+  <div class="container">
     <header>
-        <h1>🍇 Besenkalender Öhringen</h1>
-        <p>Automatisch aktualisierte Öffnungszeiten</p>
+      <div class="badge"><i class="fa-solid fa-wine-glass"></i> Besenkalender</div>
+      <h1>Besenwirtschaften Öhringen & Umgebung</h1>
+      <p class="subtitle">Alle Öffnungszeiten im Umkreis von 15 km auf einen Blick</p>
+      <div class="updated-bar" id="updateIndicator">
+        <i class="fa-solid fa-rotate"></i> <span id="lastUpdatedText">Termine werden geladen...</span>
+      </div>
     </header>
+
+    <!-- Filterbereich -->
+    <div class="controls-card">
+      <div class="filter-group">
+        <label for="besenFilter"><i class="fa-solid fa-filter"></i> Besen filtern:</label>
+        <select id="besenFilter" class="besen-select">
+          <option value="all">🍷 Alle Besen anzeigen</option>
+        </select>
+      </div>
+      <button class="maps-btn" id="resetBtn" style="display:none; background:#64748b;" onclick="resetFilter()">
+        <i class="fa-solid fa-xmark"></i> Filter zurücksetzen
+      </button>
+    </div>
+
+    <!-- Zusätzliche Infokarte bei Auswahl -->
+    <div id="besenDetailCard">
+      <div class="detail-header">
+        <div>
+          <h2 class="detail-title" id="cardTitle">Weingut Name</h2>
+          <p id="cardOrt" style="color:#64748b; font-size: 0.85rem; font-weight:600;"></p>
+        </div>
+        <a id="cardMapsLink" href="#" target="_blank" class="maps-btn">
+          <i class="fa-solid fa-location-dot"></i> Navigation
+        </a>
+      </div>
+      <div class="detail-grid">
+        <div class="detail-item">
+          <i class="fa-solid fa-map-pin"></i>
+          <span id="cardAddress">Adresse</span>
+        </div>
+        <div class="detail-item">
+          <i class="fa-regular fa-clock"></i>
+          <span id="cardHours">Öffnungszeiten</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kalender -->
     <div class="calendar-card">
-        <div id="calendar"></div>
+      <div id="calendar"></div>
     </div>
-</div>
+  </div>
 
-<div id="modal" class="modal">
-    <div class="modal-content">
-        <button class="modal-close" onclick="closeM()">&times;</button>
-        <h2 id="mTitle"></h2>
-        <div id="mOrt" class="sub"></div>
-        <div class="row"><strong>Adresse:</strong><span id="mAddr"></span></div>
-        <div class="row"><strong>Öffnungszeiten:</strong><span id="mHours"></span></div>
-        <div class="row"><strong>Details:</strong><span id="mNotes"></span></div>
-        <a id="mMap" class="map-btn" target="_blank" href="#">📍 In Google Maps öffnen</a>
+  <!-- Detail Modal Pop-up -->
+  <div class="modal-backdrop" id="modalBackdrop" onclick="closeModal(event)">
+    <div class="modal" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
+      <h3 class="modal-title" id="mTitle">Besenname</h3>
+      
+      <div class="modal-info-row">
+        <i class="fa-regular fa-calendar-check"></i>
+        <div id="mDate">Datum</div>
+      </div>
+      <div class="modal-info-row">
+        <i class="fa-regular fa-clock"></i>
+        <div id="mHours">Zeiten</div>
+      </div>
+      <div class="modal-info-row">
+        <i class="fa-solid fa-location-dot"></i>
+        <div>
+          <div id="mLocation">Adresse</div>
+          <a id="mMaps" href="#" target="_blank" style="color:var(--primary); font-weight:600; font-size:0.85rem; text-decoration:none; display:inline-block; margin-top:4px;">
+            In Google Maps öffnen <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.75rem;"></i>
+          </a>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const calendarEl = document.getElementById('calendar');
-        
-        // Holt immer die aktuelle events.json (Cache-Busting mit Timestamp)
-        fetch('events.json?v=' + new Date().getTime())
-            .then(res => res.json())
-            .then(data => {
-                const calendar = new FullCalendar.Calendar(calendarEl, {
-                    locale: 'de',
-                    initialView: 'dayGridMonth',
-                    firstDay: 1,
-                    headerToolbar: { left: 'prev,next today', center: 'title', right: 'dayGridMonth,listMonth' },
-                    buttonText: { today: 'Heute', month: 'Monat', list: 'Liste' },
-                    events: data,
-                    eventClick: function(info) {
-                        const p = info.event.extendedProps;
-                        document.getElementById('mTitle').innerText = info.event.title;
-                        document.getElementById('mOrt').innerText = p.ort;
-                        document.getElementById('mAddr').innerText = p.location;
-                        document.getElementById('mHours').innerText = p.hours;
-                        document.getElementById('mNotes').innerText = p.notes;
-                        document.getElementById('mMap').href = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(p.location);
-                        document.getElementById('modal').classList.add('active');
-                    }
-                });
-                calendar.render();
-            });
+  <!-- FullCalendar JS -->
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.10/locales/de.global.min.js"></script>
+
+  <script>
+    let calendar;
+    let allEventsList = [];
+    const besenMap = new Map();
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const calendarEl = document.getElementById('calendar');
+
+      calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        locale: 'de',
+        firstDay: 1, // Montag Start
+        headerToolbar: {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'dayGridMonth,listMonth'
+        },
+        buttonText: {
+          today: 'Heute',
+          month: 'Monat',
+          list: 'Liste'
+        },
+        height: 'auto',
+        eventTimeFormat: {
+          hour: '2-digit',
+          minute: '2-digit',
+          meridiem: false
+        },
+        eventClick: function(info) {
+          showModal(info.event);
+        }
+      });
+
+      calendar.render();
+
+      // Events laden
+      await loadEvents();
+
+      // Filter Event Handler
+      document.getElementById('besenFilter').addEventListener('change', (e) => {
+        applyFilter(e.target.value);
+      });
     });
 
-    function closeM() { document.getElementById('modal').classList.remove('active'); }
-    window.onclick = function(e) { if(e.target === document.getElementById('modal')) closeM(); }
-</script>
+    async function loadEvents() {
+      try {
+        const res = await fetch('events.json?t=' + new Date().getTime());
+        const data = await res.json();
+
+        if (data.last_updated) {
+          document.getElementById('lastUpdatedText').innerText = 'Stand: ' + data.last_updated;
+        }
+
+        allEventsList = data.events || [];
+
+        // Besen-Dropdown füllen
+        const filterSelect = document.getElementById('besenFilter');
+        allEventsList.forEach(ev => {
+          const key = ev.title;
+          if (!besenMap.has(key)) {
+            besenMap.set(key, ev);
+            const opt = document.createElement('option');
+            opt.value = key;
+            opt.textContent = `${ev.title} (${ev.ort.split('(')[0].trim()})`;
+            filterSelect.appendChild(opt);
+          }
+        });
+
+        calendar.addEventSource(allEventsList);
+      } catch (err) {
+        console.error(err);
+        document.getElementById('lastUpdatedText').innerText = 'Fehler beim Laden der Termine';
+      }
+    }
+
+    function applyFilter(selectedTitle) {
+      calendar.removeAllEvents();
+      const card = document.getElementById('besenDetailCard');
+      const resetBtn = document.getElementById('resetBtn');
+
+      if (selectedTitle === 'all') {
+        calendar.addEventSource(allEventsList);
+        card.style.display = 'none';
+        resetBtn.style.display = 'none';
+      } else {
+        const filtered = allEventsList.filter(e => e.title === selectedTitle);
+        calendar.addEventSource(filtered);
+
+        // Infokarte füllen & zeigen
+        const info = besenMap.get(selectedTitle);
+        if (info) {
+          document.getElementById('cardTitle').innerText = info.title;
+          document.getElementById('cardOrt').innerText = info.ort;
+          document.getElementById('cardAddress').innerText = info.location;
+          document.getElementById('cardHours').innerText = info.hours;
+          document.getElementById('cardMapsLink').href = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(info.title + ' ' + info.location);
+          card.style.display = 'block';
+          resetBtn.style.display = 'inline-flex';
+
+          // Wenn der ausgewählte Besen Termine hat, zum ersten Termin springen
+          if (filtered.length > 0) {
+            calendar.gotoDate(filtered[0].start);
+          }
+        }
+      }
+    }
+
+    function resetFilter() {
+      document.getElementById('besenFilter').value = 'all';
+      applyFilter('all');
+    }
+
+    function showModal(event) {
+      const ext = event.extendedProps || {};
+      document.getElementById('mTitle').innerText = event.title;
+      document.getElementById('mDate').innerText = ext.notes || 'Termin im Kalender';
+      document.getElementById('mHours').innerText = ext.hours || 'Siehe Aushang';
+      document.getElementById('mLocation').innerText = ext.location || ext.ort || '';
+      document.getElementById('mMaps').href = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(event.title + ' ' + (ext.location || ''));
+      
+      document.getElementById('modalBackdrop').style.display = 'flex';
+    }
+
+    function closeModal(e) {
+      document.getElementById('modalBackdrop').style.display = 'none';
+    }
+  </script>
 </body>
 </html>
