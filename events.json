@@ -1,5 +1,5 @@
 {
-  "last_updated": "27.09.2026 um 08:55 Uhr",
+  "last_updated": "27.09.2026 um 13:56 Uhr",
   "events": [
     {
       "id": "schluchter_2026-01-02",
@@ -22,6 +22,28 @@
       "start": "2026-01-16",
       "end": "2026-01-19",
       "notes": "Geöffnet von 16.01. bis 18.01.2026."
+    },
+    {
+      "id": "banzhaf_2026-01-22",
+      "title": "Weinausschank Banzhaf",
+      "ort": "Bretzfeld-Siebeneich (ca. 8 km)",
+      "location": "Wengertstraße 16, 74626 Bretzfeld-Siebeneich",
+      "hours": "Do - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+      "color": "#a83232",
+      "start": "2026-01-22",
+      "end": "2026-01-26",
+      "notes": "Geöffnet von 22.01. bis 25.01.2026."
+    },
+    {
+      "id": "banzhaf_2026-02-19",
+      "title": "Weinausschank Banzhaf",
+      "ort": "Bretzfeld-Siebeneich (ca. 8 km)",
+      "location": "Wengertstraße 16, 74626 Bretzfeld-Siebeneich",
+      "hours": "Do - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+      "color": "#a83232",
+      "start": "2026-02-19",
+      "end": "2026-02-23",
+      "notes": "Geöffnet von 19.02. bis 22.02.2026."
     },
     {
       "id": "schluchter_2026-02-20",
@@ -57,6 +79,17 @@
       "notes": "Geöffnet von 20.03. bis 22.03.2026."
     },
     {
+      "id": "banzhaf_2026-03-26",
+      "title": "Weinausschank Banzhaf",
+      "ort": "Bretzfeld-Siebeneich (ca. 8 km)",
+      "location": "Wengertstraße 16, 74626 Bretzfeld-Siebeneich",
+      "hours": "Do - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+      "color": "#a83232",
+      "start": "2026-03-26",
+      "end": "2026-03-30",
+      "notes": "Geöffnet von 26.03. bis 29.03.2026."
+    },
+    {
       "id": "schluchter_2026-03-27",
       "title": "Schluchters Weinstube",
       "ort": "Pfedelbach-Baierbach (ca. 5 km)",
@@ -66,6 +99,17 @@
       "start": "2026-03-27",
       "end": "2026-03-30",
       "notes": "Geöffnet von 27.03. bis 29.03.2026."
+    },
+    {
+      "id": "banzhaf_2026-04-23",
+      "title": "Weinausschank Banzhaf",
+      "ort": "Bretzfeld-Siebeneich (ca. 8 km)",
+      "location": "Wengertstraße 16, 74626 Bretzfeld-Siebeneich",
+      "hours": "Do - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+      "color": "#a83232",
+      "start": "2026-04-23",
+      "end": "2026-04-27",
+      "notes": "Geöffnet von 23.04. bis 26.04.2026."
     },
     {
       "id": "schluchter_2026-04-24",
@@ -88,6 +132,17 @@
       "start": "2026-05-08",
       "end": "2026-05-10",
       "notes": "Geöffnet von 08.05. bis 09.05.2026."
+    },
+    {
+      "id": "banzhaf_2026-05-14",
+      "title": "Weinausschank Banzhaf",
+      "ort": "Bretzfeld-Siebeneich (ca. 8 km)",
+      "location": "Wengertstraße 16, 74626 Bretzfeld-Siebeneich",
+      "hours": "Do - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+      "color": "#a83232",
+      "start": "2026-05-14",
+      "end": "2026-05-18",
+      "notes": "Geöffnet von 14.05. bis 17.05.2026."
     },
     {
       "id": "schluchter_2026-05-29",
@@ -134,6 +189,17 @@
       "notes": "Geöffnet von 10.07. bis 12.07.2026."
     },
     {
+      "id": "banzhaf_2026-08-06",
+      "title": "Weinausschank Banzhaf",
+      "ort": "Bretzfeld-Siebeneich (ca. 8 km)",
+      "location": "Wengertstraße 16, 74626 Bretzfeld-Siebeneich",
+      "hours": "Do - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+      "color": "#a83232",
+      "start": "2026-08-06",
+      "end": "2026-08-10",
+      "notes": "Geöffnet von 06.08. bis 09.08.2026."
+    },
+    {
       "id": "schluchter_2026-08-07",
       "title": "Schluchters Weinstube",
       "ort": "Pfedelbach-Baierbach (ca. 5 km)",
@@ -143,6 +209,17 @@
       "start": "2026-08-07",
       "end": "2026-08-10",
       "notes": "Geöffnet von 07.08. bis 09.08.2026."
+    },
+    {
+      "id": "banzhaf_2026-09-03",
+      "title": "Weinausschank Banzhaf",
+      "ort": "Bretzfeld-Siebeneich (ca. 8 km)",
+      "location": "Wengertstraße 16, 74626 Bretzfeld-Siebeneich",
+      "hours": "Do - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+      "color": "#a83232",
+      "start": "2026-09-03",
+      "end": "2026-09-07",
+      "notes": "Geöffnet von 03.09. bis 06.09.2026."
     },
     {
       "id": "schluchter_2026-09-04",
@@ -277,17 +354,6 @@
       "notes": "Geöffnet von 09.10. bis 11.10.2026."
     },
     {
-      "id": "banzhaf_2026-10-09",
-      "title": "Weingut Banzhaf",
-      "ort": "Pfedelbach-Untersteinbach (ca. 10 km)",
-      "location": "Öhringer Str. 12, 74629 Pfedelbach",
-      "hours": "Fr & Sa ab 15:00 Uhr, So ab 11:30 Uhr",
-      "color": "#2874a6",
-      "start": "2026-10-09",
-      "end": "2026-10-12",
-      "notes": "Geöffnet von 09.10. bis 11.10.2026."
-    },
-    {
       "id": "schwab_2026-10-15",
       "title": "Weingut Schwab – Weinstube",
       "ort": "Bretzfeld-Dimbach (ca. 6 km)",
@@ -305,6 +371,17 @@
       "location": "Hauptstraße 45, 74626 Bretzfeld-Schwabbach",
       "hours": "Do-Sa ab 12:00 Uhr, So ab 11:00 Uhr",
       "color": "#117864",
+      "start": "2026-10-15",
+      "end": "2026-10-19",
+      "notes": "Geöffnet von 15.10. bis 18.10.2026."
+    },
+    {
+      "id": "banzhaf_2026-10-15",
+      "title": "Weinausschank Banzhaf",
+      "ort": "Bretzfeld-Siebeneich (ca. 8 km)",
+      "location": "Wengertstraße 16, 74626 Bretzfeld-Siebeneich",
+      "hours": "Do - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+      "color": "#a83232",
       "start": "2026-10-15",
       "end": "2026-10-19",
       "notes": "Geöffnet von 15.10. bis 18.10.2026."
@@ -382,17 +459,6 @@
       "location": "Waldenburger Str. 8, 74626 Bretzfeld-Dimbach",
       "hours": "Fr ab 15:00 Uhr, Sa ab 14:00 Uhr, So ab 11:30 Uhr",
       "color": "#784212",
-      "start": "2026-10-23",
-      "end": "2026-10-26",
-      "notes": "Geöffnet von 23.10. bis 25.10.2026."
-    },
-    {
-      "id": "banzhaf_2026-10-23",
-      "title": "Weingut Banzhaf",
-      "ort": "Pfedelbach-Untersteinbach (ca. 10 km)",
-      "location": "Öhringer Str. 12, 74629 Pfedelbach",
-      "hours": "Fr & Sa ab 15:00 Uhr, So ab 11:30 Uhr",
-      "color": "#2874a6",
       "start": "2026-10-23",
       "end": "2026-10-26",
       "notes": "Geöffnet von 23.10. bis 25.10.2026."
@@ -497,17 +563,6 @@
       "notes": "Geöffnet von 06.11. bis 08.11.2026."
     },
     {
-      "id": "banzhaf_2026-11-06",
-      "title": "Weingut Banzhaf",
-      "ort": "Pfedelbach-Untersteinbach (ca. 10 km)",
-      "location": "Öhringer Str. 12, 74629 Pfedelbach",
-      "hours": "Fr & Sa ab 15:00 Uhr, So ab 11:30 Uhr",
-      "color": "#2874a6",
-      "start": "2026-11-06",
-      "end": "2026-11-09",
-      "notes": "Geöffnet von 06.11. bis 08.11.2026."
-    },
-    {
       "id": "ungerer_2026-11-10",
       "title": "Besenwirtschaft Weingut Ungerer",
       "ort": "Pfedelbach-Renzen (ca. 5 km)",
@@ -536,6 +591,17 @@
       "location": "Hauptstraße 45, 74626 Bretzfeld-Schwabbach",
       "hours": "Do-Sa ab 12:00 Uhr, So ab 11:00 Uhr",
       "color": "#117864",
+      "start": "2026-11-12",
+      "end": "2026-11-16",
+      "notes": "Geöffnet von 12.11. bis 15.11.2026."
+    },
+    {
+      "id": "banzhaf_2026-11-12",
+      "title": "Weinausschank Banzhaf",
+      "ort": "Bretzfeld-Siebeneich (ca. 8 km)",
+      "location": "Wengertstraße 16, 74626 Bretzfeld-Siebeneich",
+      "hours": "Do - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+      "color": "#a83232",
       "start": "2026-11-12",
       "end": "2026-11-16",
       "notes": "Geöffnet von 12.11. bis 15.11.2026."
@@ -613,17 +679,6 @@
       "location": "Waldenburger Str. 8, 74626 Bretzfeld-Dimbach",
       "hours": "Fr ab 15:00 Uhr, Sa ab 14:00 Uhr, So ab 11:30 Uhr",
       "color": "#784212",
-      "start": "2026-11-20",
-      "end": "2026-11-23",
-      "notes": "Geöffnet von 20.11. bis 22.11.2026."
-    },
-    {
-      "id": "banzhaf_2026-11-20",
-      "title": "Weingut Banzhaf",
-      "ort": "Pfedelbach-Untersteinbach (ca. 10 km)",
-      "location": "Öhringer Str. 12, 74629 Pfedelbach",
-      "hours": "Fr & Sa ab 15:00 Uhr, So ab 11:30 Uhr",
-      "color": "#2874a6",
       "start": "2026-11-20",
       "end": "2026-11-23",
       "notes": "Geöffnet von 20.11. bis 22.11.2026."
@@ -717,6 +772,17 @@
       "notes": "Geöffnet von 04.12. bis 07.12.2026."
     },
     {
+      "id": "banzhaf_2026-12-07",
+      "title": "Weinausschank Banzhaf",
+      "ort": "Bretzfeld-Siebeneich (ca. 8 km)",
+      "location": "Wengertstraße 16, 74626 Bretzfeld-Siebeneich",
+      "hours": "Do - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+      "color": "#a83232",
+      "start": "2026-12-07",
+      "end": "2026-12-14",
+      "notes": "Geöffnet von 07.12. bis 13.12.2026."
+    },
+    {
       "id": "schwab_2026-12-10",
       "title": "Weingut Schwab – Weinstube",
       "ort": "Bretzfeld-Dimbach (ca. 6 km)",
@@ -805,17 +871,6 @@
       "notes": "Geöffnet von 15.01. bis 17.01.2027."
     },
     {
-      "id": "banzhaf_2027-01-15",
-      "title": "Weingut Banzhaf",
-      "ort": "Pfedelbach-Untersteinbach (ca. 10 km)",
-      "location": "Öhringer Str. 12, 74629 Pfedelbach",
-      "hours": "Fr & Sa ab 15:00 Uhr, So ab 11:30 Uhr",
-      "color": "#2874a6",
-      "start": "2027-01-15",
-      "end": "2027-01-18",
-      "notes": "Geöffnet von 15.01. bis 17.01.2027."
-    },
-    {
       "id": "weihbrecht_2027-01-21",
       "title": "Weingut Weihbrecht – Bretzfelder Besen",
       "ort": "Bretzfeld-Schwabbach (ca. 6 km)",
@@ -899,17 +954,6 @@
       "location": "Gleichener Str. 20, 74629 Pfedelbach",
       "hours": "Fr ab 16:00 Uhr, Sa ab 14:00 Uhr, So ab 11:30 Uhr",
       "color": "#935116",
-      "start": "2027-01-29",
-      "end": "2027-02-01",
-      "notes": "Geöffnet von 29.01. bis 31.01.2027."
-    },
-    {
-      "id": "banzhaf_2027-01-29",
-      "title": "Weingut Banzhaf",
-      "ort": "Pfedelbach-Untersteinbach (ca. 10 km)",
-      "location": "Öhringer Str. 12, 74629 Pfedelbach",
-      "hours": "Fr & Sa ab 15:00 Uhr, So ab 11:30 Uhr",
-      "color": "#2874a6",
       "start": "2027-01-29",
       "end": "2027-02-01",
       "notes": "Geöffnet von 29.01. bis 31.01.2027."
@@ -1009,17 +1053,6 @@
       "location": "Gleichener Str. 20, 74629 Pfedelbach",
       "hours": "Fr ab 16:00 Uhr, Sa ab 14:00 Uhr, So ab 11:30 Uhr",
       "color": "#935116",
-      "start": "2027-02-12",
-      "end": "2027-02-15",
-      "notes": "Geöffnet von 12.02. bis 14.02.2027."
-    },
-    {
-      "id": "banzhaf_2027-02-12",
-      "title": "Weingut Banzhaf",
-      "ort": "Pfedelbach-Untersteinbach (ca. 10 km)",
-      "location": "Öhringer Str. 12, 74629 Pfedelbach",
-      "hours": "Fr & Sa ab 15:00 Uhr, So ab 11:30 Uhr",
-      "color": "#2874a6",
       "start": "2027-02-12",
       "end": "2027-02-15",
       "notes": "Geöffnet von 12.02. bis 14.02.2027."
@@ -1212,17 +1245,6 @@
       "notes": "Geöffnet von 12.03. bis 14.03.2027."
     },
     {
-      "id": "banzhaf_2027-03-12",
-      "title": "Weingut Banzhaf",
-      "ort": "Pfedelbach-Untersteinbach (ca. 10 km)",
-      "location": "Öhringer Str. 12, 74629 Pfedelbach",
-      "hours": "Fr & Sa ab 15:00 Uhr, So ab 11:30 Uhr",
-      "color": "#2874a6",
-      "start": "2027-03-12",
-      "end": "2027-03-15",
-      "notes": "Geöffnet von 12.03. bis 14.03.2027."
-    },
-    {
       "id": "borth_2027-03-25",
       "title": "Weingut & Weinstube Borth",
       "ort": "Bretzfeld-Adolzfurt (ca. 7 km)",
@@ -1251,17 +1273,6 @@
       "location": "Waldenburger Str. 8, 74626 Bretzfeld-Dimbach",
       "hours": "Fr ab 15:00 Uhr, Sa ab 14:00 Uhr, So ab 11:30 Uhr",
       "color": "#784212",
-      "start": "2027-04-02",
-      "end": "2027-04-05",
-      "notes": "Geöffnet von 02.04. bis 04.04.2027."
-    },
-    {
-      "id": "banzhaf_2027-04-02",
-      "title": "Weingut Banzhaf",
-      "ort": "Pfedelbach-Untersteinbach (ca. 10 km)",
-      "location": "Öhringer Str. 12, 74629 Pfedelbach",
-      "hours": "Fr & Sa ab 15:00 Uhr, So ab 11:30 Uhr",
-      "color": "#2874a6",
       "start": "2027-04-02",
       "end": "2027-04-05",
       "notes": "Geöffnet von 02.04. bis 04.04.2027."
