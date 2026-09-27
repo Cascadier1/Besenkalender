@@ -1,0 +1,35 @@
+[
+  {
+    "id": "borth",
+    "title": "Weingut & Weinstube Borth",
+    "ort": "Bretzfeld-Adolzfurt (ca. 7 km)",
+    "location": "Unterheimbacher Straße 35, 74626 Bretzfeld-Adolzfurt",
+    "start": "2026-09-24",
+    "end": "2026-09-28",
+    "hours": "Täglich ab 11:00 Uhr | Küche Do-Sa bis ca. 21:00 Uhr, So bis ca. 19:30 Uhr",
+    "notes": "Öffnungszeiten: 24.09. bis 27.09.2026. Eigene Weine & Besengerichte. Keine Reservierung.",
+    "color": "#831843"
+  },
+  {
+    "id": "baldele",
+    "title": "Baldele's Weinstube",
+    "ort": "Öhringen-Cappel (ca. 2 km)",
+    "location": "Obersteinbacher Straße 23, 74613 Öhringen-Cappel",
+    "start": "2026-09-25",
+    "end": "2026-09-29",
+    "hours": "Fr & Sa ab 16:00 Uhr | So ab 11:30 Uhr | Mo ab 16:00 Uhr",
+    "notes": "Hausmacher-Besengerichte, Schlachtplatte, Siedfleisch.",
+    "color": "#991b1b"
+  },
+  {
+    "id": "schwab",
+    "title": "Weingut & Weinstube Schwab",
+    "ort": "Bretzfeld-Dimbach (ca. 7 km)",
+    "location": "Wassergasse 2-4, 74626 Bretzfeld-Dimbach",
+    "start": "2026-10-01",
+    "end": "2026-10-06",
+    "hours": "Donnerstag bis Montag ab 11:30 Uhr",
+    "notes": "Besengerichte, regional-gehobene Küche, eigene Spitzenweine.",
+    "color": "#7c2d12"
+  }
+]
