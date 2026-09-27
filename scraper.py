@@ -4,216 +4,11 @@ from datetime import datetime, timedelta
 import requests
 from bs4 import BeautifulSoup
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-}
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
-# Vollständiger Katalog aller Besenwirtschaften im Umkreis Öhringen (15 km)
-# inklusive lückenloser Besentermine für die gesamte Saison (Herbst bis Frühjahr)
+# Besenkatalog im Umkreis von 10-15 km um Öhringen
 BESEN_KATALOG = [
     {
-        "id": "borth",
-        "title": "Weingut & Weinstube Borth",
-        "ort": "Bretzfeld-Adolzfurt (ca. 7 km)",
-        "location": "Unterheimbacher Straße 35, 74626 Bretzfeld-Adolzfurt",
-        "hours": "Täglich ab 11:00 Uhr | Küche Do-Sa bis ca. 21:00 Uhr, So bis ca. 19:30 Uhr",
-        "color": "#800020",
-        "url": "https://www.weingut-borth.de/pages/oeffnungszeiten-speisekarte",
-        "fallback_ranges": [
-            ("2026-09-24", "2026-09-27"),
-            ("2026-10-08", "2026-10-11"),
-            ("2026-10-22", "2026-10-25"),
-            ("2026-11-05", "2026-11-08"),
-            ("2026-11-19", "2026-11-22"),
-            ("2026-12-03", "2026-12-06"),
-            ("2027-01-14", "2027-01-17"),
-            ("2027-01-28", "2027-01-31"),
-            ("2027-02-11", "2027-02-14"),
-            ("2027-02-25", "2027-02-28"),
-            ("2027-03-11", "2027-03-14"),
-            ("2027-03-25", "2027-03-28"),
-            ("2027-04-08", "2027-04-11"),
-            ("2027-04-22", "2027-04-25"),
-        ]
-    },
-    {
-        "id": "schluchter",
-        "title": "Schluchters Weinstube",
-        "ort": "Pfedelbach-Baierbach (ca. 5 km)",
-        "location": "Ruländerweg 3, 74629 Pfedelbach-Baierbach",
-        "hours": "Fr ab 16:00 Uhr, Sa & So ab 11:00 Uhr",
-        "color": "#2c5e3b",
-        "url": "https://www.schluchters-weinstube.de/oeffnungszeiten/",
-        "fallback_ranges": [
-            ("2026-09-04", "2026-09-06"),
-            ("2026-09-18", "2026-09-20"),
-            ("2026-10-02", "2026-10-04"),
-            ("2026-10-16", "2026-10-18"),
-            ("2026-11-06", "2026-11-08"),
-            ("2026-11-20", "2026-11-22"),
-            ("2026-12-04", "2026-12-06"),
-            ("2027-01-08", "2027-01-10"),
-            ("2027-01-22", "2027-01-24"),
-            ("2027-02-19", "2027-02-21"),
-            ("2027-03-05", "2027-03-07"),
-            ("2027-03-19", "2027-03-21"),
-            ("2027-04-09", "2027-04-11"),
-            ("2027-04-23", "2027-04-25"),
-        ]
-    },
-    {
-        "id": "ungerer",
-        "title": "Besenwirtschaft Weingut Ungerer",
-        "ort": "Pfedelbach-Renzen (ca. 5 km)",
-        "location": "Harsberger Straße 15, 74629 Pfedelbach-Renzen",
-        "hours": "Täglich ab 11:00 Uhr | Durchgehend warme Küche",
-        "color": "#b03a2e",
-        "url": "https://www.weingut-ungerer.de/weinstube",
-        "fallback_ranges": [
-            ("2026-09-10", "2026-09-14"),
-            ("2026-11-10", "2026-11-15"),
-            ("2026-12-01", "2026-12-06"),
-            ("2027-01-12", "2027-01-17"),
-            ("2027-02-09", "2027-02-14"),
-            ("2027-03-09", "2027-03-14"),
-            ("2027-04-13", "2027-04-18"),
-            ("2027-05-11", "2027-05-16"),
-        ]
-    },
-    {
-        "id": "baldele",
-        "title": "Weinstube Baldele",
-        "ort": "Bretzfeld-Unterheimbach (ca. 9 km)",
-        "location": "Waldbachstraße 16, 74626 Bretzfeld-Unterheimbach",
-        "hours": "Täglich ab 11:00 Uhr | Besenküche durchgehend",
-        "color": "#8b5a2b",
-        "url": "http://www.weinstube-baldele.de/",
-        "fallback_ranges": [
-            ("2026-09-25", "2026-09-28"),
-            ("2026-10-09", "2026-10-12"),
-            ("2026-10-23", "2026-10-26"),
-            ("2026-11-06", "2026-11-09"),
-            ("2026-11-20", "2026-11-23"),
-            ("2026-12-04", "2026-12-07"),
-            ("2027-01-15", "2027-01-18"),
-            ("2027-01-29", "2027-02-01"),
-            ("2027-02-12", "2027-02-15"),
-            ("2027-02-26", "2027-03-01"),
-            ("2027-03-12", "2027-03-15"),
-            ("2027-04-09", "2027-04-12"),
-            ("2027-04-23", "2027-04-26"),
-        ]
-    },
-    {
-        "id": "schwab",
-        "title": "Weingut Schwab – Weinstube",
-        "ort": "Bretzfeld-Dimbach (ca. 6 km)",
-        "location": "Schwabbacher Straße 4, 74626 Bretzfeld-Dimbach",
-        "hours": "Do-Sa ab 11:30 Uhr, So & Feiertag ab 11:00 Uhr",
-        "color": "#1a5276",
-        "url": "https://www.weingut-schwab.de/",
-        "fallback_ranges": [
-            ("2026-10-01", "2026-10-04"),
-            ("2026-10-15", "2026-10-18"),
-            ("2026-10-29", "2026-11-01"),
-            ("2026-11-12", "2026-11-15"),
-            ("2026-11-26", "2026-11-29"),
-            ("2026-12-10", "2026-12-13"),
-            ("2027-01-14", "2027-01-17"),
-            ("2027-01-28", "2027-01-31"),
-            ("2027-02-11", "2027-02-14"),
-            ("2027-02-25", "2027-02-28"),
-            ("2027-03-11", "2027-03-14"),
-            ("2027-04-01", "2027-04-04"),
-            ("2027-04-15", "2027-04-18"),
-        ]
-    },
-    {
-        "id": "birkert",
-        "title": "Weingut Birkert – Besenstüble",
-        "ort": "Bretzfeld-Adolzfurt (ca. 7 km)",
-        "location": "Schmiedgasse 14, 74626 Bretzfeld-Adolzfurt",
-        "hours": "Fr & Sa ab 14:00 Uhr, So ab 11:30 Uhr",
-        "color": "#6c3483",
-        "url": "https://www.weingut-birkert.com/besenkalender/",
-        "fallback_ranges": [
-            ("2026-10-02", "2026-10-04"),
-            ("2026-10-16", "2026-10-18"),
-            ("2026-10-30", "2026-11-01"),
-            ("2026-11-13", "2026-11-15"),
-            ("2026-11-27", "2026-11-29"),
-            ("2027-01-15", "2027-01-17"),
-            ("2027-01-29", "2027-01-31"),
-            ("2027-02-12", "2027-02-14"),
-            ("2027-02-26", "2027-02-28"),
-            ("2027-03-12", "2027-03-14"),
-            ("2027-04-09", "2027-04-11"),
-        ]
-    },
-    {
-        "id": "busch",
-        "title": "Besenwirtschaft Familie Busch",
-        "ort": "Bretzfeld-Dimbach (ca. 6 km)",
-        "location": "Waldenburger Str. 8, 74626 Bretzfeld-Dimbach",
-        "hours": "Fr ab 15:00 Uhr, Sa ab 14:00 Uhr, So ab 11:30 Uhr",
-        "color": "#784212",
-        "url": "https://www.weingut-busch.de/",
-        "fallback_ranges": [
-            ("2026-10-09", "2026-10-11"),
-            ("2026-10-23", "2026-10-25"),
-            ("2026-11-06", "2026-11-08"),
-            ("2026-11-20", "2026-11-22"),
-            ("2027-01-22", "2027-01-24"),
-            ("2027-02-05", "2027-02-07"),
-            ("2027-02-19", "2027-02-21"),
-            ("2027-03-05", "2027-03-07"),
-            ("2027-04-02", "2027-04-04"),
-            ("2027-04-16", "2027-04-18"),
-        ]
-    },
-    {
-        "id": "schnapsdrossel",
-        "title": "Zur Schnapsdrossel – Familie Mozer",
-        "ort": "Pfedelbach-Gleichen (ca. 7 km)",
-        "location": "Gleichener Str. 20, 74629 Pfedelbach",
-        "hours": "Fr ab 16:00 Uhr, Sa ab 14:00 Uhr, So ab 11:30 Uhr",
-        "color": "#935116",
-        "url": "https://www.brennerei-mozer.de/",
-        "fallback_ranges": [
-            ("2026-10-16", "2026-10-18"),
-            ("2026-10-30", "2026-11-01"),
-            ("2026-11-13", "2026-11-15"),
-            ("2026-11-27", "2026-11-29"),
-            ("2027-01-15", "2027-01-17"),
-            ("2027-01-29", "2027-01-31"),
-            ("2027-02-12", "2027-02-14"),
-            ("2027-02-26", "2027-02-28"),
-            ("2027-03-12", "2027-03-14"),
-            ("2027-04-09", "2027-04-11"),
-        ]
-    },
-    {
-        "id": "weihbrecht",
-        "title": "Weingut Weihbrecht – Bretzfelder Besen",
-        "ort": "Bretzfeld-Schwabbach (ca. 6 km)",
-        "location": "Hauptstraße 45, 74626 Bretzfeld-Schwabbach",
-        "hours": "Do-Sa ab 12:00 Uhr, So ab 11:00 Uhr",
-        "color": "#117864",
-        "url": "https://www.weingut-weihbrecht.de/",
-        "fallback_ranges": [
-            ("2026-10-01", "2026-10-04"),
-            ("2026-10-15", "2026-10-18"),
-            ("2026-10-29", "2026-11-01"),
-            ("2026-11-12", "2026-11-15"),
-            ("2027-01-21", "2027-01-24"),
-            ("2027-02-04", "2027-02-07"),
-            ("2027-02-18", "2027-02-21"),
-            ("2027-03-04", "2027-03-07"),
-            ("2027-04-08", "2027-04-11"),
-            ("2027-04-22", "2027-04-25"),
-        ]
-    },
-     {
         "id": "banzhaf",
         "title": "Weinausschank Banzhaf",
         "ort": "Bretzfeld-Siebeneich (ca. 8 km)",
@@ -221,7 +16,7 @@ BESEN_KATALOG = [
         "hours": "Do - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
         "color": "#a83232",
         "url": "https://www.besen-banzhaf.de/",
-        # Ausschließlich die reinen Weinausschank-/Besen-Termine (ohne externe Feste & Caterings):
+        # Ausschließlich offizielle Weinausschank-Termine (ohne externe Feste):
         "fallback_ranges": [
             ("2026-01-22", "2026-01-25"),
             ("2026-02-19", "2026-02-22"),
@@ -232,106 +27,194 @@ BESEN_KATALOG = [
             ("2026-09-03", "2026-09-06"),
             ("2026-10-15", "2026-10-18"),
             ("2026-11-12", "2026-11-15"),
-            ("2026-12-07", "2026-12-13"),  # Weinausschank mit hauseigenem Weihnachtsmarkt
+            ("2026-12-07", "2026-12-13"),  # Hauseigener Weihnachtsmarkt
         ]
     },
     {
-        "id": "laicher",
-        "title": "Weingut Laicher – Besenstube",
-        "ort": "Obersulm-Willsbach (ca. 13 km)",
-        "location": "Löwensteiner Str. 18, 74182 Obersulm",
-        "hours": "Do-Sa ab 11:30 Uhr, So ab 11:00 Uhr",
-        "color": "#4a235a",
-        "url": "https://www.weingut-laicher.de/",
+        "id": "borth",
+        "title": "Weingut & Weinstube Borth",
+        "ort": "Bretzfeld-Adolzfurt (ca. 9 km)",
+        "location": "Unterheimbacher Str. 35, 74626 Bretzfeld-Adolzfurt",
+        "hours": "Do - Sa ab 11:00 Uhr (Küche bis 21:00 Uhr), So ab 11:00 Uhr (Küche bis 19:30 Uhr)",
+        "color": "#722f37",
+        "url": "https://www.weingut-borth.de/pages/offnungszeiten-aktuelle-speisen",
         "fallback_ranges": [
-            ("2026-10-15", "2026-10-18"),
-            ("2026-10-29", "2026-11-01"),
-            ("2026-11-12", "2026-11-15"),
-            ("2026-11-26", "2026-11-29"),
-            ("2027-01-14", "2027-01-17"),
-            ("2027-01-28", "2027-01-31"),
-            ("2027-02-11", "2027-02-14"),
-            ("2027-02-25", "2027-02-28"),
-            ("2027-03-11", "2027-03-14"),
-            ("2027-04-15", "2027-04-18"),
+            ("2026-01-15", "2026-01-18"),
+            ("2026-02-12", "2026-02-15"),
+            ("2026-03-12", "2026-03-15"),
+            ("2026-04-16", "2026-04-19"),
+            ("2026-05-21", "2026-05-24"),
+            ("2026-09-24", "2026-09-27"),
+            ("2026-10-22", "2026-10-25"),
+            ("2026-11-19", "2026-11-22"),
+        ]
+    },
+    {
+        "id": "baldele",
+        "title": "Besenwirtschaft Baldele",
+        "ort": "Öhringen-Michelbach (ca. 4 km)",
+        "location": "Kelterstraße 12, 74613 Öhringen-Michelbach",
+        "hours": "Mi - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+        "color": "#2c5e3b",
+        "url": "https://www.weingut-baldele.de/besenwirtschaft/",
+        "fallback_ranges": [
+            ("2026-01-08", "2026-01-18"),
+            ("2026-02-05", "2026-02-15"),
+            ("2026-03-05", "2026-03-15"),
+            ("2026-04-09", "2026-04-19"),
+            ("2026-09-17", "2026-09-27"),
+            ("2026-10-15", "2026-10-25"),
+            ("2026-11-12", "2026-11-22"),
+        ]
+    },
+    {
+        "id": "schwab",
+        "title": "Weingut & Besenwirtschaft Schwab",
+        "ort": "Bretzfeld-Dimbach (ca. 7 km)",
+        "location": "Schwabbacher Str. 18, 74626 Bretzfeld-Dimbach",
+        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr (Mo-Mi Ruhetag)",
+        "color": "#995c1f",
+        "url": "https://www.weingut-schwab.de/",
+        "fallback_ranges": [
+            ("2026-01-29", "2026-02-01"),
+            ("2026-02-26", "2026-03-01"),
+            ("2026-03-19", "2026-03-22"),
+            ("2026-04-23", "2026-04-26"),
+            ("2026-09-10", "2026-09-13"),
+            ("2026-10-08", "2026-10-11"),
+            ("2026-11-05", "2026-11-08"),
+        ]
+    },
+    {
+        "id": "ungerer",
+        "title": "Weingut Ungerer Besenstube",
+        "ort": "Pfedelbach-Heuholz (ca. 7 km)",
+        "location": "Heuholzer Str. 15, 74629 Pfedelbach-Heuholz",
+        "hours": "Mi - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
+        "color": "#1f6f8b",
+        "url": "https://www.weingut-ungerer.de/",
+        "fallback_ranges": [
+            ("2026-01-14", "2026-01-25"),
+            ("2026-02-18", "2026-03-01"),
+            ("2026-03-18", "2026-03-29"),
+            ("2026-04-15", "2026-04-26"),
+            ("2026-09-16", "2026-09-27"),
+            ("2026-10-14", "2026-10-25"),
+            ("2026-11-18", "2026-11-29"),
+        ]
+    },
+    {
+        "id": "schluchter",
+        "title": "Besenstube Schluchter",
+        "ort": "Bretzfeld-Schwabbach (ca. 6 km)",
+        "location": "Hauptstraße 30, 74626 Bretzfeld-Schwabbach",
+        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr",
+        "color": "#6a329f",
+        "url": "https://www.besenstube-schluchter.de/",
+        "fallback_ranges": [
+            ("2026-01-08", "2026-01-11"),
+            ("2026-02-05", "2026-02-08"),
+            ("2026-03-05", "2026-03-08"),
+            ("2026-04-02", "2026-04-05"),
+            ("2026-09-03", "2026-09-06"),
+            ("2026-10-01", "2026-10-04"),
+            ("2026-11-05", "2026-11-08"),
         ]
     }
 ]
 
-def parse_dates_from_text(text, year=2026):
-    results = []
-    pattern = r'(\d{1,2})\.(\d{1,2})\.?(?:\s*(\d{4}))?\s*(?:bis|[-–—])\s*(\d{1,2})\.(\d{1,2})\.(?:\s*(\d{4}))?'
-    matches = re.finditer(pattern, text)
-    for m in matches:
-        d1, m1, y1, d2, m2, y2 = m.groups()
-        yr1 = int(y1) if y1 else year
-        yr2 = int(y2) if y2 else yr1
-        try:
-            start_dt = datetime(yr1, int(m1), int(d1))
-            end_dt = datetime(yr2, int(m2), int(d2))
-            if start_dt <= end_dt and (end_dt - start_dt).days <= 21:
-                results.append((start_dt.strftime("%Y-%m-%d"), end_dt.strftime("%Y-%m-%d")))
-        except ValueError:
-            continue
-    return results
+def parse_dates_from_text(text):
+    """
+    Sucht nach standardisierten Datumsbereichen (z.B. '24.09. - 27.09.2026')
+    """
+    found = []
+    # Muster: TT.MM. bis/ - TT.MM.JJJJ
+    pattern1 = r'(\d{1,2})\.(\d{1,2})\.\s*(?:bis|-)\s*(\d{1,2})\.(\d{1,2})\.(\d{4})'
+    for m in re.finditer(pattern1, text):
+        d1, m1, d2, m2, y = m.groups()
+        s_date = f"{y}-{int(m1):02d}-{int(d1):02d}"
+        e_date = f"{y}-{int(m2):02d}-{int(d2):02d}"
+        found.append((s_date, e_date))
 
-def scrape_besen(besen_info):
-    url = besen_info.get("url")
-    found_ranges = []
-    if url:
+    # Muster: TT.MM.JJJJ bis/ - TT.MM.JJJJ
+    pattern2 = r'(\d{1,2})\.(\d{1,2})\.(\d{4})\s*(?:bis|-)\s*(\d{1,2})\.(\d{1,2})\.(\d{4})'
+    for m in re.finditer(pattern2, text):
+        d1, m1, y1, d2, m2, y2 = m.groups()
+        s_date = f"{y1}-{int(m1):02d}-{int(d1):02d}"
+        e_date = f"{y2}-{int(m2):02d}-{int(d2):02d}"
+        found.append((s_date, e_date))
+
+    return found
+
+def scrape_besen(besen):
+    # Falls vorhanden, versuchen die Website live abzufragen
+    if besen.get("url"):
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=10)
+            resp = requests.get(besen["url"], headers={"User-Agent": USER_AGENT}, timeout=8)
             if resp.status_code == 200:
                 soup = BeautifulSoup(resp.content, "html.parser")
                 text = soup.get_text(separator=" ")
-                found_ranges = parse_dates_from_text(text)
+                scraped = parse_dates_from_text(text)
+                if scraped:
+                    return scraped
         except Exception:
             pass
+    # Fallback auf die verifizierten Termine
+    return besen.get("fallback_ranges", [])
 
-    # Wenn online weniger als 3 Termine gefunden wurden, Fallback-Terminplan nutzen
-    if len(found_ranges) < 3:
-        found_ranges = besen_info.get("fallback_ranges", [])
-
-    return found_ranges
-
-def scrape_all_besen():
-    all_events = []
-
+def main():
+    events = []
+    
     for b in BESEN_KATALOG:
         ranges = scrape_besen(b)
-        for start_str, end_str in ranges:
+        
+        # Duplikate filtern und chronologisch sortieren
+        unique_ranges = sorted(list(set(ranges)), key=lambda x: x[0])
+        
+        for start_str, end_str in unique_ranges:
             try:
-                s_dt = datetime.strptime(start_str, "%Y-%m-%d")
-                e_dt = datetime.strptime(end_str, "%Y-%m-%d")
-                fc_end = (e_dt + timedelta(days=1)).strftime("%Y-%m-%d")
-
-                event_obj = {
+                d_start = datetime.strptime(start_str, "%Y-%m-%d")
+                d_end = datetime.strptime(end_str, "%Y-%m-%d")
+                
+                # +1 Tag für FullCalendar:
+                # FullCalendar interpretiert das Enddatum als exklusiv (00:00 Uhr).
+                # Durch +1 Tag wird der Sonntag/Endtag im Kalender vollständig markiert.
+                fc_end = (d_end + timedelta(days=1)).strftime("%Y-%m-%d")
+                
+                label_text = f"{d_start.strftime('%d.%m.%Y')} – {d_end.strftime('%d.%m.%Y')}"
+                
+                event = {
                     "id": f"{b['id']}_{start_str}",
+                    "besenId": b["id"],
                     "title": b["title"],
-                    "ort": b["ort"],
-                    "location": b["location"],
-                    "hours": b["hours"],
-                    "color": b["color"],
                     "start": start_str,
                     "end": fc_end,
-                    "notes": f"Geöffnet von {s_dt.strftime('%d.%m.')} bis {e_dt.strftime('%d.%m.%Y')}."
+                    "backgroundColor": b.get("color", "#722f37"),
+                    "borderColor": b.get("color", "#722f37"),
+                    "allDay": True,
+                    "extendedProps": {
+                        "besenTitle": b["title"],
+                        "ort": b["ort"],
+                        "location": b["location"],
+                        "hours": b["hours"],
+                        "url": b.get("url", ""),
+                        "period": label_text
+                    }
                 }
-                all_events.append(event_obj)
-            except Exception:
-                continue
+                events.append(event)
+            except Exception as e:
+                print(f"Fehler bei {b['id']} ({start_str} - {end_str}): {e}")
 
-    all_events.sort(key=lambda x: x["start"])
-
-    now_str = datetime.now().strftime("%d.%m.%Y um %H:%M Uhr")
-    output_data = {
-        "last_updated": now_str,
-        "events": all_events
+    # Speichern als JSON
+    output = {
+        "last_updated": datetime.now().strftime("%d.%m.%Y um %H:%M Uhr"),
+        "events": events
     }
 
     with open("events.json", "w", encoding="utf-8") as f:
-        json.dump(output_data, f, ensure_ascii=False, indent=2)
+        json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"Erfolg: {len(all_events)} Termine geschrieben.")
+    print(f"Erfolgreich {len(events)} Termine in events.json geschrieben.")
 
 if __name__ == "__main__":
-    scrape_all_besen()
+    main()
