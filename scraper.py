@@ -1,4 +1,43 @@
-import json
+name: Täglicher Besen-Update
+
+on:
+  schedule:
+    - cron: '0 5 * * *'  # Täglich um 05:00 Uhr UTC
+  workflow_dispatch:      # Ermöglicht manuelles Starten per Klick
+
+# 1. Wichtig: Dem Action-Bot Schreibrechte gewähren
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Code auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Pakete installieren
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Scraper ausführen
+        run: |
+          python scraper.py
+
+      - name: Änderungen speichern und hochladen
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add events.json
+          # Verhindert Fehlerabbruch, falls sich nichts geändert hat:
+          git commit -m "Automatisches Update der Besen-Termine" || exit 0
+          git pushimport json
 import re
 from datetime import datetime, timedelta
 import requests
