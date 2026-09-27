@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
-# Besenkatalog im Umkreis von 10-15 km um Öhringen
+# Besenkatalog im Umkreis von ca. 15 km um Öhringen
 BESEN_KATALOG = [
     {
         "id": "banzhaf",
@@ -16,7 +16,7 @@ BESEN_KATALOG = [
         "hours": "Do - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
         "color": "#a83232",
         "url": "https://www.besen-banzhaf.de/",
-        # Ausschließlich offizielle Weinausschank-Termine (ohne externe Feste):
+        # Ausschließlich offizielle Weinausschank-Termine (ohne externe Feste/Catering):
         "fallback_ranges": [
             ("2026-01-22", "2026-01-25"),
             ("2026-02-19", "2026-02-22"),
@@ -47,9 +47,67 @@ BESEN_KATALOG = [
             ("2026-09-24", "2026-09-27"),
             ("2026-10-22", "2026-10-25"),
             ("2026-11-19", "2026-11-22"),
-       ]
-       },
-       {
+            ("2026-12-03", "2026-12-06"),
+        ]
+    },
+    {
+        "id": "schwab",
+        "title": "Besenwirtschaft Schwab",
+        "ort": "Pfedelbach-Dimbach (ca. 6 km)",
+        "location": "Schwabbacher Str. 8, 74629 Pfedelbach-Dimbach",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "color": "#1f5f8b",
+        "url": "https://www.weinbau-schwab.de/",
+        "fallback_ranges": [
+            ("2026-01-09", "2026-01-18"),
+            ("2026-02-06", "2026-02-15"),
+            ("2026-03-06", "2026-03-15"),
+            ("2026-04-10", "2026-04-19"),
+            ("2026-05-08", "2026-05-17"),
+            ("2026-09-11", "2026-09-20"),
+            ("2026-10-09", "2026-10-18"),
+            ("2026-11-06", "2026-11-15"),
+        ]
+    },
+    {
+        "id": "ungerer",
+        "title": "Weingut Ungerer",
+        "ort": "Pfedelbach-Renzen (ca. 7 km)",
+        "location": "Harsberger Str. 15, 74629 Pfedelbach-Renzen",
+        "hours": "Täglich ab 11:00 Uhr geöffnet",
+        "color": "#d48806",
+        "url": "https://www.weingut-ungerer.de/",
+        "fallback_ranges": [
+            ("2026-01-09", "2026-01-18"),
+            ("2026-02-13", "2026-02-22"),
+            ("2026-03-13", "2026-03-22"),
+            ("2026-04-10", "2026-04-19"),
+            ("2026-05-08", "2026-05-17"),
+            ("2026-06-12", "2026-06-21"),
+            ("2026-07-10", "2026-07-19"),
+            ("2026-09-11", "2026-09-20"),
+            ("2026-11-06", "2026-11-15"),
+            ("2026-12-04", "2026-12-13"),
+        ]
+    },
+    {
+        "id": "schluchter",
+        "title": "Weingut Schluchter",
+        "ort": "Pfedelbach-Baierbach (ca. 7 km)",
+        "location": "Baierbacher Str. 12, 74629 Pfedelbach-Baierbach",
+        "hours": "Mo - Sa ab 11:00 Uhr, So ab 10:30 Uhr",
+        "color": "#843b62",
+        "url": "https://www.weingut-schluchter.de/",
+        "fallback_ranges": [
+            ("2026-01-23", "2026-02-01"),
+            ("2026-02-20", "2026-03-01"),
+            ("2026-03-20", "2026-03-29"),
+            ("2026-04-24", "2026-05-03"),
+            ("2026-10-09", "2026-10-18"),
+            ("2026-11-20", "2026-11-29"),
+        ]
+    },
+    {
         "id": "baldele",
         "title": "Baldele's Weinstube",
         "ort": "Öhringen-Michelbach (ca. 4 km)",
@@ -57,93 +115,55 @@ BESEN_KATALOG = [
         "hours": "Do & Fr ab 17:00 Uhr, Sa & So ab 11:00 Uhr (ca. 2 WE pro Monat)",
         "color": "#2c5e3b",
         "url": "http://www.baldeles-weinstube.de/",
-        # Keine erfundenen Jahrestermine – Scraper liest nur echte Ankündigungen ein:
-        "fallback_ranges": [
-        },
-        {
-        "id": "schwab",
-        "title": "Weingut & Besenwirtschaft Schwab",
-        "ort": "Bretzfeld-Dimbach (ca. 7 km)",
-        "location": "Schwabbacher Str. 18, 74626 Bretzfeld-Dimbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr (Mo-Mi Ruhetag)",
-        "color": "#995c1f",
-        "url": "https://www.weingut-schwab.de/",
-        "fallback_ranges": [
-            ("2026-01-29", "2026-02-01"),
-            ("2026-02-26", "2026-03-01"),
-            ("2026-03-19", "2026-03-22"),
-            ("2026-04-23", "2026-04-26"),
-            ("2026-09-10", "2026-09-13"),
-            ("2026-10-08", "2026-10-11"),
-            ("2026-11-05", "2026-11-08"),
-        ]
-    },
-    {
-        "id": "ungerer",
-        "title": "Weingut Ungerer Besenstube",
-        "ort": "Pfedelbach-Heuholz (ca. 7 km)",
-        "location": "Heuholzer Str. 15, 74629 Pfedelbach-Heuholz",
-        "hours": "Mi - Sa ab 11:30 Uhr, So & Feiertage ab 11:00 Uhr",
-        "color": "#1f6f8b",
-        "url": "https://www.weingut-ungerer.de/",
-        "fallback_ranges": [
-            ("2026-01-14", "2026-01-25"),
-            ("2026-02-18", "2026-03-01"),
-            ("2026-03-18", "2026-03-29"),
-            ("2026-04-15", "2026-04-26"),
-            ("2026-09-16", "2026-09-27"),
-            ("2026-10-14", "2026-10-25"),
-            ("2026-11-18", "2026-11-29"),
-        ]
-    },
-    {
-        "id": "schluchter",
-        "title": "Besenstube Schluchter",
-        "ort": "Bretzfeld-Schwabbach (ca. 6 km)",
-        "location": "Hauptstraße 30, 74626 Bretzfeld-Schwabbach",
-        "hours": "Do - Sa ab 11:30 Uhr, So ab 11:00 Uhr",
-        "color": "#6a329f",
-        "url": "https://www.besenstube-schluchter.de/",
-        "fallback_ranges": [
-            ("2026-01-08", "2026-01-11"),
-            ("2026-02-05", "2026-02-08"),
-            ("2026-03-05", "2026-03-08"),
-            ("2026-04-02", "2026-04-05"),
-            ("2026-09-03", "2026-09-06"),
-            ("2026-10-01", "2026-10-04"),
-            ("2026-11-05", "2026-11-08"),
-        ]
+        # Baldele veröffentlicht keinen Ganzjahresplan – Scraper liest nur echte Website-Ankündigungen ein:
+        "fallback_ranges": []
     }
 ]
 
-def parse_dates_from_text(text):
-    """
-    Sucht nach standardisierten Datumsbereichen (z.B. '24.09. - 27.09.2026')
-    """
-    found = []
-    # Muster: TT.MM. bis/ - TT.MM.JJJJ
-    pattern1 = r'(\d{1,2})\.(\d{1,2})\.\s*(?:bis|-)\s*(\d{1,2})\.(\d{1,2})\.(\d{4})'
-    for m in re.finditer(pattern1, text):
-        d1, m1, d2, m2, y = m.groups()
-        s_date = f"{y}-{int(m1):02d}-{int(d1):02d}"
-        e_date = f"{y}-{int(m2):02d}-{int(d2):02d}"
-        found.append((s_date, e_date))
+MONTH_MAP = {
+    "januar": 1, "jan": 1,
+    "februar": 2, "feb": 2,
+    "märz": 3, "maerz": 3, "mrz": 3,
+    "april": 4, "apr": 4,
+    "mai": 5,
+    "juni": 6, "jun": 6,
+    "juli": 7, "jul": 7,
+    "august": 8, "aug": 8,
+    "september": 9, "sept": 9, "sep": 9,
+    "oktober": 10, "okt": 10,
+    "november": 11, "nov": 11,
+    "dezember": 12, "dez": 12
+}
 
-    # Muster: TT.MM.JJJJ bis/ - TT.MM.JJJJ
-    pattern2 = r'(\d{1,2})\.(\d{1,2})\.(\d{4})\s*(?:bis|-)\s*(\d{1,2})\.(\d{1,2})\.(\d{4})'
-    for m in re.finditer(pattern2, text):
-        d1, m1, y1, d2, m2, y2 = m.groups()
-        s_date = f"{y1}-{int(m1):02d}-{int(d1):02d}"
-        e_date = f"{y2}-{int(m2):02d}-{int(d2):02d}"
-        found.append((s_date, e_date))
+def parse_dates_from_text(text, year=2026):
+    """Sucht nach Datumsintervallen (z.B. '15. - 18. Januar' oder '15.01. - 18.01.2026')"""
+    ranges = []
 
-    return found
+    # Muster 1: DD.MM. - DD.MM.YYYY oder DD.MM.YYYY - DD.MM.YYYY
+    p1 = re.finditer(r'(\d{1,2})\.(\d{1,2})\.(?:\d{2,4})?\s*(?:bis|-|–)\s*(\d{1,2})\.(\d{1,2})\.(\d{2,4})', text)
+    for m in p1:
+        d1, m1, d2, m2, y2 = int(m.group(1)), int(m.group(2)), int(m.group(3)), int(m.group(4)), int(m.group(5))
+        if y2 < 100:
+            y2 += 2000
+        ranges.append((f"{y2:04d}-{m1:02d}-{d1:02d}", f"{y2:04d}-{m2:02d}-{d2:02d}"))
+
+    # Muster 2: DD. - DD. Monat (YYYY)
+    p2 = re.finditer(r'(\d{1,2})\.?\s*(?:bis|-|–)\s*(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)(?:\s*(\d{4}))?', text)
+    for m in p2:
+        d1, d2 = int(m.group(1)), int(m.group(2))
+        mon_str = m.group(3).lower()
+        y = int(m.group(4)) if m.group(4) else year
+        if mon_str in MONTH_MAP:
+            mon = MONTH_MAP[mon_str]
+            ranges.append((f"{y:04d}-{mon:02d}-{d1:02d}", f"{y:04d}-{mon:02d}-{d2:02d}"))
+
+    return ranges
 
 def scrape_besen(besen):
-    # Falls vorhanden, versuchen die Website live abzufragen
-    if besen.get("url"):
+    url = besen.get("url")
+    if url:
         try:
-            resp = requests.get(besen["url"], headers={"User-Agent": USER_AGENT}, timeout=8)
+            resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=8)
             if resp.status_code == 200:
                 soup = BeautifulSoup(resp.content, "html.parser")
                 text = soup.get_text(separator=" ")
@@ -152,7 +172,6 @@ def scrape_besen(besen):
                     return scraped
         except Exception:
             pass
-    # Fallback auf die verifizierten Termine
     return besen.get("fallback_ranges", [])
 
 def main():
@@ -170,8 +189,8 @@ def main():
                 d_end = datetime.strptime(end_str, "%Y-%m-%d")
                 
                 # +1 Tag für FullCalendar:
-                # FullCalendar interpretiert das Enddatum als exklusiv (00:00 Uhr).
-                # Durch +1 Tag wird der Sonntag/Endtag im Kalender vollständig markiert.
+                # FullCalendar interpretiert das Enddatum als exklusiv (00:00:00 Uhr).
+                # Durch +1 Tag wird der Sonntag / Endtag im Kalender vollständig markiert.
                 fc_end = (d_end + timedelta(days=1)).strftime("%Y-%m-%d")
                 
                 label_text = f"{d_start.strftime('%d.%m.%Y')} – {d_end.strftime('%d.%m.%Y')}"
