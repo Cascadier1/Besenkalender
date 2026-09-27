@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Besenkalender Öhringen & Umgebung</title>
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/locales/de.global.min.js"></script>
+    <style>
+        :root { --primary: #831843; --primary-dark: #500724; --bg: #f8fafc; --card: #ffffff; }
+        body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 15px; background: var(--bg); color: #1e293b; }
+        .container { max-width: 1100px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 20px; }
+        header h1 { color: var(--primary); margin: 0 0 6px 0; }
+        header p { color: #64748b; margin: 0; }
+        .calendar-card { background: var(--card); padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        .fc-event { cursor: pointer; }
+        .modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); justify-content: center; align-items: center; z-index: 1000; }
+        .modal.active { display: flex; }
+        .modal-content { background: white; padding: 24px; border-radius: 12px; width: 90%; max-width: 480px; position: relative; }
+        .modal-close { position: absolute; top: 12px; right: 14px; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #64748b; }
+        .modal h2 { margin: 0 0 4px 0; color: var(--primary); font-size: 1.3rem; }
+        .sub { color: #64748b; font-weight: bold; margin-bottom: 12px; font-size: 0.9rem; }
+        .row { margin-bottom: 10px; font-size: 0.95rem; }
+        .row strong { display: block; font-size: 0.8rem; text-transform: uppercase; color: #475569; }
+        .map-btn { display: inline-block; margin-top: 10px; background: #2563eb; color: white; text-decoration: none; padding: 8px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>🍇 Besenkalender Öhringen</h1>
+        <p>Automatisch aktualisierte Öffnungszeiten</p>
+    </header>
+    <div class="calendar-card">
+        <div id="calendar"></div>
+    </div>
+</div>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeM()">&times;</button>
+        <h2 id="mTitle"></h2>
+        <div id="mOrt" class="sub"></div>
+        <div class="row"><strong>Adresse:</strong><span id="mAddr"></span></div>
+        <div class="row"><strong>Öffnungszeiten:</strong><span id="mHours"></span></div>
+        <div class="row"><strong>Details:</strong><span id="mNotes"></span></div>
+        <a id="mMap" class="map-btn" target="_blank" href="#">📍 In Google Maps öffnen</a>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const calendarEl = document.getElementById('calendar');
+        
+        // Holt immer die aktuelle events.json (Cache-Busting mit Timestamp)
+        fetch('events.json?v=' + new Date().getTime())
+            .then(res => res.json())
+            .then(data => {
+                const calendar = new FullCalendar.Calendar(calendarEl, {
+                    locale: 'de',
+                    initialView: 'dayGridMonth',
+                    firstDay: 1,
+                    headerToolbar: { left: 'prev,next today', center: 'title', right: 'dayGridMonth,listMonth' },
+                    buttonText: { today: 'Heute', month: 'Monat', list: 'Liste' },
+                    events: data,
+                    eventClick: function(info) {
+                        const p = info.event.extendedProps;
+                        document.getElementById('mTitle').innerText = info.event.title;
+                        document.getElementById('mOrt').innerText = p.ort;
+                        document.getElementById('mAddr').innerText = p.location;
+                        document.getElementById('mHours').innerText = p.hours;
+                        document.getElementById('mNotes').innerText = p.notes;
+                        document.getElementById('mMap').href = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(p.location);
+                        document.getElementById('modal').classList.add('active');
+                    }
+                });
+                calendar.render();
+            });
+    });
+
+    function closeM() { document.getElementById('modal').classList.remove('active'); }
+    window.onclick = function(e) { if(e.target === document.getElementById('modal')) closeM(); }
+</script>
+</body>
+</html>
