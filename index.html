@@ -581,6 +581,15 @@
       background: #f1f5f9;
       color: var(--text);
     }
+
+    /* STANDORTWAHL */
+    .location-box { grid-column: 1 / -1; background: #fffafc; border: 1px solid #ead2dc; border-radius: 12px; padding: .8rem 1rem; }
+    .location-row { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
+    .location-row input, .location-row select { border: 1px solid var(--border); border-radius: 7px; padding: .55rem .7rem; min-width: 190px; font: inherit; }
+    .location-btn, .preset-chip { border: 1px solid #d7b4c2; background: #fff; color: var(--wine-dark); border-radius: 7px; padding: .5rem .75rem; cursor: pointer; font: inherit; font-weight: 600; }
+    .location-btn:hover, .preset-chip:hover { background: var(--wine-light); }
+    .preset-chips { display: flex; gap: .35rem; flex-wrap: wrap; margin-top: .55rem; }
+    .location-status { color: var(--muted); font-size: .82rem; margin-top: .4rem; }
   </style>
 </head>
 <body>
@@ -589,7 +598,7 @@
     <div class="header-inner">
       <div class="title-group">
         <h1>🍷 Besenkalender rund um Pfedelbach</h1>
-        <p>Hohenlohe & Heilbronner Land</p>
+        <p id="headerSubtitle">Hohenlohe & Heilbronner Land · Suche ab Pfedelbach</p>
       </div>
 
       <div class="header-right">
@@ -607,26 +616,45 @@
   <!-- SCHIEBEREGLER & FILTER -->
   <section class="controls-bar">
     <div class="controls-card">
+      <!-- Standortwahl: alle Distanzen werden sofort im Browser neu berechnet -->
+      <div class="location-box">
+        <div class="slider-header"><span>📍 <b>Standortwahl</b></span><span id="locationName">Pfedelbach</span></div>
+        <div class="location-row">
+          <button class="location-btn" id="gpsButton" type="button">📍 Mein GPS-Standort</button>
+          <input id="locationSearch" type="search" placeholder="Ort / PLZ / Adresse suchen …" aria-label="Ort, PLZ oder Adresse" />
+          <button class="location-btn" id="locationSearchButton" type="button">Suchen</button>
+          <select id="locationPresets" aria-label="Beliebten Standort auswählen">
+            <option value="">Schnellauswahl …</option>
+            <option value="Pfedelbach">Pfedelbach</option><option value="Öhringen">Öhringen</option>
+            <option value="Bretzfeld">Bretzfeld</option><option value="Weinsberg">Weinsberg</option>
+            <option value="Heilbronn">Heilbronn</option><option value="Neuenstein">Neuenstein</option>
+            <option value="Künzelsau">Künzelsau</option>
+          </select>
+        </div>
+        <div class="preset-chips"><button class="preset-chip" type="button" data-location="Pfedelbach">Pfedelbach</button><button class="preset-chip" type="button" data-location="Öhringen">Öhringen</button><button class="preset-chip" type="button" data-location="Bretzfeld">Bretzfeld</button><button class="preset-chip" type="button" data-location="Weinsberg">Weinsberg</button><button class="preset-chip" type="button" data-location="Heilbronn">Heilbronn</button><button class="preset-chip" type="button" data-location="Neuenstein">Neuenstein</button><button class="preset-chip" type="button" data-location="Künzelsau">Künzelsau</button></div>
+        <div class="location-status" id="locationStatus">Kartenmarker ziehen oder direkt auf die Karte klicken.</div>
+      </div>
+
       <!-- 1. Entfernungs-Schieberegler -->
       <div class="slider-box">
         <div class="slider-header">
-          <span>📍 Maximaler Umkreis ab Pfedelbach:</span>
+          <span>📍 Maximaler Umkreis ab <span id="radiusLocationName">Pfedelbach</span>:</span>
           <span class="radius-pill" id="radiusLabel">15 km</span>
         </div>
-        <input type="range" id="radiusSlider" min="2" max="35" step="1" value="15" />
+        <input type="range" id="radiusSlider" min="2" max="50" step="1" value="15" />
         <div class="slider-ticks">
           <span>2 km</span>
           <span>10 km</span>
           <span>15 km</span>
           <span>25 km</span>
-          <span>35 km</span>
+          <span>50 km</span>
         </div>
         <div class="quick-km-btns">
           <button class="quick-km-btn" data-km="5">5 km (Direkt)</button>
           <button class="quick-km-btn" data-km="10">10 km</button>
           <button class="quick-km-btn active" data-km="15">15 km (Öhringen/Bretzfeld)</button>
           <button class="quick-km-btn" data-km="25">25 km (Heilbronn/Weinsberg)</button>
-          <button class="quick-km-btn" data-km="35">Alle (35 km)</button>
+          <button class="quick-km-btn" data-km="50">Alle (50 km)</button>
         </div>
       </div>
 
@@ -722,7 +750,8 @@
     let currentSearch = "";
     let currentView = "list"; // list | calendar
 
-    let map, radiusCircle, markersLayer;
+    let map, radiusCircle, markersLayer, centerMarker;
+    let centerLocation = { name: "Pfedelbach", lat: 49.1764, lon: 9.5056 };
     let calendar;
 
     // Harmonische Wein- & Herbst-Farbpalette (20 klar unterscheidbare Nuancen für die Besen)
@@ -791,32 +820,57 @@
       return dt.toISOString().slice(0, 10);
     }
 
+    function haversine(lat1, lon1, lat2, lon2) {
+      const R = 6371, p1 = lat1 * Math.PI / 180, p2 = lat2 * Math.PI / 180;
+      const dp = (lat2-lat1) * Math.PI / 180, dl = (lon2-lon1) * Math.PI / 180;
+      const a = Math.sin(dp/2)**2 + Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2;
+      return 2 * R * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    }
+
+    function coordsFor(item) {
+      if (Number.isFinite(Number(item.lat)) && Number.isFinite(Number(item.lon))) return [Number(item.lat), Number(item.lon)];
+      const place = (rawData.places || []).find(p => p.id === item.place_id);
+      return place && Number.isFinite(Number(place.lat)) ? [Number(place.lat), Number(place.lon)] : null;
+    }
+
+    function updateDistances() {
+      (rawData.places || []).forEach(p => { const c=coordsFor(p); if(c) p.distance_km=Number(haversine(centerLocation.lat,centerLocation.lon,c[0],c[1]).toFixed(1)); });
+      (rawData.events || []).forEach(e => { const c=coordsFor(e); if(c) e.distance_km=Number(haversine(centerLocation.lat,centerLocation.lon,c[0],c[1]).toFixed(1)); });
+      rawData.places.sort((a,b)=>a.distance_km-b.distance_km);
+      rawData.events.sort((a,b)=>a.distance_km-b.distance_km || String(a.start).localeCompare(String(b.start)));
+    }
+
+    function updateLocationLabels() {
+      const name = centerLocation.name || "Mein Standort";
+      ["locationName","radiusLocationName"].forEach(id => { const el=document.getElementById(id); if(el) el.textContent=name; });
+      const sub=document.getElementById("headerSubtitle"); if(sub) sub.textContent=`Hohenlohe & Heilbronner Land · Suche ab ${name}`;
+      const status=document.getElementById("locationStatus"); if(status) status.textContent=`Aktiver Startpunkt: ${name} · Kartenmarker ziehen oder direkt auf die Karte klicken.`;
+      if (centerMarker) centerMarker.bindPopup(`<b>📍 Zentrum: ${name}</b>`);
+    }
+
+    function setCenter(lat, lon, name="Mein Standort", pan=true) {
+      centerLocation={name,lat:Number(lat),lon:Number(lon)}; updateDistances(); updateLocationLabels();
+      if (centerMarker) centerMarker.setLatLng([centerLocation.lat,centerLocation.lon]);
+      if (radiusCircle) radiusCircle.setLatLng([centerLocation.lat,centerLocation.lon]);
+      if (map && pan) map.flyTo([centerLocation.lat,centerLocation.lon], Math.max(map.getZoom(),11), {duration:.6});
+      updateUI();
+    }
+
     function initMap() {
-      const c = rawData.center || { lat: 49.1764, lon: 9.5056 };
-      map = L.map("map").setView([c.lat, c.lon], 11);
+      const c = centerLocation; map = L.map("map").setView([c.lat,c.lon],11);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {attribution:"&copy; OpenStreetMap"}).addTo(map);
+      centerMarker=L.marker([c.lat,c.lon],{draggable:true}).addTo(map).bindPopup("<b>📍 Zentrum: Pfedelbach</b>");
+      centerMarker.on("dragend",()=>{const p=centerMarker.getLatLng(); setCenter(p.lat,p.lng,"Mein Kartenstandort",false);});
+      map.on("click",e=>setCenter(e.latlng.lat,e.latlng.lng,"Mein Kartenstandort"));
+      radiusCircle=L.circle([c.lat,c.lon],{radius:currentRadius*1000,color:"#7b1e3a",weight:2,fillColor:"#7b1e3a",fillOpacity:.05,dashArray:"6, 6"}).addTo(map);
+      markersLayer=L.layerGroup().addTo(map);
+    }
 
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        attribution: "&copy; OpenStreetMap"
-      }).addTo(map);
-
-      L.circleMarker([c.lat, c.lon], {
-        radius: 7,
-        color: "#1e40af",
-        fillColor: "#3b82f6",
-        fillOpacity: 1,
-        weight: 2
-      }).addTo(map).bindPopup("<b>📍 Zentrum: Pfedelbach</b>");
-
-      radiusCircle = L.circle([c.lat, c.lon], {
-        radius: currentRadius * 1000,
-        color: "#7b1e3a",
-        weight: 2,
-        fillColor: "#7b1e3a",
-        fillOpacity: 0.05,
-        dashArray: "6, 6"
-      }).addTo(map);
-
-      markersLayer = L.layerGroup().addTo(map);
+    async function geocodeLocation(query) {
+      const status=document.getElementById("locationStatus"); status.textContent="Suche Standort …";
+      try { const res=await fetch(`https://nominatim.openstreetmap.org/search?format=json&countrycodes=de&limit=5&q=${encodeURIComponent(query)}`,{headers:{Accept:"application/json"}}); const hits=await res.json();
+        if(!hits.length) throw new Error("Kein Treffer"); const h=hits[0]; const parts=(h.display_name||query).split(","); setCenter(Number(h.lat),Number(h.lon),parts[0].trim()); document.getElementById("locationSearch").value=query;
+      } catch(e) { status.textContent="Standort nicht gefunden. Bitte Ort, PLZ oder Adresse prüfen."; }
     }
 
     function initCalendar() {
@@ -1109,7 +1163,7 @@
         : (item.start ? `<li><b>${formatDateDE(item.start)} – ${formatDateDE(item.end)}</b></li>` : "<li>Keine aktuellen Termine</li>");
 
       body.innerHTML = `
-        <div class="modal-detail-row">🧭 <span><b>Entfernung ab Pfedelbach:</b> ${item.distance_km} km</span></div>
+        <div class="modal-detail-row">🧭 <span><b>Entfernung ab <span id="modalLocationName">${centerLocation.name}</span>:</b> ${item.distance_km} km</span></div>
         ${item.address ? `<div class="modal-detail-row">📍 <span><b>Adresse:</b> ${item.address}</span></div>` : ""}
         ${item.phone ? `<div class="modal-detail-row">📞 <span><b>Telefon:</b> <a href="tel:${item.phone}">${item.phone}</a></span></div>` : ""}
         <div class="modal-detail-row" style="flex-direction:column;">
@@ -1122,11 +1176,17 @@
       actions.innerHTML = `
         <a class="btn-link btn-primary" style="background:${color.bg}" href="${item.url}" target="_blank" rel="noopener">🍷 Details & Öffnungszeiten (Besenstimme)</a>
         ${item.website ? `<a class="btn-link btn-secondary" href="${item.website}" target="_blank" rel="noopener">🌐 Eigene Webseite</a>` : ""}
-        <a class="btn-link btn-secondary" href="https://www.google.com/maps/search/?api=1&query=${mapsQuery}" target="_blank" rel="noopener">🗺️ Google Maps Route</a>
+        <a class="btn-link btn-secondary" href="https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(`${centerLocation.lat},${centerLocation.lon}`)}&destination=${mapsQuery}" target="_blank" rel="noopener">🗺️ Google Maps Route</a>
       `;
 
       document.getElementById("detailModal").classList.add("active");
     }
+
+    document.getElementById("locationSearchButton").addEventListener("click",()=>geocodeLocation(document.getElementById("locationSearch").value.trim()));
+    document.getElementById("locationSearch").addEventListener("keydown",e=>{if(e.key==="Enter") geocodeLocation(e.target.value.trim());});
+    document.getElementById("gpsButton").addEventListener("click",()=>{if(!navigator.geolocation){document.getElementById("locationStatus").textContent="GPS wird von diesem Browser nicht unterstützt.";return;} navigator.geolocation.getCurrentPosition(async pos=>{let name="Mein GPS-Standort"; try{const r=await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${pos.coords.latitude}&lon=${pos.coords.longitude}`);const d=await r.json();name=d.address?.town||d.address?.city||d.address?.village||name;}catch(e){} setCenter(pos.coords.latitude,pos.coords.longitude,name);},()=>document.getElementById("locationStatus").textContent="GPS-Standort konnte nicht ermittelt werden.",{enableHighAccuracy:true,timeout:10000});});
+    document.querySelectorAll(".preset-chip").forEach(b=>b.addEventListener("click",()=>geocodeLocation(b.dataset.location)));
+    document.getElementById("locationPresets").addEventListener("change",e=>{if(e.target.value) geocodeLocation(e.target.value);});
 
     // Event-Listener für Schieberegler
     document.getElementById("radiusSlider").addEventListener("input", e => {
@@ -1186,6 +1246,7 @@
       try {
         const res = await fetch("events.json?t=" + Date.now());
         rawData = await res.json();
+        const fileCenter=rawData.center || {}; centerLocation={name:fileCenter.name || "Pfedelbach",lat:Number(fileCenter.lat)||49.1764,lon:Number(fileCenter.lon)||9.5056}; updateDistances();
         document.getElementById("updatedAt").textContent = `Stand: ${rawData.updated_at || "aktuell"}`;
         initMap();
         initCalendar();
@@ -1198,5 +1259,6 @@
 
     loadEvents();
   </script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
 </body>
 </html>
