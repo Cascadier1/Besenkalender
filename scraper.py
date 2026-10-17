@@ -1,69 +1,32 @@
 import requests
+import re
 import json
 import math
-import re
-import html as html_lib
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 
-# Zentrum: Pfedelbach
-CENTER_LAT = 49.1764
-CENTER_LON = 9.5056
-MAX_DISTANCE_KM = 35.0
+# ==========================================
+# KONFIGURATION: Zentrum Pfedelbach
+# ==========================================
+CENTER_LAT = 49.1756
+CENTER_LON = 9.5050
+MAX_RADIUS_KM = 35.0
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept-Language": "de-DE,de;q=0.9"
+}
 
 def haversine(lat1, lon1, lat2, lon2):
+    """Berechnet die Entfernung zweier Koordinaten in Kilometern."""
     R = 6371.0
-    phi1, phi2 = math.radians(lat1), math.radians(lat2)
-    dphi = math.radians(lat2 - lat1)
-    dlambda = math.radians(lon2 - lon1)
-    a = math.sin(dphi / 2)**2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2)**2
-    return 2 * R * math.atan2(math.sqrt(a), math.sqrt(1 - a))
-
-def parse_dt_obj(val, default_offset=60, is_end=False):
-    """Liest {'timestamp': 1675868400, 'offsetMinutes': 60} oder Zahl/ISO-String und gibt 'YYYY-MM-DD' zurück."""
-    if val is None:
-        return ""
-
-    offset_min = default_offset
-    if isinstance(val, dict):
-        if val.get("offsetMinutes") is not None:
-            offset_min = val.get("offsetMinutes")
-        elif val.get("tzOffset") is not None:
-            offset_min = val.get("tzOffset")
-        raw_ts = val.get("timestamp") or val.get("date") or val.get("time") or val.get("value")
-    else:
-        raw_ts = val
-
-    if raw_ts is None:
-        return ""
-
-    try:
-        offset_min = float(offset_min)
-    except Exception:
-        offset_min = 60.0
-
-    if isinstance(raw_ts, str):
-        s = raw_ts.strip()
-        m_iso = re.search(r'(\d{4}-\d{2}-\d{2})', s)
-        if m_iso:
-            return m_iso.group(1)
-        m_de = re.search(r'(\d{2})\.(\d{2})\.(\d{4})', s)
-        if m_de:
-            return f"{m_de.group(3)}-{m_de.group(2)}-{m_de.group(1)}"
-        return ""
-
-    try:
-        ts = float(raw_ts)
-        if ts > 1e11:
-            ts /= 1000.0
-        dt_utc = datetime.fromtimestamp(ts, tz=timezone.utc)
-        dt_local = dt_utc + timedelta(minutes=offset_min)
-        if is_end and dt_local.hour < 5:
-            dt_local -= timedelta(days=1)
-        return dt_local.strftime("%Y-%m-%d")
-    except Exception:
-        return ""
+    dlat = math.radians(lat2 - lat1)
+    dlon = math.radians(lon2 - lon1)
+    a = math.sin(dlat / 2)**2 + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlon / 2)**2
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+    return round(R * c, 1)
 
 def extract_contact_info(html):
+    """Extrahiert Adresse, Telefon und die Homepage des Besens sauber aus dem Detail-HTML."""
     street, zip_code, city, phone, website = "", "", "", "", ""
     
     # 1. Adresse aus Schema.org PostalAddress
@@ -77,181 +40,196 @@ def extract_contact_info(html):
         if m_z: zip_code = m_z.group(1).strip()
         if m_c: city = m_c.group(1).encode('utf-8').decode('unicode_escape', 'ignore').strip()
 
+    # Fallback Adresse falls nicht in schema.org
+    if not zip_code or not city:
+        m_plz = re.search(r'\b(7\d{4})\s+([A-Za-zäöüÄÖÜß\-\s]{3,30})', html)
+        if m_plz:
+            if not zip_code: zip_code = m_plz.group(1).strip()
+            if not city: city = m_plz.group(2).split('\n')[0].strip()
+
     # 2. Telefonnummer
     m_tel = re.search(r'href=[\'"]tel:([^\'"]+)[\'"]', html)
     if m_tel:
         phone = m_tel.group(1).strip()
 
-    # 3. Echte Homepage des Besens finden
-    # Ausschluss von Besenstimme, Bahn, Google Maps, Apple, Meta, etc.
+    # 3. Externe Homepage des Betriebs finden
     ignore_domains = (
         'besenstimme.de', 'bahn.de', 'google.', 'et4.de', 'apple.com', 
         'destination.one', 'vrs.de', 'facebook.com', 'instagram.com', 
         'schema.org', 'w3.org'
     )
     
-    # Suche zuerst nach einem Link mit Text "Webseite" / "Homepage"
+    # Alle <a>-Tags nach externen Links durchsuchen (keine Grafiken, Styles, Icons)
     matches = re.findall(r'<a[^>]+href=[\'"](https?://[^\'"]+)[\'"][^>]*>(.*?)</a>', html, re.IGNORECASE | re.DOTALL)
     for href, text in matches:
         clean_href = href.strip()
-        # Keine Bild-Dateien (wie png, jpg, svg) und keine internen/Portal-Domains
+        
+        # Ignoriere Bilder, Icons und Mediendateien (verhindert favicon-shortcut.png)
+        if clean_href.lower().endswith(('.png', '.jpg', '.jpeg', '.svg', '.gif', '.ico', '.css', '.js', '.pdf')):
+            continue
+            
+        # Ignoriere Portal-eigene und Werbelinks
         if any(bad in clean_href.lower() for bad in ignore_domains):
             continue
-        if clean_href.lower().endswith(('.png', '.jpg', '.jpeg', '.svg', '.gif', '.ico', '.css', '.js')):
-            continue
-        
-        # Wenn Linktext "Webseite" / "Homepage" / "Internet" enthält oder die Domain selbst ist
-        if re.search(r'webseite|homepage|website|internet|besuchen', text, re.I) or 'www.' in text.lower():
+            
+        # Wenn Linktext typische Schlüsselwörter hat oder eine Domain abbildet
+        clean_text_lower = text.lower()
+        if re.search(r'webseite|homepage|website|internet|besuchen|unsere seite', clean_text_lower) or 'www.' in clean_text_lower:
             website = clean_href
             break
-        elif not website and ('www.' in clean_href or 'http' in clean_href):
+        elif not website and ('www.' in clean_href or clean_href.startswith('http')):
             website = clean_href
 
     return street, zip_code, city, phone, website
 
-def main():
-    base_url = "https://www.besenstimme.de"
-    portal_url = f"{base_url}/de/besenstimme/wlan/portal"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Accept-Language": "de-DE,de;q=0.9"
-    }
+def run():
+    print("1. Lade Portal-Übersicht von besenstimme.de...")
+    list_url = "https://www.besenstimme.de/de/besenstimme/wlan/list/Gastro"
+    try:
+        resp = requests.get(list_url, headers=HEADERS, timeout=20)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"FEHLER beim Laden der Hauptseite: {e}")
+        return
+
+    # Suche nach dem eingebetteten JSON-Array der Betriebe
+    match = re.search(r'window\.ITEMS\s*=\s*(\[\{.*?\}\]);', resp.text, re.DOTALL)
+    if not match:
+        match = re.search(r'var\s+items\s*=\s*(\[\{.*?\}\]);', resp.text, re.DOTALL)
+    
+    if not match:
+        print("FEHLER: Konnte Betriebe-Array auf besenstimme.de nicht finden.")
+        return
+
+    try:
+        all_venues = json.loads(match.group(1))
+    except Exception as e:
+        print(f"FEHLER beim JSON-Parsen: {e}")
+        return
+
+    print(f"2. {len(all_venues)} Betriebe im Portal gefunden.")
+    print(f"3. Filtere nach Umkreis (<= {MAX_RADIUS_KM} km ab Pfedelbach) und hole Detail-Infos...")
+
+    events_list = []
+    venues_count = 0
 
     session = requests.Session()
-    session.headers.update(headers)
+    session.headers.update(HEADERS)
 
-    print("1. Lade Portal-Übersicht von besenstimme.de...")
-    r = session.get(portal_url, timeout=20)
-    r.raise_for_status()
+    for item in all_venues:
+        # Geokoordinaten ermitteln
+        lat = None
+        lon = None
+        geo = item.get("geo") or item.get("location") or {}
+        if isinstance(geo, dict):
+            lat = geo.get("lat") or geo.get("latitude")
+            lon = geo.get("lon") or geo.get("lng") or geo.get("longitude")
+        
+        if not lat or not lon:
+            lat = item.get("lat") or item.get("latitude")
+            lon = item.get("lon") or item.get("lng") or item.get("longitude")
 
-    # Portal-Links parsen
-    detail_links = set(re.findall(r'href=[\'"](/de/besenstimme/wlan/detail/Gastro/[^\'"]+)[\'"]', r.text))
-    print(f"2. {len(detail_links)} Besenwirtschaften im Portal gefunden.")
-    print(f"3. Prüfe Entfernungen und lade Termine (Radius: {MAX_DISTANCE_KM} km ab Pfedelbach)...")
-
-    events = []
-    places = []
-
-    for path in sorted(detail_links):
-        detail_url = f"{base_url}{path}"
-        try:
-            resp = session.get(detail_url, timeout=10)
-            if resp.status_code != 200:
-                continue
-
-            html_text = resp.text
-
-            # window.ITEM extrahieren
-            m_item = re.search(r'window\.ITEM\s*=\s*(\{.+?\});\s*(?:window\.|\n|<)', html_text, re.DOTALL)
-            if not m_item:
-                continue
-
-            try:
-                item_data = json.loads(m_item.group(1))
-            except Exception:
-                continue
-
-            gid = item_data.get("global_id") or item_data.get("id") or path
-            name = item_data.get("title") or "Unbenannter Besen"
-
-            # Koordinaten & Distanz prüfen
-            geo = item_data.get("geo") or {}
-            main_geo = geo.get("main") or geo
-            lat = main_geo.get("latitude")
-            lon = main_geo.get("longitude")
-
-            if not lat or not lon:
-                continue
-
-            dist = haversine(CENTER_LAT, CENTER_LON, float(lat), float(lon))
-            if dist > MAX_DISTANCE_KM:
-                continue
-
-            # Kontaktdaten & Webseite extrahieren
-            address_str, city, phone, website = extract_contact_info(html_text)
-
-            places.append({
-                "id": gid,
-                "name": name,
-                "lat": float(lat),
-                "lon": float(lon),
-                "distance_km": round(dist, 1),
-                "address": address_str,
-                "city": city,
-                "phone": phone,
-                "website": website,
-                "url": detail_url
-            })
-
-            # Termine aus timeIntervals auswerten
-            intervals = item_data.get("timeIntervals") or []
-            raw_ranges = []
-
-            for iv in intervals:
-                s_obj = iv.get("start")
-                e_obj = iv.get("repeatUntil") or iv.get("end") or s_obj
-                s_txt = parse_dt_obj(s_obj, is_end=False)
-                e_txt = parse_dt_obj(e_obj, is_end=True)
-
-                if s_txt and e_txt and s_txt <= e_txt and e_txt >= "2024-01-01" and s_txt <= "2030-12-31":
-                    raw_ranges.append((s_txt, e_txt))
-
-            # Überlappende oder zusammenhängende Tage verschmelzen
-            raw_ranges = sorted(set(raw_ranges))
-            merged_ranges = []
-            for s_str, e_str in raw_ranges:
-                if merged_ranges:
-                    prev_s, prev_e = merged_ranges[-1]
-                    dt_prev_e = datetime.strptime(prev_e, "%Y-%m-%d")
-                    dt_curr_s = datetime.strptime(s_str, "%Y-%m-%d")
-                    if (dt_curr_s - dt_prev_e).days <= 1:
-                        new_e = max(prev_e, e_str)
-                        merged_ranges[-1] = (prev_s, new_e)
-                        continue
-                merged_ranges.append((s_str, e_str))
-
-            found = 0
-            for s_str, e_str in merged_ranges:
-                events.append({
-                    "place_id": gid,
-                    "title": name,
-                    "start": s_str,
-                    "end": e_str,
-                    "distance_km": round(dist, 1),
-                    "address": address_str,
-                    "city": city,
-                    "phone": phone,
-                    "website": website,
-                    "url": detail_url
-                })
-                found += 1
-
-            if found > 0:
-                print(f"🎯 [{dist:4.1f} km] {name} -> {found} Termine | 📍 {address_str or 'k.A.'} | 🌐 {website or '-'}")
-
-        except Exception:
+        if not lat or not lon:
             continue
 
-    events.sort(key=lambda x: (x["start"], x["distance_km"]))
-    places.sort(key=lambda x: x["distance_km"])
+        try:
+            lat = float(lat)
+            lon = float(lon)
+        except (ValueError, TypeError):
+            continue
 
-    now_berlin = datetime.now(timezone(timedelta(hours=2)))
-    data_out = {
-        "updated_at": now_berlin.strftime("%d.%m.%Y, %H:%M Uhr"),
-        "center": {"name": "Pfedelbach", "lat": CENTER_LAT, "lon": CENTER_LON},
-        "places": places,
-        "events": events
+        distance_km = haversine(CENTER_LAT, CENTER_LON, lat, lon)
+        if distance_km > MAX_RADIUS_KM:
+            continue
+
+        venues_count += 1
+        name = item.get("title") or item.get("name") or "Besenwirtschaft"
+        detail_path = item.get("url") or item.get("detailUrl") or ""
+        
+        detail_url = ""
+        if detail_path:
+            if detail_path.startswith("http"):
+                detail_url = detail_path
+            else:
+                detail_url = "https://www.besenstimme.de" + detail_path
+
+        street, zip_code, city, phone, website = "", "", "", "", ""
+        detail_html = ""
+
+        # Detailseite abrufen für Adresse & Homepage & Termine
+        if detail_url:
+            try:
+                res_d = session.get(detail_url, timeout=12)
+                if res_d.status_code == 200:
+                    detail_html = res_d.text
+                    street, zip_code, city, phone, website = extract_contact_info(detail_html)
+            except Exception:
+                pass
+
+        # Termine extrahieren (entweder aus dem Item selbst oder aus dem Detail-HTML)
+        dates_raw = item.get("dates") or item.get("openingHours") or item.get("events") or []
+        
+        # Falls Termine als Liste vorhanden sind
+        if isinstance(dates_raw, list):
+            for d in dates_raw:
+                if isinstance(d, dict):
+                    start = d.get("from") or d.get("start") or d.get("startDate")
+                    end = d.get("to") or d.get("end") or d.get("endDate") or start
+                    note = d.get("note") or d.get("info") or ""
+                    if start:
+                        events_list.append({
+                            "name": name,
+                            "street": street,
+                            "zip": zip_code,
+                            "city": city,
+                            "phone": phone,
+                            "website": website,
+                            "distance_km": distance_km,
+                            "start": str(start)[:10],
+                            "end": str(end)[:10],
+                            "note": note
+                        })
+
+        # Fallback: Termine aus Schema.org oder Textblöcken im Detail-HTML
+        if not any(e["name"] == name for e in events_list) and detail_html:
+            event_matches = re.findall(r'(\d{2}\.\d{2}\.\d{4})\s*(?:bis|-)\s*(\d{2}\.\d{2}\.\d{4})', detail_html)
+            for m_from, m_to in event_matches:
+                try:
+                    s_dt = datetime.strptime(m_from, "%d.%m.%Y").strftime("%Y-%m-%d")
+                    e_dt = datetime.strptime(m_to, "%d.%m.%Y").strftime("%Y-%m-%d")
+                    events_list.append({
+                        "name": name,
+                        "street": street,
+                        "zip": zip_code,
+                        "city": city,
+                        "phone": phone,
+                        "website": website,
+                        "distance_km": distance_km,
+                        "start": s_dt,
+                        "end": e_dt,
+                        "note": ""
+                    })
+                except Exception:
+                    pass
+
+    # Sortierung: zuerst nach Datum aufsteigend, dann nach Entfernung
+    events_list.sort(key=lambda x: (x.get("start", ""), x.get("distance_km", 999)))
+
+    # Metadaten hinzufügen & speichern
+    now_str = datetime.now(timezone.utc).strftime("%d.%m.%Y, %H:%M Uhr UTC")
+    output_data = {
+        "updated_at": now_str,
+        "events": events_list
     }
 
     with open("events.json", "w", encoding="utf-8") as f:
-        json.dump(data_out, f, ensure_ascii=False, indent=2)
+        json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    with_addr = sum(1 for p in places if p.get("address"))
-    with_web = sum(1 for p in places if p.get("website"))
     print("\n==========================================")
     print("ERFOLG!")
-    print(f"- {len(places)} Besen im Umkreis von {MAX_DISTANCE_KM} km erfasst ({with_addr} mit Adresse, {with_web} mit Webseite)")
-    print(f"- {len(events)} bereinigte Kalender-Einträge in 'events.json' gespeichert.")
+    print(f"- {venues_count} Besen im Umkreis von {MAX_RADIUS_KM} km gefunden.")
+    print(f"- {len(events_list)} Termine in 'events.json' gespeichert.")
+    print(f"- Stand: {now_str}")
 
 if __name__ == "__main__":
-    main()
+    run()
