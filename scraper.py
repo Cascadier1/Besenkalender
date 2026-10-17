@@ -5,10 +5,10 @@ import re
 import html as html_lib
 from datetime import datetime, timezone, timedelta
 
-# Zentrum: Pfedelbach
+# Standard-Zentrum: Pfedelbach (als Basis für die Vorauswahl; im Frontend ist der Standort frei wählbar)
 CENTER_LAT = 49.1764
 CENTER_LON = 9.5056
-MAX_DISTANCE_KM = 35.0
+MAX_DISTANCE_KM = 80.0
 
 def haversine(lat1, lon1, lat2, lon2):
     R = 6371.0
@@ -307,6 +307,8 @@ def main():
                     "title": name,
                     "start": s_str,
                     "end": e_str,
+                    "lat": lat,
+                    "lon": lon,
                     "distance_km": round(dist, 1),
                     "address": address_str,
                     "city": city,
