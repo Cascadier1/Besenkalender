@@ -2,6 +2,7 @@ import requests
 import json
 import math
 import re
+import html as html_lib
 from datetime import datetime, timezone, timedelta
 
 # Zentrum: Pfedelbach
@@ -117,41 +118,59 @@ def find_coords(obj, html_text):
         return float(m_lat.group(1)), float(m_lon.group(1))
     return None
 
-def extract_contact_info(item_obj):
-    """Extrahiert Adresse, Ort, Telefon und Webseite aus window.ITEM."""
+def extract_contact_info(html_text):
+    """Extrahiert Straße, PLZ, Ort, Telefon und Webseite direkt aus dem Schema.org JSON-LD / HTML der Detailseite."""
     street, zip_code, city, phone, website = "", "", "", "", ""
-    if not isinstance(item_obj, dict):
+    if not html_text:
         return street, zip_code, city, phone, website
 
-    stack = [item_obj]
-    while stack:
-        curr = stack.pop()
-        if isinstance(curr, dict):
-            if not street and isinstance(curr.get("street"), str):
-                street = curr["street"].strip()
-            if not zip_code and isinstance(curr.get("zip"), str):
-                zip_code = curr["zip"].strip()
-            elif not zip_code and isinstance(curr.get("postalCode"), str):
-                zip_code = curr["postalCode"].strip()
-            if not city and isinstance(curr.get("city"), str):
-                city = curr["city"].strip()
-            if not phone and isinstance(curr.get("phone"), str):
-                phone = curr["phone"].strip()
-            elif not phone and isinstance(curr.get("telephone"), str):
-                phone = curr["telephone"].strip()
-            if not website and isinstance(curr.get("url"), str) and curr["url"].startswith("http"):
-                if "besenstimme.de" not in curr["url"]:
-                    website = curr["url"].strip()
-            elif not website and isinstance(curr.get("website"), str):
-                website = curr["website"].strip()
+    # 1. Aus eingebettetem Schema.org PostalAddress JSON-LD lesen:
+    # "address":{"@type":"PostalAddress","addressLocality":"Bretzfeld","postalCode":"74626","streetAddress":"Unterheimbacherstraße 35"...}
+    m_street = re.search(r'"streetAddress"\s*:\s*"([^"]+)"', html_text)
+    if m_street:
+        street = html_lib.unescape(m_street.group(1)).strip()
 
-            for v in curr.values():
-                if isinstance(v, (dict, list)):
-                    stack.append(v)
-        elif isinstance(curr, list):
-            for v in curr:
-                if isinstance(v, (dict, list)):
-                    stack.append(v)
+    m_zip = re.search(r'"postalCode"\s*:\s*"([^"]+)"', html_text)
+    if m_zip:
+        zip_code = html_lib.unescape(m_zip.group(1)).strip()
+
+    m_city = re.search(r'"addressLocality"\s*:\s*"([^"]+)"', html_text)
+    if m_city:
+        city = html_lib.unescape(m_city.group(1)).strip()
+
+    # 2. Fallback über Deutsche-Bahn-Routing-Link oder JS-Variablen im Quelltext
+    if not (street and zip_code and city):
+        m_db = re.search(r'bahn\.de/buchung/start#zo=(\d{5})\s+([^\'"<>]+)', html_text)
+        if m_db:
+            if not zip_code:
+                zip_code = m_db.group(1).strip()
+            rest = html_lib.unescape(m_db.group(2)).strip()
+            if not city and not street:
+                parts = rest.split(" ", 1)
+                city = parts[0]
+                if len(parts) > 1:
+                    street = parts[1]
+
+    # 3. Telefonnummer (aus JSON-LD "telephone" oder tel:-Link)
+    m_tel = re.search(r'"telephone"\s*:\s*"([^"]+)"', html_text)
+    if m_tel:
+        phone = html_lib.unescape(m_tel.group(1)).strip()
+    else:
+        m_tel2 = re.search(r'href=["\']tel:([^"\']+)["\']', html_text, re.IGNORECASE)
+        if m_tel2:
+            phone = html_lib.unescape(m_tel2.group(1)).strip()
+
+    # 4. Externe Webseite des Besens
+    for m_web in re.finditer(r'href=["\'](https?://[^"\'\s<>]+)["\']', html_text, re.IGNORECASE):
+        u = m_web.group(1).strip()
+        u_low = u.lower()
+        if not any(ig in u_low for ig in [
+            "besenstimme.de", "heilbronnerland.de", "bahn.de", "bwegt.de",
+            "google.", "facebook.", "instagram.", "toubiz.", "openstreetmap.",
+            "w3.org", "schema.org", "cloudflare", "jquery", "bootstrap", "font"
+        ]):
+            website = u
+            break
 
     return street, zip_code, city, phone, website
 
@@ -212,7 +231,7 @@ def main():
             if not name:
                 name = detail_url.split("/")[-1].replace("-", " ").title()
 
-            street, zip_code, city, phone, website = extract_contact_info(item_obj)
+            street, zip_code, city, phone, website = extract_contact_info(html)
             address_parts = [p for p in [street, f"{zip_code} {city}".strip()] if p]
             address_str = ", ".join(address_parts)
 
@@ -250,7 +269,7 @@ def main():
                 if s_str and e_str:
                     raw_ranges.append((s_str, e_str))
 
-            #Zusätzlich im sichtbaren HTML nach "dd.mm.yyyy bis dd.mm.yyyy" suchen (wie bei Banzhaf)
+            # Zusätzlich im sichtbaren HTML nach "dd.mm.yyyy bis dd.mm.yyyy" suchen
             for m_txt in re.finditer(r'(\d{2})\.(\d{2})\.(\d{4})\s*(?:bis|-|–)\s*(\d{2})\.(\d{2})\.(\d{4})', html):
                 d1, m1, y1, d2, m2, y2 = m_txt.groups()
                 s_txt = f"{y1}-{m1}-{d1}"
@@ -259,13 +278,11 @@ def main():
                     raw_ranges.append((s_txt, e_txt))
 
             # Überlappende oder direkt aneinandergrenzende Zeiträume desselben Besens zusammenfassen
-            # (z.B. wenn ein Besen für Fr-So und Di-So desselben Besen-Zeitraums zwei Intervalle hat)
             raw_ranges = sorted(set(raw_ranges))
             merged_ranges = []
             for s_str, e_str in raw_ranges:
                 if merged_ranges:
                     prev_s, prev_e = merged_ranges[-1]
-                    # Wenn der neue Zeitraum sich mit dem vorherigen überschneidet oder <= 1 Tag Abstand hat
                     dt_prev_e = datetime.strptime(prev_e, "%Y-%m-%d")
                     dt_curr_s = datetime.strptime(s_str, "%Y-%m-%d")
                     if (dt_curr_s - dt_prev_e).days <= 1:
@@ -291,8 +308,7 @@ def main():
                 found += 1
 
             if found > 0:
-                loc_info = f" ({city})" if city else ""
-                print(f"🎯 [{dist:4.1f} km] {name}{loc_info} -> {found} Termine")
+                print(f"🎯 [{dist:4.1f} km] {name} -> {found} Termine | 📍 {address_str or 'k.A.'}")
 
         except Exception:
             continue
@@ -311,9 +327,10 @@ def main():
     with open("events.json", "w", encoding="utf-8") as f:
         json.dump(data_out, f, ensure_ascii=False, indent=2)
 
+    with_addr = sum(1 for p in places if p.get("address"))
     print("\n==========================================")
     print("ERFOLG!")
-    print(f"- {len(places)} Besen im Umkreis von {MAX_DISTANCE_KM} km erfasst")
+    print(f"- {len(places)} Besen im Umkreis von {MAX_DISTANCE_KM} km erfasst ({with_addr} mit Adresse)")
     print(f"- {len(events)} bereinigte Kalender-Einträge in 'events.json' gespeichert.")
 
 if __name__ == "__main__":
