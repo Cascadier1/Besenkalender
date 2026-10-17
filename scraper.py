@@ -66,7 +66,7 @@ def parse_dt_obj(val, default_offset=60, is_end=False):
 def extract_contact_info(html):
     street, zip_code, city, phone, website = "", "", "", "", ""
     
-    # 1. Adresse aus PostalAddress JSON
+    # 1. Adresse aus Schema.org PostalAddress
     m_addr = re.search(r'"@type"\s*:\s*"PostalAddress"(.*?)\}', html, re.DOTALL)
     if m_addr:
         block = m_addr.group(1)
@@ -77,28 +77,37 @@ def extract_contact_info(html):
         if m_z: zip_code = m_z.group(1).strip()
         if m_c: city = m_c.group(1).encode('utf-8').decode('unicode_escape', 'ignore').strip()
 
-    # 2. Telefonnummer aus tel:-Link
+    # 2. Telefonnummer
     m_tel = re.search(r'href=[\'"]tel:([^\'"]+)[\'"]', html)
     if m_tel:
         phone = m_tel.group(1).strip()
 
-    # 3. Webseite: Link mit Text "Webseite" oder "www...."
-    m_web = re.search(r'<a[^>]+href=[\'"](https?://[^\'"]+)[\'"][^>]*>\s*Webseite\s*</a>', html, re.I)
-    if not m_web:
-        m_web = re.search(r'<a[^>]+href=[\'"](https?://[^\'"]+)[\'"][^>]*>\s*(?:www\.[^<]+)\s*</a>', html, re.I)
+    # 3. Echte Homepage des Besens finden
+    # Ausschluss von Besenstimme, Bahn, Google Maps, Apple, Meta, etc.
+    ignore_domains = (
+        'besenstimme.de', 'bahn.de', 'google.', 'et4.de', 'apple.com', 
+        'destination.one', 'vrs.de', 'facebook.com', 'instagram.com', 
+        'schema.org', 'w3.org'
+    )
     
-    if m_web:
-        found_url = m_web.group(1).strip()
-        blacklist = ["besenstimme.de", "destination.one", "bahn.de", "google.", "instagram.com", "facebook.com", "ecmaps.de", "et4.de"]
-        if not any(b in found_url for b in blacklist):
-            website = found_url
+    # Suche zuerst nach einem Link mit Text "Webseite" / "Homepage"
+    matches = re.findall(r'<a[^>]+href=[\'"](https?://[^\'"]+)[\'"][^>]*>(.*?)</a>', html, re.IGNORECASE | re.DOTALL)
+    for href, text in matches:
+        clean_href = href.strip()
+        # Keine Bild-Dateien (wie png, jpg, svg) und keine internen/Portal-Domains
+        if any(bad in clean_href.lower() for bad in ignore_domains):
+            continue
+        if clean_href.lower().endswith(('.png', '.jpg', '.jpeg', '.svg', '.gif', '.ico', '.css', '.js')):
+            continue
+        
+        # Wenn Linktext "Webseite" / "Homepage" / "Internet" enthält oder die Domain selbst ist
+        if re.search(r'webseite|homepage|website|internet|besuchen', text, re.I) or 'www.' in text.lower():
+            website = clean_href
+            break
+        elif not website and ('www.' in clean_href or 'http' in clean_href):
+            website = clean_href
 
-    parts = []
-    if street: parts.append(street)
-    if zip_code or city: parts.append(f"{zip_code} {city}".strip())
-    address_str = ", ".join(parts)
-
-    return address_str, city, phone, website
+    return street, zip_code, city, phone, website
 
 def main():
     base_url = "https://www.besenstimme.de"
