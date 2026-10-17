@@ -160,15 +160,24 @@ def extract_contact_info(html_text):
         if m_tel2:
             phone = html_lib.unescape(m_tel2.group(1)).strip()
 
-    # 4. Externe Webseite des Besens
-    for m_web in re.finditer(r'href=["\'](https?://[^"\'\s<>]+)["\']', html_text, re.IGNORECASE):
-        u = m_web.group(1).strip()
-        u_low = u.lower()
-        if not any(ig in u_low for ig in [
-            "besenstimme.de", "heilbronnerland.de", "bahn.de", "bwegt.de",
-            "google.", "facebook.", "instagram.", "toubiz.", "openstreetmap.",
-            "w3.org", "schema.org", "cloudflare", "jquery", "bootstrap", "font"
-        ]):
+    # 4. Externe Webseite des Besens (nur echte <a href="..."> Links, keine Icons/Assets!)
+    ignore_domains = (
+        "besenstimme.de", "heilbronnerland.de", "bahn.de", "bwegt.de",
+        "google.", "facebook.", "instagram.", "toubiz.", "openstreetmap.",
+        "w3.org", "schema.org", "cloudflare", "jquery", "bootstrap", "font",
+        "destination.one", "et4.de", "stimme.de"
+    )
+    bad_ext = (
+        ".png", ".jpg", ".jpeg", ".gif", ".svg", ".ico", ".webp",
+        ".css", ".js", ".woff", ".woff2", ".ttf", ".xml", ".json", ".webmanifest"
+    )
+
+    for m_web in re.finditer(r'<a\b[^>]*?\bhref=["\'](https?://[^"\'\s<>]+)["\']', html_text, re.IGNORECASE):
+        u = html_lib.unescape(m_web.group(1)).strip()
+        u_low = u.lower().split("?")[0].split("#")[0]
+        if u_low.endswith(bad_ext):
+            continue
+        if not any(ig in u_low for ig in ignore_domains):
             website = u
             break
 
