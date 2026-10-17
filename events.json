@@ -1,5 +1,5 @@
 {
-  "updated_at": "17.10.2026, 11:58 Uhr",
+  "updated_at": "17.10.2026, 12:33 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -12,10 +12,10 @@
       "lat": 49.1799895,
       "lon": 9.484939853317202,
       "distance_km": 1.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Pfedelbacher Straße 15, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 36073",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028341/die-schnapsdrossel"
     },
     {
@@ -24,10 +24,10 @@
       "lat": 49.1801956,
       "lon": 9.4837317,
       "distance_km": 1.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Adolzfurter Straße 33, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 602364",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022876/winzerstube-lsch"
     },
     {
@@ -36,10 +36,10 @@
       "lat": 49.1708244,
       "lon": 9.5268071,
       "distance_km": 1.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Ruländerweg 3, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 33894",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028173/schluchters-weinstube"
     },
     {
@@ -48,10 +48,10 @@
       "lat": 49.1792271,
       "lon": 9.4825889,
       "distance_km": 1.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Adolzfurter Straße 41, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 33456",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030043/zur-sonne-familie-ziner"
     },
     {
@@ -60,10 +60,10 @@
       "lat": 49.177551,
       "lon": 9.4815899,
       "distance_km": 1.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Adolzfurter Str. 69, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 8506",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030845/becks-weinschenke"
     },
     {
@@ -72,10 +72,10 @@
       "lat": 49.16804285,
       "lon": 9.475435228125,
       "distance_km": 2.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weißlensberg 1, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07946 944496",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030364/almhtte-weilensberg"
     },
     {
@@ -84,10 +84,10 @@
       "lat": 49.15344155435011,
       "lon": 9.4805708527565,
       "distance_km": 3.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Geddelsbacher Hälden 22, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 7272",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029270/hldener-besen"
     },
     {
@@ -96,10 +96,10 @@
       "lat": 49.175358200000005,
       "lon": 9.558184632096754,
       "distance_km": 3.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Obersteinbacher Straße 23, 74613 Öhringen",
+      "city": "Öhringen",
+      "phone": "07941 958350",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028369/baldeles-weinstube"
     },
     {
@@ -108,10 +108,10 @@
       "lat": 49.163638,
       "lon": 9.4513938,
       "distance_km": 4.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Unterheimbacherstraße 35, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2139",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028233/weinstube-borth"
     },
     {
@@ -120,10 +120,10 @@
       "lat": 49.163941550000004,
       "lon": 9.450160936757428,
       "distance_km": 4.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Unterheimbacher Straße 28, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "+49 7946 484",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028313/besenwirtschaft-birkert"
     },
     {
@@ -132,10 +132,10 @@
       "lat": 49.1474797,
       "lon": 9.5513848,
       "distance_km": 4.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Harsberger Straße 15, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07949 940690",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028363/weinstube-ungerer"
     },
     {
@@ -144,10 +144,10 @@
       "lat": 49.1412919,
       "lon": 9.4655766,
       "distance_km": 4.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weinsteige 6, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2185",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028284/weinstube-lederer"
     },
     {
@@ -156,10 +156,10 @@
       "lat": 49.18323485,
       "lon": 9.404111724502133,
       "distance_km": 7.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hauptstraße 20, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2788",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028289/weinstube-weihbrecht"
     },
     {
@@ -168,10 +168,10 @@
       "lat": 49.1928359,
       "lon": 9.3922309,
       "distance_km": 8.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wengertstraße 8, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2287",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029493/weingut-weibler"
     },
     {
@@ -180,10 +180,10 @@
       "lat": 49.191269899999995,
       "lon": 9.391272741201714,
       "distance_km": 8.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wengertstraße 16, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 1530",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028327/weinausschank-banzhaf"
     },
     {
@@ -192,10 +192,10 @@
       "lat": 49.169275999999996,
       "lon": 9.385850533524586,
       "distance_km": 8.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wassergasse 2, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 1418",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028309/weingut-und-weinstube-schwab"
     },
     {
@@ -204,10 +204,10 @@
       "lat": 49.1357791,
       "lon": 9.3987798,
       "distance_km": 9.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Tannenhof, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07130 450128",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028502/gutsgasthof-gruber"
     },
     {
@@ -216,10 +216,10 @@
       "lat": 49.1707511,
       "lon": 9.3756886,
       "distance_km": 9.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Greuthof 1, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2465",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028288/weinstube-busch"
     },
     {
@@ -228,10 +228,10 @@
       "lat": 49.2185884,
       "lon": 9.3830472,
       "distance_km": 10.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Siebeneicherweg 3, 74243 Langenbrettach",
+      "city": "Langenbrettach",
+      "phone": "07139 7471",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028325/weinstube-reinhard"
     },
     {
@@ -240,10 +240,10 @@
       "lat": 49.24224555,
       "lon": 9.403289051606679,
       "distance_km": 10.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Lampoldshausener Straße 11, 74239 Hardthausen am Kocher",
+      "city": "Hardthausen am Kocher",
+      "phone": "07139 7733",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031383/weinstube-prgel"
     },
     {
@@ -252,10 +252,10 @@
       "lat": 49.10681515,
       "lon": 9.39789108004095,
       "distance_km": 11.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Lichtensterner Straße 16, 74245 Löwenstein",
+      "city": "Löwenstein",
+      "phone": "07130 8885",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028248/weinausschank-seeblick"
     },
     {
@@ -264,10 +264,10 @@
       "lat": 49.0931102,
       "lon": 9.414428644488186,
       "distance_km": 11.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Mainhardter Straße 43, 74245 Löwenstein",
+      "city": "Löwenstein",
+      "phone": "07130 450831",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028366/weinstube-hfele"
     },
     {
@@ -276,10 +276,10 @@
       "lat": 49.159113250000004,
       "lon": 9.350494511163658,
       "distance_km": 11.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hofäcker 3, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "07134 3340",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028290/wengertstube-krner"
     },
     {
@@ -288,10 +288,10 @@
       "lat": 49.17812495,
       "lon": 9.346421062869263,
       "distance_km": 11.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Grantschener Weg 12, 74246 Eberstadt",
+      "city": "Eberstadt",
+      "phone": "07134 4727",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028311/zum-hoelzernen-besen"
     },
     {
@@ -300,10 +300,10 @@
       "lat": 49.1324531,
       "lon": 9.3572697,
       "distance_km": 11.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Heerweg 21, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07134 3374",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028319/gutsausschank-laicher"
     },
     {
@@ -312,10 +312,10 @@
       "lat": 49.14538385,
       "lon": 9.343422146154456,
       "distance_km": 12.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Kümmelstraße 2, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07134 17469",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028541/frieders-weinstube"
     },
     {
@@ -324,10 +324,10 @@
       "lat": 49.2875988,
       "lon": 9.560800459544284,
       "distance_km": 13.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Öhringer Straße 32, 74670 Forchtenberg",
+      "city": "Forchtenberg",
+      "phone": "07947 9433601",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028498/frschers-kelterstble"
     },
     {
@@ -336,10 +336,10 @@
       "lat": 49.1845525,
       "lon": 9.321388627249968,
       "distance_km": 13.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weinstraße 23, 74246 Eberstadt",
+      "city": "Eberstadt",
+      "phone": "07134 4480",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028368/besen-im-weingut-wolf"
     },
     {
@@ -348,10 +348,10 @@
       "lat": 49.131024100000005,
       "lon": 9.328372404386045,
       "distance_km": 13.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Willsbacher Straße 9, 74251 Lehrensteinsfeld",
+      "city": "Lehrensteinsfeld",
+      "phone": "07134 10193",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028279/weinstube-stein"
     },
     {
@@ -360,10 +360,10 @@
       "lat": 49.14915415,
       "lon": 9.319487427951389,
       "distance_km": 13.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hallerstraße 1-3, 74248 Ellhofen",
+      "city": "Ellhofen",
+      "phone": "+49 7134 21136",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028314/arnolds-gutes-kupferkrgle"
     },
     {
@@ -372,10 +372,10 @@
       "lat": 49.1290545,
       "lon": 9.3254558,
       "distance_km": 14.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Ellhofener Str. 5, 74251 Lehrensteinsfeld",
+      "city": "Lehrensteinsfeld",
+      "phone": "07134 3810",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028306/dieterichs-weinstble"
     },
     {
@@ -384,10 +384,10 @@
       "lat": 49.14785925,
       "lon": 9.31494968667645,
       "distance_km": 14.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Kurze Straße 10, 74248 Ellhofen",
+      "city": "Ellhofen",
+      "phone": "07134 21974",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028539/weingut-besenwirtschaft-burkhardt"
     },
     {
@@ -396,10 +396,10 @@
       "lat": 49.183623850000004,
       "lon": 9.3048726638898,
       "distance_km": 14.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Lennacher Straße 7, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "07134 14389",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028875/leissium"
     },
     {
@@ -408,10 +408,10 @@
       "lat": 49.2283156,
       "lon": 9.693291668314881,
       "distance_km": 14.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Langenburgerstraße 11, 74635 Kupferzell",
+      "city": "Kupferzell",
+      "phone": "0178 2837916",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028320/kupferzeller-besen"
     },
     {
@@ -420,10 +420,10 @@
       "lat": 49.14008457290026,
       "lon": 9.307871460914612,
       "distance_km": 14.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hüttberg (Zufahrt über Raiffeisenstraße), 74248 Ellhofen",
+      "city": "Ellhofen",
+      "phone": "015254151393",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030808/moststraussen-hofmann"
     },
     {
@@ -432,10 +432,10 @@
       "lat": 49.2166009,
       "lon": 9.309492143612193,
       "distance_km": 14.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Öläcker 1, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07139 452360",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028382/khners-wild-und-spargelbesen"
     },
     {
@@ -444,10 +444,10 @@
       "lat": 49.1486849,
       "lon": 9.2881176,
       "distance_km": 16.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Schwabstraße 4, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "07134 6933",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028169/besenwirtschaft-seyffer"
     },
     {
@@ -456,10 +456,10 @@
       "lat": 49.1507518,
       "lon": 9.2822262,
       "distance_km": 16.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weidachstraße 48, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "01783664466",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
     },
     {
@@ -468,10 +468,10 @@
       "lat": 49.0582503,
       "lon": 9.3591567,
       "distance_km": 16.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Maad 10, 71717 Beilstein",
+      "city": "Beilstein",
+      "phone": "07062 22159",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029442/weinstube-zum-kachelofen"
     },
     {
@@ -480,10 +480,10 @@
       "lat": 49.3179985,
       "lon": 9.422307860126601,
       "distance_km": 16.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Keltergasse 3, 74259 Widdern",
+      "city": "Widdern",
+      "phone": "0176 96668664",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028264/aries-besenwirtschaft"
     },
     {
@@ -492,10 +492,10 @@
       "lat": 49.1698109,
       "lon": 9.2693319,
       "distance_km": 17.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weißenhofstraße 4, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07131 2901",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028268/weinausschank-zum-engel"
     },
     {
@@ -504,10 +504,10 @@
       "lat": 49.1712622,
       "lon": 9.26613034871795,
       "distance_km": 17.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Friedenstraße 26, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 6214",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029135/weinstube-goldener-besen"
     },
     {
@@ -516,10 +516,10 @@
       "lat": 49.1709217,
       "lon": 9.265742982401054,
       "distance_km": 17.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Friedenstraße 27/1, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 2448",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028287/winzerstube-lhe"
     },
     {
@@ -528,10 +528,10 @@
       "lat": 49.243988994910694,
       "lon": 9.28966999053955,
       "distance_km": 17.4,
-      "address": "",
-      "city": "",
+      "address": "Hofäcker 1, 74229 Oedheim",
+      "city": "Oedheim",
       "phone": "",
-      "website": "",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030044/weinstube-volz"
     },
     {
@@ -540,10 +540,10 @@
       "lat": 49.1722949,
       "lon": 9.263174138636366,
       "distance_km": 17.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Friedenstraße 53, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 342200",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100032586/der-rutenbieger"
     },
     {
@@ -552,10 +552,10 @@
       "lat": 49.18012055,
       "lon": 9.253876296998758,
       "distance_km": 18.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Petersrain 1, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 951600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022864/weinausschank-schnbrunn"
     },
     {
@@ -564,10 +564,10 @@
       "lat": 49.0698366,
       "lon": 9.3124264,
       "distance_km": 18.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Vohenlohe 10, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 61412",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028534/besenwirtschaft-fll"
     },
     {
@@ -576,10 +576,10 @@
       "lat": 49.075814750000006,
       "lon": 9.29931325319048,
       "distance_km": 18.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Hohbuch 6, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 63206",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028217/blockhaus-seeger"
     },
     {
@@ -588,10 +588,10 @@
       "lat": 49.1900557,
       "lon": 9.2460397,
       "distance_km": 18.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Reutweg 4, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 37117",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028496/weingut-berthold"
     },
     {
@@ -600,10 +600,10 @@
       "lat": 49.1890512,
       "lon": 9.2461244,
       "distance_km": 18.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wilfenseeweg 78/1, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "0713237869",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027491/besenwirtschaft-holzapfel"
     },
     {
@@ -612,10 +612,10 @@
       "lat": 49.149427349999996,
       "lon": 9.244366234449021,
       "distance_km": 19.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Riedstraße 23, 74076 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 982240",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028246/besenwirtschaft-rolf-heinrich"
     },
     {
@@ -624,10 +624,10 @@
       "lat": 49.1500437,
       "lon": 9.244514618686392,
       "distance_km": 19.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Riedstr. 29, 74076 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131-175948",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100036308/weingut-ga-heinrich-wein-dine"
     },
     {
@@ -636,10 +636,10 @@
       "lat": 49.070157699999996,
       "lon": 9.291509851351417,
       "distance_km": 19.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Heinrieter Straße 12, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 96548",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028280/weinstube-hrle"
     },
     {
@@ -648,10 +648,10 @@
       "lat": 49.1905026,
       "lon": 9.2349348,
       "distance_km": 19.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gymnasiumstraße 68, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 2682",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
@@ -660,10 +660,10 @@
       "lat": 49.1907128,
       "lon": 9.234258,
       "distance_km": 19.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gymnasiumstraße 64, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 18299",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028326/weinausschank-benz-am-wilfensee"
     },
     {
@@ -672,10 +672,10 @@
       "lat": 49.1253571,
       "lon": 9.238243842315683,
       "distance_km": 20.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "In den Stahlbühlwiesen 30, 74074 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029494/weinstube-stutz"
     },
     {
@@ -684,10 +684,10 @@
       "lat": 49.22054205,
       "lon": 9.231702963556488,
       "distance_km": 20.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Riedweg 3, 74177 Bad Friedrichshall",
+      "city": "Bad Friedrichshall",
+      "phone": "07136 965729",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028265/weinstube-friedauer"
     },
     {
@@ -696,10 +696,10 @@
       "lat": 49.13913595,
       "lon": 9.228211438259635,
       "distance_km": 20.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wollhausstraße 63/1, 74072 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 89325",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028362/weinausschank-fischer"
     },
     {
@@ -708,10 +708,10 @@
       "lat": 49.1921438,
       "lon": 9.223421348818281,
       "distance_km": 20.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Schlossgasse 10, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 17493",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028500/besenwirtschaft-bauer"
     },
     {
@@ -720,10 +720,10 @@
       "lat": 49.13472915,
       "lon": 9.224919023860199,
       "distance_km": 20.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Ludwig-Pfau-Straße 7, 74072 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 86904",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028322/besenwirtschaft-able"
     },
     {
@@ -732,10 +732,10 @@
       "lat": 49.1062956,
       "lon": 9.7741842,
       "distance_km": 21.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
     },
     {
@@ -744,10 +744,10 @@
       "lat": 49.0386055,
       "lon": 9.3052583,
       "distance_km": 21.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Winzerhausener Weg 22, 71717 Beilstein",
+      "city": "Beilstein",
+      "phone": "+49 7062 / 3725",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
     },
     {
@@ -756,10 +756,10 @@
       "lat": 49.0282006,
       "lon": 9.3208066,
       "distance_km": 21.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Eselsweg 17, 71720 Oberstenfeld",
+      "city": "Oberstenfeld",
+      "phone": "07062 3409",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029427/weinstube-am-petersberg"
     },
     {
@@ -768,10 +768,10 @@
       "lat": 49.1158212,
       "lon": 9.2265274,
       "distance_km": 21.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Staufenberger Weg 4, 74074 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 570695",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028384/weingut-springer"
     },
     {
@@ -780,10 +780,10 @@
       "lat": 49.025139249999995,
       "lon": 9.3210556125,
       "distance_km": 21.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gronauer Straße 8, 71720 Oberstenfeld",
+      "city": "Oberstenfeld",
+      "phone": "07062 9039409",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029436/besen-im-weingut-hanke"
     },
     {
@@ -792,10 +792,10 @@
       "lat": 49.11305431842249,
       "lon": 9.215919971466064,
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Linsenbuckel 1, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 8978503",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028497/besenwirtschaft-gall-niklas"
     },
     {
@@ -804,10 +804,10 @@
       "lat": 49.15759265,
       "lon": 9.201531309030294,
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rainlesstraße 14, 74078 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028172/weinstube-drautz"
     },
     {
@@ -816,10 +816,10 @@
       "lat": 49.101842950000005,
       "lon": 9.221151848005709,
       "distance_km": 22.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Erlachstraße 55, 74223 Flein",
+      "city": "Flein",
+      "phone": "07131 9732722",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028540/weinstube-gtz"
     },
     {
@@ -828,10 +828,10 @@
       "lat": 49.06246425,
       "lon": 9.237930607511558,
       "distance_km": 23.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Klee 1, 74360 Ilsfeld",
+      "city": "Ilsfeld",
+      "phone": "07062 978940",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029456/weinstube-klee-1"
     },
     {
@@ -840,10 +840,10 @@
       "lat": 49.12142505,
       "lon": 9.197039816214211,
       "distance_km": 23.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Spitzwegstraße 15/1-17, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 570374",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028283/besenwirtschaft-alexander-bauer"
     },
     {
@@ -852,10 +852,10 @@
       "lat": 49.12000265,
       "lon": 9.197351698796776,
       "distance_km": 23.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Raidweg 12, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 255261",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028286/weinausschank-khner"
     },
     {
@@ -864,10 +864,10 @@
       "lat": 49.1200129,
       "lon": 9.19362111588472,
       "distance_km": 23.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Friedrich-Ackermann-Straße 11, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 575617",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028372/weinausschnke-familie-senghaas-kirschenlohr"
     },
     {
@@ -876,10 +876,10 @@
       "lat": 49.131561,
       "lon": 9.1877606,
       "distance_km": 23.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Heuchelbergstraße 22, 74080 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 33992",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028281/bckinger-besen"
     },
     {
@@ -888,10 +888,10 @@
       "lat": 49.233832050000004,
       "lon": 9.191964978750974,
       "distance_km": 23.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wilhelmstraße 6, 74177 Bad Friedrichshall",
+      "city": "Bad Friedrichshall",
+      "phone": "07136 5652",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028339/weinstube-politschek"
     },
     {
@@ -900,10 +900,10 @@
       "lat": 49.252831799999996,
       "lon": 9.197342441965985,
       "distance_km": 23.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Würzburgerstraße 21, 74177 Bad Friedrichshall",
+      "city": "Bad Friedrichshall",
+      "phone": "07136 4636",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029715/besen-wrner"
     },
     {
@@ -912,10 +912,10 @@
       "lat": 49.087390049999996,
       "lon": 9.204436058156912,
       "distance_km": 24.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hörnlesbrunnen 3, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 964997",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028269/zum-lobmller"
     },
     {
@@ -924,10 +924,10 @@
       "lat": 49.0007,
       "lon": 9.2973,
       "distance_km": 24.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Oberstenfelder Str. 90, 71723 Großbottwar",
+      "city": "Großbottwar",
+      "phone": "07148 1326",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029450/fischerstble-lorenz"
     },
     {
@@ -936,10 +936,10 @@
       "lat": 49.077595,
       "lon": 9.1959803,
       "distance_km": 25.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rohräcker 4, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 6921",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030186/weinstube-bayer"
     },
     {
@@ -948,10 +948,10 @@
       "lat": 49.2788594,
       "lon": 9.1931802,
       "distance_km": 25.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hauptstraße 8, 74831 Gundelsheim",
+      "city": "Gundelsheim",
+      "phone": "06269 90254",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028342/kuhberg-schnke"
     },
     {
@@ -960,10 +960,10 @@
       "lat": 49.2793371,
       "lon": 9.1937649,
       "distance_km": 25.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hintere Dorfstraße 9, 74831 Gundelsheim",
+      "city": "Gundelsheim",
+      "phone": "06269 599",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031376/gasthaus-zum-kreuz"
     },
     {
@@ -972,10 +972,10 @@
       "lat": 49.1147776,
       "lon": 9.1671229257187,
       "distance_km": 25.6,
-      "address": "",
-      "city": "",
+      "address": "Kelterweg 15, 74081 Heilbronn",
+      "city": "Heilbronn",
       "phone": "",
-      "website": "",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028323/weinausschank-jg-kurz"
     },
     {
@@ -984,10 +984,10 @@
       "lat": 49.1378569,
       "lon": 9.157618814988039,
       "distance_km": 25.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hexentanz 1, 74080 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 42805",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028174/wahls-kuhstall"
     },
     {
@@ -996,10 +996,10 @@
       "lat": 49.1333716,
       "lon": 9.1573453,
       "distance_km": 25.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Bruhweg 24, 74080 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 481163",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028317/weinausschank-andreas-schnepf"
     },
     {
@@ -1008,10 +1008,10 @@
       "lat": 49.24880055,
       "lon": 9.165015135684174,
       "distance_km": 26.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Jahnstraße 5, 74254 Offenau",
+      "city": "Offenau",
+      "phone": "07136 6426",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100043601/besenwirtschaft-am-bahndamm"
     },
     {
@@ -1020,10 +1020,10 @@
       "lat": 49.11972625,
       "lon": 9.153729343478167,
       "distance_km": 26.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Leingartener Straße 4, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 30139",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
     },
     {
@@ -1032,10 +1032,10 @@
       "lat": 49.048023799999996,
       "lon": 9.191568895380184,
       "distance_km": 26.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Heilbronner Straße 20, 74382 Neckarwestheim",
+      "city": "Neckarwestheim",
+      "phone": "07133 6552",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029455/besenwirtschaft-stapf"
     },
     {
@@ -1044,10 +1044,10 @@
       "lat": 49.28400945,
       "lon": 9.161317548877935,
       "distance_km": 27.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Oststraße 5, 74831 Gundelsheim",
+      "city": "Gundelsheim",
+      "phone": "06269  8015",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028291/weinbau-pavillon"
     },
     {
@@ -1056,10 +1056,10 @@
       "lat": 49.286434650000004,
       "lon": 9.1609392625,
       "distance_km": 27.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Tiefenbacher Straße 26, 74831 Gundelsheim",
+      "city": "Gundelsheim",
+      "phone": "06269 692",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028316/weinausschank-zur-alten-kelter"
     },
     {
@@ -1068,10 +1068,10 @@
       "lat": 49.0812427,
       "lon": 9.1511652,
       "distance_km": 27.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Geigersberg 6, 74348 Lauffen am Neckar",
+      "city": "Lauffen am Neckar",
+      "phone": "07133 12700",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028371/weinstube-zum-lauffener-katzenbeier"
     },
     {
@@ -1080,10 +1080,10 @@
       "lat": 49.1064035,
       "lon": 9.13014275952743,
       "distance_km": 28.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Imenstraße 12, 74226 Nordheim",
+      "city": "Nordheim",
+      "phone": "07133 4573",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030049/besenwirtschaft-baumann"
     },
     {
@@ -1092,10 +1092,10 @@
       "lat": 49.02817965,
       "lon": 9.181519530947444,
       "distance_km": 28.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Liebensteiner Weg 2, 74376 Gemmrigheim",
+      "city": "Gemmrigheim",
+      "phone": "07143 91215",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029432/burks-schlemmerbesen"
     },
     {
@@ -1104,10 +1104,10 @@
       "lat": 49.14837165,
       "lon": 9.095529045258209,
       "distance_km": 30.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Reichertsgraben 2, 74211 Leingarten",
+      "city": "Leingarten",
+      "phone": "07131 401580",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029448/weinstube-unser"
     },
     {
@@ -1116,10 +1116,10 @@
       "lat": 49.029042849999996,
       "lon": 9.15467975,
       "distance_km": 30.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Kirchheimer Straße 14, 74376 Gemmrigheim",
+      "city": "Gemmrigheim",
+      "phone": "07143 93394",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022875/zum-weingrtner"
     },
     {
@@ -1128,10 +1128,10 @@
       "lat": 49.1403195,
       "lon": 9.0915854,
       "distance_km": 30.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Riedhöfe 2, 74211 Leingarten",
+      "city": "Leingarten",
+      "phone": "07131 402540",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028324/weinausschank-zum-weinreuter"
     },
     {
@@ -1140,10 +1140,10 @@
       "lat": 49.0945544,
       "lon": 9.0688357,
       "distance_km": 33.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Rohracker 3, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 12774",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028383/grtzingers-bauernschnke"
     },
     {
@@ -1152,10 +1152,10 @@
       "lat": 49.0571665,
       "lon": 9.088158511547107,
       "distance_km": 33.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rosenhöhe 64, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 98330",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029429/weingut-kern-schaufler"
     },
     {
@@ -1164,10 +1164,10 @@
       "lat": 49.1358659,
       "lon": 9.0485618,
       "distance_km": 33.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Waldweghöfe 7, 74193 Schwaigern",
+      "city": "Schwaigern",
+      "phone": "07138 8694",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028533/mllers-wengertstble"
     },
     {
@@ -1176,10 +1176,10 @@
       "lat": 48.9092869,
       "lon": 9.28272185,
       "distance_km": 33.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Grasiger Weg 2, 71642 Ludwigsburg",
+      "city": "Ludwigsburg",
+      "phone": "07144 4259",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100041621/weingut-kleinle"
     },
     {
@@ -1188,10 +1188,10 @@
       "lat": 49.079934,
       "lon": 9.0626231,
       "distance_km": 34.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Stockheimer Straße 13, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 13023",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028297/uffm-scheuraboda"
     },
     {
@@ -1200,10 +1200,10 @@
       "lat": 49.10796925,
       "lon": 9.048391694265312,
       "distance_km": 34.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gänsberg 20, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 4804",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029670/besenwirtschaft-zum-raedle"
     },
     {
@@ -1212,10 +1212,10 @@
       "lat": 48.9874436,
       "lon": 9.1316685,
       "distance_km": 34.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Schwalbenhälde 49, 74354 Besigheim",
+      "city": "Besigheim",
+      "phone": "07143 60777",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029454/besenwirtschaft-schwalbennest"
     },
     {
@@ -1224,10 +1224,10 @@
       "lat": 49.0641105,
       "lon": 9.0638891,
       "distance_km": 34.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Schleifweg 94, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 12656",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028370/besenwirtschaft-spundloch"
     }
   ],
@@ -1238,10 +1238,10 @@
       "start": "2022-10-20",
       "end": "2022-10-23",
       "distance_km": 33.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Waldweghöfe 7, 74193 Schwaigern",
+      "city": "Schwaigern",
+      "phone": "07138 8694",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028533/mllers-wengertstble"
     },
     {
@@ -1250,10 +1250,10 @@
       "start": "2022-12-03",
       "end": "2022-12-04",
       "distance_km": 33.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Waldweghöfe 7, 74193 Schwaigern",
+      "city": "Schwaigern",
+      "phone": "07138 8694",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028533/mllers-wengertstble"
     },
     {
@@ -1262,10 +1262,10 @@
       "start": "2023-02-08",
       "end": "2023-02-14",
       "distance_km": 23.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Würzburgerstraße 21, 74177 Bad Friedrichshall",
+      "city": "Bad Friedrichshall",
+      "phone": "07136 4636",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029715/besen-wrner"
     },
     {
@@ -1274,10 +1274,10 @@
       "start": "2023-03-01",
       "end": "2023-03-07",
       "distance_km": 23.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Würzburgerstraße 21, 74177 Bad Friedrichshall",
+      "city": "Bad Friedrichshall",
+      "phone": "07136 4636",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029715/besen-wrner"
     },
     {
@@ -1286,10 +1286,10 @@
       "start": "2023-07-16",
       "end": "2023-07-20",
       "distance_km": 25.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hintere Dorfstraße 9, 74831 Gundelsheim",
+      "city": "Gundelsheim",
+      "phone": "06269 599",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031376/gasthaus-zum-kreuz"
     },
     {
@@ -1298,10 +1298,10 @@
       "start": "2023-10-18",
       "end": "2023-10-23",
       "distance_km": 23.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Würzburgerstraße 21, 74177 Bad Friedrichshall",
+      "city": "Bad Friedrichshall",
+      "phone": "07136 4636",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029715/besen-wrner"
     },
     {
@@ -1310,10 +1310,10 @@
       "start": "2023-11-08",
       "end": "2023-11-12",
       "distance_km": 23.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Würzburgerstraße 21, 74177 Bad Friedrichshall",
+      "city": "Bad Friedrichshall",
+      "phone": "07136 4636",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029715/besen-wrner"
     },
     {
@@ -1322,10 +1322,10 @@
       "start": "2023-11-25",
       "end": "2023-11-25",
       "distance_km": 23.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Friedrich-Ackermann-Straße 11, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 575617",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028372/weinausschnke-familie-senghaas-kirschenlohr"
     },
     {
@@ -1334,10 +1334,10 @@
       "start": "2024-01-12",
       "end": "2024-01-14",
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rainlesstraße 14, 74078 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028172/weinstube-drautz"
     },
     {
@@ -1346,10 +1346,10 @@
       "start": "2024-02-16",
       "end": "2024-02-19",
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rainlesstraße 14, 74078 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028172/weinstube-drautz"
     },
     {
@@ -1358,10 +1358,10 @@
       "start": "2024-03-07",
       "end": "2024-03-11",
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rainlesstraße 14, 74078 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028172/weinstube-drautz"
     },
     {
@@ -1370,10 +1370,10 @@
       "start": "2024-04-05",
       "end": "2024-04-08",
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rainlesstraße 14, 74078 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028172/weinstube-drautz"
     },
     {
@@ -1382,10 +1382,10 @@
       "start": "2024-05-03",
       "end": "2024-05-06",
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rainlesstraße 14, 74078 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028172/weinstube-drautz"
     },
     {
@@ -1394,10 +1394,10 @@
       "start": "2024-06-07",
       "end": "2024-06-10",
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rainlesstraße 14, 74078 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028172/weinstube-drautz"
     },
     {
@@ -1406,10 +1406,10 @@
       "start": "2024-07-12",
       "end": "2024-07-15",
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rainlesstraße 14, 74078 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028172/weinstube-drautz"
     },
     {
@@ -1418,10 +1418,10 @@
       "start": "2024-08-02",
       "end": "2024-08-05",
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rainlesstraße 14, 74078 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028172/weinstube-drautz"
     },
     {
@@ -1430,10 +1430,10 @@
       "start": "2024-09-06",
       "end": "2024-09-09",
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rainlesstraße 14, 74078 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028172/weinstube-drautz"
     },
     {
@@ -1442,10 +1442,10 @@
       "start": "2024-10-11",
       "end": "2024-10-14",
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rainlesstraße 14, 74078 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028172/weinstube-drautz"
     },
     {
@@ -1454,10 +1454,10 @@
       "start": "2024-11-08",
       "end": "2024-11-11",
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rainlesstraße 14, 74078 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028172/weinstube-drautz"
     },
     {
@@ -1466,10 +1466,10 @@
       "start": "2024-11-29",
       "end": "2024-12-02",
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rainlesstraße 14, 74078 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028172/weinstube-drautz"
     },
     {
@@ -1478,10 +1478,10 @@
       "start": "2025-05-16",
       "end": "2025-05-18",
       "distance_km": 10.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Lampoldshausener Straße 11, 74239 Hardthausen am Kocher",
+      "city": "Hardthausen am Kocher",
+      "phone": "07139 7733",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031383/weinstube-prgel"
     },
     {
@@ -1490,10 +1490,10 @@
       "start": "2025-10-18",
       "end": "2025-10-19",
       "distance_km": 11.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Mainhardter Straße 43, 74245 Löwenstein",
+      "city": "Löwenstein",
+      "phone": "07130 450831",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028366/weinstube-hfele"
     },
     {
@@ -1502,10 +1502,10 @@
       "start": "2025-11-15",
       "end": "2025-11-16",
       "distance_km": 11.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Mainhardter Straße 43, 74245 Löwenstein",
+      "city": "Löwenstein",
+      "phone": "07130 450831",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028366/weinstube-hfele"
     },
     {
@@ -1514,10 +1514,10 @@
       "start": "2026-02-06",
       "end": "2026-02-07",
       "distance_km": 9.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Tannenhof, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07130 450128",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028502/gutsgasthof-gruber"
     },
     {
@@ -1526,10 +1526,10 @@
       "start": "2026-02-13",
       "end": "2026-02-21",
       "distance_km": 21.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gronauer Straße 8, 71720 Oberstenfeld",
+      "city": "Oberstenfeld",
+      "phone": "07062 9039409",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029436/besen-im-weingut-hanke"
     },
     {
@@ -1538,10 +1538,10 @@
       "start": "2026-02-18",
       "end": "2026-02-22",
       "distance_km": 26.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Heilbronner Straße 20, 74382 Neckarwestheim",
+      "city": "Neckarwestheim",
+      "phone": "07133 6552",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029455/besenwirtschaft-stapf"
     },
     {
@@ -1550,10 +1550,10 @@
       "start": "2026-02-26",
       "end": "2026-03-01",
       "distance_km": 26.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Jahnstraße 5, 74254 Offenau",
+      "city": "Offenau",
+      "phone": "07136 6426",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100043601/besenwirtschaft-am-bahndamm"
     },
     {
@@ -1562,10 +1562,10 @@
       "start": "2026-03-10",
       "end": "2026-03-15",
       "distance_km": 20.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Schlossgasse 10, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 17493",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028500/besenwirtschaft-bauer"
     },
     {
@@ -1574,10 +1574,10 @@
       "start": "2026-04-07",
       "end": "2026-04-12",
       "distance_km": 19.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gymnasiumstraße 64, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 18299",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028326/weinausschank-benz-am-wilfensee"
     },
     {
@@ -1586,10 +1586,10 @@
       "start": "2026-04-14",
       "end": "2026-05-25",
       "distance_km": 33.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Rohracker 3, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 12774",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028383/grtzingers-bauernschnke"
     },
     {
@@ -1598,10 +1598,10 @@
       "start": "2026-05-23",
       "end": "2026-05-25",
       "distance_km": 28.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Liebensteiner Weg 2, 74376 Gemmrigheim",
+      "city": "Gemmrigheim",
+      "phone": "07143 91215",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029432/burks-schlemmerbesen"
     },
     {
@@ -1610,10 +1610,10 @@
       "start": "2026-05-27",
       "end": "2026-06-18",
       "distance_km": 33.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Rohracker 3, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 12774",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028383/grtzingers-bauernschnke"
     },
     {
@@ -1622,10 +1622,10 @@
       "start": "2026-05-29",
       "end": "2026-05-31",
       "distance_km": 27.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Tiefenbacher Straße 26, 74831 Gundelsheim",
+      "city": "Gundelsheim",
+      "phone": "06269 692",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028316/weinausschank-zur-alten-kelter"
     },
     {
@@ -1634,10 +1634,10 @@
       "start": "2026-07-02",
       "end": "2026-07-05",
       "distance_km": 23.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Klee 1, 74360 Ilsfeld",
+      "city": "Ilsfeld",
+      "phone": "07062 978940",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029456/weinstube-klee-1"
     },
     {
@@ -1646,10 +1646,10 @@
       "start": "2026-07-07",
       "end": "2026-07-12",
       "distance_km": 19.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gymnasiumstraße 64, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 18299",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028326/weinausschank-benz-am-wilfensee"
     },
     {
@@ -1658,10 +1658,10 @@
       "start": "2026-07-08",
       "end": "2026-07-12",
       "distance_km": 25.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rohräcker 4, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 6921",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030186/weinstube-bayer"
     },
     {
@@ -1670,10 +1670,10 @@
       "start": "2026-07-15",
       "end": "2026-07-19",
       "distance_km": 25.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hauptstraße 8, 74831 Gundelsheim",
+      "city": "Gundelsheim",
+      "phone": "06269 90254",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028342/kuhberg-schnke"
     },
     {
@@ -1682,10 +1682,10 @@
       "start": "2026-07-16",
       "end": "2026-07-20",
       "distance_km": 19.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Riedstr. 29, 74076 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131-175948",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100036308/weingut-ga-heinrich-wein-dine"
     },
     {
@@ -1694,10 +1694,10 @@
       "start": "2026-07-18",
       "end": "2026-07-19",
       "distance_km": 30.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Reichertsgraben 2, 74211 Leingarten",
+      "city": "Leingarten",
+      "phone": "07131 401580",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029448/weinstube-unser"
     },
     {
@@ -1706,10 +1706,10 @@
       "start": "2026-07-31",
       "end": "2026-08-02",
       "distance_km": 3.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Obersteinbacher Straße 23, 74613 Öhringen",
+      "city": "Öhringen",
+      "phone": "07941 958350",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028369/baldeles-weinstube"
     },
     {
@@ -1718,10 +1718,10 @@
       "start": "2026-07-31",
       "end": "2026-08-02",
       "distance_km": 14.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Kurze Straße 10, 74248 Ellhofen",
+      "city": "Ellhofen",
+      "phone": "07134 21974",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028539/weingut-besenwirtschaft-burkhardt"
     },
     {
@@ -1730,10 +1730,10 @@
       "start": "2026-08-01",
       "end": "2026-10-03",
       "distance_km": 16.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Keltergasse 3, 74259 Widdern",
+      "city": "Widdern",
+      "phone": "0176 96668664",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028264/aries-besenwirtschaft"
     },
     {
@@ -1742,10 +1742,10 @@
       "start": "2026-08-02",
       "end": "2026-08-05",
       "distance_km": 17.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weißenhofstraße 4, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07131 2901",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028268/weinausschank-zum-engel"
     },
     {
@@ -1754,10 +1754,10 @@
       "start": "2026-08-12",
       "end": "2026-08-16",
       "distance_km": 25.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rohräcker 4, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 6921",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030186/weinstube-bayer"
     },
     {
@@ -1766,10 +1766,10 @@
       "start": "2026-08-18",
       "end": "2026-10-11",
       "distance_km": 33.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Rosenhöhe 64, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 98330",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029429/weingut-kern-schaufler"
     },
     {
@@ -1778,10 +1778,10 @@
       "start": "2026-08-27",
       "end": "2026-08-30",
       "distance_km": 18.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Vohenlohe 10, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 61412",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028534/besenwirtschaft-fll"
     },
     {
@@ -1790,10 +1790,10 @@
       "start": "2026-08-29",
       "end": "2026-08-31",
       "distance_km": 14.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hüttberg (Zufahrt über Raiffeisenstraße), 74248 Ellhofen",
+      "city": "Ellhofen",
+      "phone": "015254151393",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030808/moststraussen-hofmann"
     },
     {
@@ -1802,10 +1802,10 @@
       "start": "2026-09-01",
       "end": "2026-09-06",
       "distance_km": 4.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Harsberger Straße 15, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07949 940690",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028363/weinstube-ungerer"
     },
     {
@@ -1814,10 +1814,10 @@
       "start": "2026-09-01",
       "end": "2026-09-06",
       "distance_km": 11.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Heerweg 21, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07134 3374",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028319/gutsausschank-laicher"
     },
     {
@@ -1826,10 +1826,10 @@
       "start": "2026-09-03",
       "end": "2026-09-06",
       "distance_km": 16.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Maad 10, 71717 Beilstein",
+      "city": "Beilstein",
+      "phone": "07062 22159",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029442/weinstube-zum-kachelofen"
     },
     {
@@ -1838,10 +1838,10 @@
       "start": "2026-09-07",
       "end": "2026-09-21",
       "distance_km": 19.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gymnasiumstraße 68, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 2682",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
@@ -1850,10 +1850,10 @@
       "start": "2026-09-10",
       "end": "2026-09-13",
       "distance_km": 2.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weißlensberg 1, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07946 944496",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030364/almhtte-weilensberg"
     },
     {
@@ -1862,10 +1862,10 @@
       "start": "2026-09-11",
       "end": "2026-10-25",
       "distance_km": 27.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Oststraße 5, 74831 Gundelsheim",
+      "city": "Gundelsheim",
+      "phone": "06269  8015",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028291/weinbau-pavillon"
     },
     {
@@ -1874,10 +1874,10 @@
       "start": "2026-09-16",
       "end": "2026-10-04",
       "distance_km": 33.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Grasiger Weg 2, 71642 Ludwigsburg",
+      "city": "Ludwigsburg",
+      "phone": "07144 4259",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100041621/weingut-kleinle"
     },
     {
@@ -1886,10 +1886,10 @@
       "start": "2026-09-17",
       "end": "2026-11-01",
       "distance_km": 1.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Adolzfurter Straße 33, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 602364",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022876/winzerstube-lsch"
     },
     {
@@ -1898,10 +1898,10 @@
       "start": "2026-09-22",
       "end": "2026-09-27",
       "distance_km": 3.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Geddelsbacher Hälden 22, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 7272",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029270/hldener-besen"
     },
     {
@@ -1910,10 +1910,10 @@
       "start": "2026-09-26",
       "end": "2026-09-29",
       "distance_km": 34.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Schleifweg 94, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 12656",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028370/besenwirtschaft-spundloch"
     },
     {
@@ -1922,10 +1922,10 @@
       "start": "2026-09-27",
       "end": "2026-10-05",
       "distance_km": 19.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gymnasiumstraße 68, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 2682",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
@@ -1934,10 +1934,10 @@
       "start": "2026-09-27",
       "end": "2026-09-30",
       "distance_km": 21.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Winzerhausener Weg 22, 71717 Beilstein",
+      "city": "Beilstein",
+      "phone": "+49 7062 / 3725",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
     },
     {
@@ -1946,10 +1946,10 @@
       "start": "2026-09-29",
       "end": "2026-10-02",
       "distance_km": 21.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Eselsweg 17, 71720 Oberstenfeld",
+      "city": "Oberstenfeld",
+      "phone": "07062 3409",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029427/weinstube-am-petersberg"
     },
     {
@@ -1958,10 +1958,10 @@
       "start": "2026-10-01",
       "end": "2026-10-04",
       "distance_km": 4.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Unterheimbacher Straße 28, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "+49 7946 484",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028313/besenwirtschaft-birkert"
     },
     {
@@ -1970,10 +1970,10 @@
       "start": "2026-10-01",
       "end": "2026-10-04",
       "distance_km": 9.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Greuthof 1, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2465",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028288/weinstube-busch"
     },
     {
@@ -1982,10 +1982,10 @@
       "start": "2026-10-01",
       "end": "2026-10-04",
       "distance_km": 13.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Öhringer Straße 32, 74670 Forchtenberg",
+      "city": "Forchtenberg",
+      "phone": "07947 9433601",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028498/frschers-kelterstble"
     },
     {
@@ -1994,10 +1994,10 @@
       "start": "2026-10-01",
       "end": "2026-10-18",
       "distance_km": 14.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Öläcker 1, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07139 452360",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028382/khners-wild-und-spargelbesen"
     },
     {
@@ -2006,10 +2006,10 @@
       "start": "2026-10-01",
       "end": "2026-10-08",
       "distance_km": 24.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hörnlesbrunnen 3, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 964997",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028269/zum-lobmller"
     },
     {
@@ -2018,10 +2018,10 @@
       "start": "2026-10-01",
       "end": "2026-10-04",
       "distance_km": 25.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hexentanz 1, 74080 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 42805",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028174/wahls-kuhstall"
     },
     {
@@ -2030,10 +2030,10 @@
       "start": "2026-10-02",
       "end": "2026-10-04",
       "distance_km": 3.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Obersteinbacher Straße 23, 74613 Öhringen",
+      "city": "Öhringen",
+      "phone": "07941 958350",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028369/baldeles-weinstube"
     },
     {
@@ -2042,10 +2042,10 @@
       "start": "2026-10-02",
       "end": "2026-10-04",
       "distance_km": 30.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Riedhöfe 2, 74211 Leingarten",
+      "city": "Leingarten",
+      "phone": "07131 402540",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028324/weinausschank-zum-weinreuter"
     },
     {
@@ -2054,10 +2054,10 @@
       "start": "2026-10-06",
       "end": "2026-10-18",
       "distance_km": 18.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Petersrain 1, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 951600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022864/weinausschank-schnbrunn"
     },
     {
@@ -2066,10 +2066,10 @@
       "start": "2026-10-06",
       "end": "2026-10-11",
       "distance_km": 21.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
     },
     {
@@ -2078,10 +2078,10 @@
       "start": "2026-10-07",
       "end": "2026-10-11",
       "distance_km": 8.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wassergasse 2, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 1418",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028309/weingut-und-weinstube-schwab"
     },
     {
@@ -2090,10 +2090,10 @@
       "start": "2026-10-07",
       "end": "2026-10-10",
       "distance_km": 17.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Friedenstraße 27/1, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 2448",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028287/winzerstube-lhe"
     },
     {
@@ -2102,10 +2102,10 @@
       "start": "2026-10-07",
       "end": "2026-10-23",
       "distance_km": 18.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Hohbuch 6, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 63206",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028217/blockhaus-seeger"
     },
     {
@@ -2114,10 +2114,10 @@
       "start": "2026-10-07",
       "end": "2026-10-18",
       "distance_km": 20.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "In den Stahlbühlwiesen 30, 74074 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029494/weinstube-stutz"
     },
     {
@@ -2126,10 +2126,10 @@
       "start": "2026-10-07",
       "end": "2026-10-09",
       "distance_km": 23.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Spitzwegstraße 15/1-17, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 570374",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028283/besenwirtschaft-alexander-bauer"
     },
     {
@@ -2138,10 +2138,10 @@
       "start": "2026-10-08",
       "end": "2026-10-11",
       "distance_km": 4.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Unterheimbacherstraße 35, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2139",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028233/weinstube-borth"
     },
     {
@@ -2150,10 +2150,10 @@
       "start": "2026-10-08",
       "end": "2026-10-11",
       "distance_km": 11.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Grantschener Weg 12, 74246 Eberstadt",
+      "city": "Eberstadt",
+      "phone": "07134 4727",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028311/zum-hoelzernen-besen"
     },
     {
@@ -2162,10 +2162,10 @@
       "start": "2026-10-08",
       "end": "2026-10-11",
       "distance_km": 22.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Erlachstraße 55, 74223 Flein",
+      "city": "Flein",
+      "phone": "07131 9732722",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028540/weinstube-gtz"
     },
     {
@@ -2174,10 +2174,10 @@
       "start": "2026-10-08",
       "end": "2026-10-10",
       "distance_km": 34.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Stockheimer Straße 13, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 13023",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028297/uffm-scheuraboda"
     },
     {
@@ -2186,10 +2186,10 @@
       "start": "2026-10-09",
       "end": "2026-10-10",
       "distance_km": 1.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Adolzfurter Straße 41, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 33456",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030043/zur-sonne-familie-ziner"
     },
     {
@@ -2198,10 +2198,10 @@
       "start": "2026-10-09",
       "end": "2026-10-11",
       "distance_km": 1.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Adolzfurter Str. 69, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 8506",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030845/becks-weinschenke"
     },
     {
@@ -2210,10 +2210,10 @@
       "start": "2026-10-09",
       "end": "2026-10-11",
       "distance_km": 11.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Lichtensterner Straße 16, 74245 Löwenstein",
+      "city": "Löwenstein",
+      "phone": "07130 8885",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028248/weinausschank-seeblick"
     },
     {
@@ -2222,10 +2222,10 @@
       "start": "2026-10-09",
       "end": "2026-10-12",
       "distance_km": 12.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Kümmelstraße 2, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07134 17469",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028541/frieders-weinstube"
     },
     {
@@ -2234,10 +2234,10 @@
       "start": "2026-10-09",
       "end": "2026-11-29",
       "distance_km": 16.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Keltergasse 3, 74259 Widdern",
+      "city": "Widdern",
+      "phone": "0176 96668664",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028264/aries-besenwirtschaft"
     },
     {
@@ -2246,10 +2246,10 @@
       "start": "2026-10-09",
       "end": "2026-10-14",
       "distance_km": 23.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Heuchelbergstraße 22, 74080 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 33992",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028281/bckinger-besen"
     },
     {
@@ -2258,10 +2258,10 @@
       "start": "2026-10-10",
       "end": "2026-10-11",
       "distance_km": 8.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wengertstraße 8, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2287",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029493/weingut-weibler"
     },
     {
@@ -2270,10 +2270,10 @@
       "start": "2026-10-10",
       "end": "2026-10-11",
       "distance_km": 13.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weinstraße 23, 74246 Eberstadt",
+      "city": "Eberstadt",
+      "phone": "07134 4480",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028368/besen-im-weingut-wolf"
     },
     {
@@ -2282,10 +2282,10 @@
       "start": "2026-10-12",
       "end": "2026-10-15",
       "distance_km": 21.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Winzerhausener Weg 22, 71717 Beilstein",
+      "city": "Beilstein",
+      "phone": "+49 7062 / 3725",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
     },
     {
@@ -2294,10 +2294,10 @@
       "start": "2026-10-13",
       "end": "2026-10-18",
       "distance_km": 4.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weinsteige 6, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2185",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028284/weinstube-lederer"
     },
     {
@@ -2306,10 +2306,10 @@
       "start": "2026-10-13",
       "end": "2026-10-18",
       "distance_km": 18.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wilfenseeweg 78/1, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "0713237869",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027491/besenwirtschaft-holzapfel"
     },
     {
@@ -2318,10 +2318,10 @@
       "start": "2026-10-14",
       "end": "2026-10-21",
       "distance_km": 16.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Schwabstraße 4, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "07134 6933",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028169/besenwirtschaft-seyffer"
     },
     {
@@ -2330,10 +2330,10 @@
       "start": "2026-10-14",
       "end": "2026-10-18",
       "distance_km": 16.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weidachstraße 48, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "01783664466",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
     },
     {
@@ -2342,10 +2342,10 @@
       "start": "2026-10-14",
       "end": "2026-10-19",
       "distance_km": 17.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Friedenstraße 26, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 6214",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029135/weinstube-goldener-besen"
     },
     {
@@ -2354,10 +2354,10 @@
       "start": "2026-10-14",
       "end": "2026-10-18",
       "distance_km": 20.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Ludwig-Pfau-Straße 7, 74072 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 86904",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028322/besenwirtschaft-able"
     },
     {
@@ -2366,10 +2366,10 @@
       "start": "2026-10-14",
       "end": "2026-10-17",
       "distance_km": 23.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Spitzwegstraße 15/1-17, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 570374",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028283/besenwirtschaft-alexander-bauer"
     },
     {
@@ -2378,10 +2378,10 @@
       "start": "2026-10-14",
       "end": "2026-10-18",
       "distance_km": 23.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wilhelmstraße 6, 74177 Bad Friedrichshall",
+      "city": "Bad Friedrichshall",
+      "phone": "07136 5652",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028339/weinstube-politschek"
     },
     {
@@ -2390,10 +2390,10 @@
       "start": "2026-10-14",
       "end": "2026-10-18",
       "distance_km": 25.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Bruhweg 24, 74080 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 481163",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028317/weinausschank-andreas-schnepf"
     },
     {
@@ -2402,10 +2402,10 @@
       "start": "2026-10-14",
       "end": "2026-10-18",
       "distance_km": 30.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Kirchheimer Straße 14, 74376 Gemmrigheim",
+      "city": "Gemmrigheim",
+      "phone": "07143 93394",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022875/zum-weingrtner"
     },
     {
@@ -2414,10 +2414,10 @@
       "start": "2026-10-15",
       "end": "2026-10-18",
       "distance_km": 8.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wengertstraße 16, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 1530",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028327/weinausschank-banzhaf"
     },
     {
@@ -2426,10 +2426,10 @@
       "start": "2026-10-15",
       "end": "2026-10-18",
       "distance_km": 13.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hallerstraße 1-3, 74248 Ellhofen",
+      "city": "Ellhofen",
+      "phone": "+49 7134 21136",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028314/arnolds-gutes-kupferkrgle"
     },
     {
@@ -2438,10 +2438,10 @@
       "start": "2026-10-15",
       "end": "2026-10-18",
       "distance_km": 17.4,
-      "address": "",
-      "city": "",
+      "address": "Hofäcker 1, 74229 Oedheim",
+      "city": "Oedheim",
       "phone": "",
-      "website": "",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030044/weinstube-volz"
     },
     {
@@ -2450,10 +2450,10 @@
       "start": "2026-10-15",
       "end": "2026-10-24",
       "distance_km": 19.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Riedstraße 23, 74076 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 982240",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028246/besenwirtschaft-rolf-heinrich"
     },
     {
@@ -2462,10 +2462,10 @@
       "start": "2026-10-15",
       "end": "2026-10-18",
       "distance_km": 21.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Staufenberger Weg 4, 74074 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 570695",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028384/weingut-springer"
     },
     {
@@ -2474,10 +2474,10 @@
       "start": "2026-10-15",
       "end": "2026-10-18",
       "distance_km": 22.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Linsenbuckel 1, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 8978503",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028497/besenwirtschaft-gall-niklas"
     },
     {
@@ -2486,10 +2486,10 @@
       "start": "2026-10-15",
       "end": "2026-10-18",
       "distance_km": 23.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Raidweg 12, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 255261",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028286/weinausschank-khner"
     },
     {
@@ -2498,10 +2498,10 @@
       "start": "2026-10-15",
       "end": "2026-10-18",
       "distance_km": 34.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Stockheimer Straße 13, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 13023",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028297/uffm-scheuraboda"
     },
     {
@@ -2510,10 +2510,10 @@
       "start": "2026-10-15",
       "end": "2026-10-18",
       "distance_km": 34.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gänsberg 20, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 4804",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029670/besenwirtschaft-zum-raedle"
     },
     {
@@ -2522,10 +2522,10 @@
       "start": "2026-10-16",
       "end": "2026-10-18",
       "distance_km": 1.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Pfedelbacher Straße 15, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 36073",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028341/die-schnapsdrossel"
     },
     {
@@ -2534,10 +2534,10 @@
       "start": "2026-10-16",
       "end": "2026-10-18",
       "distance_km": 1.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Ruländerweg 3, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 33894",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028173/schluchters-weinstube"
     },
     {
@@ -2546,10 +2546,10 @@
       "start": "2026-10-16",
       "end": "2026-10-18",
       "distance_km": 10.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Siebeneicherweg 3, 74243 Langenbrettach",
+      "city": "Langenbrettach",
+      "phone": "07139 7471",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028325/weinstube-reinhard"
     },
     {
@@ -2558,10 +2558,10 @@
       "start": "2026-10-16",
       "end": "2026-10-18",
       "distance_km": 11.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hofäcker 3, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "07134 3340",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028290/wengertstube-krner"
     },
     {
@@ -2570,10 +2570,10 @@
       "start": "2026-10-16",
       "end": "2026-10-18",
       "distance_km": 13.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Willsbacher Straße 9, 74251 Lehrensteinsfeld",
+      "city": "Lehrensteinsfeld",
+      "phone": "07134 10193",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028279/weinstube-stein"
     },
     {
@@ -2582,10 +2582,10 @@
       "start": "2026-10-16",
       "end": "2026-10-16",
       "distance_km": 14.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Ellhofener Str. 5, 74251 Lehrensteinsfeld",
+      "city": "Lehrensteinsfeld",
+      "phone": "07134 3810",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028306/dieterichs-weinstble"
     },
     {
@@ -2594,10 +2594,10 @@
       "start": "2026-10-16",
       "end": "2026-10-18",
       "distance_km": 14.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Langenburgerstraße 11, 74635 Kupferzell",
+      "city": "Kupferzell",
+      "phone": "0178 2837916",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028320/kupferzeller-besen"
     },
     {
@@ -2606,10 +2606,10 @@
       "start": "2026-10-16",
       "end": "2026-11-08",
       "distance_km": 19.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gymnasiumstraße 68, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 2682",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
@@ -2618,10 +2618,10 @@
       "start": "2026-10-16",
       "end": "2026-10-18",
       "distance_km": 26.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Leingartener Straße 4, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 30139",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
     },
     {
@@ -2630,10 +2630,10 @@
       "start": "2026-10-18",
       "end": "2026-10-19",
       "distance_km": 14.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Ellhofener Str. 5, 74251 Lehrensteinsfeld",
+      "city": "Lehrensteinsfeld",
+      "phone": "07134 3810",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028306/dieterichs-weinstble"
     },
     {
@@ -2642,10 +2642,10 @@
       "start": "2026-10-18",
       "end": "2026-10-21",
       "distance_km": 21.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Winzerhausener Weg 22, 71717 Beilstein",
+      "city": "Beilstein",
+      "phone": "+49 7062 / 3725",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
     },
     {
@@ -2654,10 +2654,10 @@
       "start": "2026-10-20",
       "end": "2026-10-25",
       "distance_km": 18.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Reutweg 4, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 37117",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028496/weingut-berthold"
     },
     {
@@ -2666,10 +2666,10 @@
       "start": "2026-10-21",
       "end": "2026-10-22",
       "distance_km": 14.1,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Ellhofener Str. 5, 74251 Lehrensteinsfeld",
+      "city": "Lehrensteinsfeld",
+      "phone": "07134 3810",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028306/dieterichs-weinstble"
     },
     {
@@ -2678,10 +2678,10 @@
       "start": "2026-10-21",
       "end": "2026-10-28",
       "distance_km": 19.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Heinrieter Straße 12, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 96548",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028280/weinstube-hrle"
     },
     {
@@ -2690,10 +2690,10 @@
       "start": "2026-10-21",
       "end": "2026-10-24",
       "distance_km": 23.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Spitzwegstraße 15/1-17, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 570374",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028283/besenwirtschaft-alexander-bauer"
     },
     {
@@ -2702,10 +2702,10 @@
       "start": "2026-10-22",
       "end": "2026-10-25",
       "distance_km": 4.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Unterheimbacherstraße 35, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2139",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028233/weinstube-borth"
     },
     {
@@ -2714,10 +2714,10 @@
       "start": "2026-10-22",
       "end": "2026-10-26",
       "distance_km": 7.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hauptstraße 20, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2788",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028289/weinstube-weihbrecht"
     },
     {
@@ -2726,10 +2726,10 @@
       "start": "2026-10-22",
       "end": "2026-10-25",
       "distance_km": 13.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Öhringer Straße 32, 74670 Forchtenberg",
+      "city": "Forchtenberg",
+      "phone": "07947 9433601",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028498/frschers-kelterstble"
     },
     {
@@ -2738,10 +2738,10 @@
       "start": "2026-10-22",
       "end": "2026-11-01",
       "distance_km": 14.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Lennacher Straße 7, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "07134 14389",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028875/leissium"
     },
     {
@@ -2750,10 +2750,10 @@
       "start": "2026-10-22",
       "end": "2026-10-25",
       "distance_km": 20.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Riedweg 3, 74177 Bad Friedrichshall",
+      "city": "Bad Friedrichshall",
+      "phone": "07136 965729",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028265/weinstube-friedauer"
     },
     {
@@ -2762,10 +2762,10 @@
       "start": "2026-10-22",
       "end": "2026-10-25",
       "distance_km": 20.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wollhausstraße 63/1, 74072 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 89325",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028362/weinausschank-fischer"
     },
     {
@@ -2774,10 +2774,10 @@
       "start": "2026-10-23",
       "end": "2026-10-25",
       "distance_km": 11.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hofäcker 3, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "07134 3340",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028290/wengertstube-krner"
     },
     {
@@ -2786,10 +2786,10 @@
       "start": "2026-10-23",
       "end": "2026-10-25",
       "distance_km": 12.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Kümmelstraße 2, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07134 17469",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028541/frieders-weinstube"
     },
     {
@@ -2798,10 +2798,10 @@
       "start": "2026-10-23",
       "end": "2026-10-25",
       "distance_km": 21.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
     },
     {
@@ -2810,10 +2810,10 @@
       "start": "2026-10-23",
       "end": "2026-10-25",
       "distance_km": 24.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Oberstenfelder Str. 90, 71723 Großbottwar",
+      "city": "Großbottwar",
+      "phone": "07148 1326",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029450/fischerstble-lorenz"
     },
     {
@@ -2822,10 +2822,10 @@
       "start": "2026-10-28",
       "end": "2026-11-01",
       "distance_km": 8.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wassergasse 2, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 1418",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028309/weingut-und-weinstube-schwab"
     },
     {
@@ -2834,10 +2834,10 @@
       "start": "2026-10-28",
       "end": "2026-11-01",
       "distance_km": 16.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weidachstraße 48, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "01783664466",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
     },
     {
@@ -2846,10 +2846,10 @@
       "start": "2026-10-28",
       "end": "2026-11-01",
       "distance_km": 30.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Kirchheimer Straße 14, 74376 Gemmrigheim",
+      "city": "Gemmrigheim",
+      "phone": "07143 93394",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022875/zum-weingrtner"
     },
     {
@@ -2858,10 +2858,10 @@
       "start": "2026-10-29",
       "end": "2026-11-01",
       "distance_km": 9.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Greuthof 1, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2465",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028288/weinstube-busch"
     },
     {
@@ -2870,10 +2870,10 @@
       "start": "2026-10-29",
       "end": "2026-11-04",
       "distance_km": 17.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Friedenstraße 53, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 342200",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100032586/der-rutenbieger"
     },
     {
@@ -2882,10 +2882,10 @@
       "start": "2026-10-29",
       "end": "2026-11-01",
       "distance_km": 23.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Raidweg 12, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 255261",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028286/weinausschank-khner"
     },
     {
@@ -2894,10 +2894,10 @@
       "start": "2026-10-29",
       "end": "2026-11-05",
       "distance_km": 24.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hörnlesbrunnen 3, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 964997",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028269/zum-lobmller"
     },
     {
@@ -2906,10 +2906,10 @@
       "start": "2026-10-29",
       "end": "2026-11-01",
       "distance_km": 25.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hexentanz 1, 74080 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 42805",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028174/wahls-kuhstall"
     },
     {
@@ -2918,10 +2918,10 @@
       "start": "2026-11-01",
       "end": "2026-11-05",
       "distance_km": 21.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Winzerhausener Weg 22, 71717 Beilstein",
+      "city": "Beilstein",
+      "phone": "+49 7062 / 3725",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
     },
     {
@@ -2930,10 +2930,10 @@
       "start": "2026-11-03",
       "end": "2026-11-08",
       "distance_km": 21.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
     },
     {
@@ -2942,10 +2942,10 @@
       "start": "2026-11-04",
       "end": "2026-11-07",
       "distance_km": 17.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Friedenstraße 27/1, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 2448",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028287/winzerstube-lhe"
     },
     {
@@ -2954,10 +2954,10 @@
       "start": "2026-11-04",
       "end": "2026-11-22",
       "distance_km": 18.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Hohbuch 6, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 63206",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028217/blockhaus-seeger"
     },
     {
@@ -2966,10 +2966,10 @@
       "start": "2026-11-04",
       "end": "2026-11-08",
       "distance_km": 28.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Imenstraße 12, 74226 Nordheim",
+      "city": "Nordheim",
+      "phone": "07133 4573",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030049/besenwirtschaft-baumann"
     },
     {
@@ -2978,10 +2978,10 @@
       "start": "2026-11-05",
       "end": "2026-11-08",
       "distance_km": 4.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Unterheimbacherstraße 35, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2139",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028233/weinstube-borth"
     },
     {
@@ -2990,10 +2990,10 @@
       "start": "2026-11-05",
       "end": "2026-11-15",
       "distance_km": 18.3,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Petersrain 1, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 951600",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022864/weinausschank-schnbrunn"
     },
     {
@@ -3002,10 +3002,10 @@
       "start": "2026-11-06",
       "end": "2026-11-08",
       "distance_km": 1.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Ruländerweg 3, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 33894",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028173/schluchters-weinstube"
     },
     {
@@ -3014,10 +3014,10 @@
       "start": "2026-11-10",
       "end": "2026-11-15",
       "distance_km": 4.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weinsteige 6, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2185",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028284/weinstube-lederer"
     },
     {
@@ -3026,10 +3026,10 @@
       "start": "2026-11-10",
       "end": "2026-11-15",
       "distance_km": 11.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Heerweg 21, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07134 3374",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028319/gutsausschank-laicher"
     },
     {
@@ -3038,10 +3038,10 @@
       "start": "2026-11-10",
       "end": "2026-11-15",
       "distance_km": 19.8,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gymnasiumstraße 64, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 18299",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028326/weinausschank-benz-am-wilfensee"
     },
     {
@@ -3050,10 +3050,10 @@
       "start": "2026-11-10",
       "end": "2026-11-15",
       "distance_km": 28.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Imenstraße 12, 74226 Nordheim",
+      "city": "Nordheim",
+      "phone": "07133 4573",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030049/besenwirtschaft-baumann"
     },
     {
@@ -3062,10 +3062,10 @@
       "start": "2026-11-11",
       "end": "2026-11-15",
       "distance_km": 16.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weidachstraße 48, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "01783664466",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
     },
     {
@@ -3074,10 +3074,10 @@
       "start": "2026-11-12",
       "end": "2026-11-16",
       "distance_km": 7.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Hauptstraße 20, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2788",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028289/weinstube-weihbrecht"
     },
     {
@@ -3086,10 +3086,10 @@
       "start": "2026-11-13",
       "end": "2026-11-20",
       "distance_km": 19.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Heinrieter Straße 12, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 96548",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028280/weinstube-hrle"
     },
     {
@@ -3098,10 +3098,10 @@
       "start": "2026-11-13",
       "end": "2026-11-15",
       "distance_km": 24.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Oberstenfelder Str. 90, 71723 Großbottwar",
+      "city": "Großbottwar",
+      "phone": "07148 1326",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029450/fischerstble-lorenz"
     },
     {
@@ -3110,10 +3110,10 @@
       "start": "2026-11-17",
       "end": "2026-11-22",
       "distance_km": 18.9,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Wilfenseeweg 78/1, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "0713237869",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027491/besenwirtschaft-holzapfel"
     },
     {
@@ -3122,10 +3122,10 @@
       "start": "2026-11-18",
       "end": "2026-11-23",
       "distance_km": 17.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Friedenstraße 26, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 6214",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029135/weinstube-goldener-besen"
     },
     {
@@ -3134,10 +3134,10 @@
       "start": "2026-11-19",
       "end": "2026-11-22",
       "distance_km": 4.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Unterheimbacherstraße 35, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2139",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028233/weinstube-borth"
     },
     {
@@ -3146,10 +3146,10 @@
       "start": "2026-11-19",
       "end": "2026-11-30",
       "distance_km": 19.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gymnasiumstraße 68, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 2682",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
@@ -3158,10 +3158,10 @@
       "start": "2026-11-25",
       "end": "2026-11-29",
       "distance_km": 16.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weidachstraße 48, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "01783664466",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
     },
     {
@@ -3170,10 +3170,10 @@
       "start": "2026-12-01",
       "end": "2026-12-07",
       "distance_km": 17.4,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Friedenstraße 26, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 6214",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029135/weinstube-goldener-besen"
     },
     {
@@ -3182,10 +3182,10 @@
       "start": "2026-12-01",
       "end": "2026-12-06",
       "distance_km": 21.0,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
     },
     {
@@ -3194,10 +3194,10 @@
       "start": "2026-12-03",
       "end": "2026-12-06",
       "distance_km": 4.2,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Unterheimbacherstraße 35, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2139",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028233/weinstube-borth"
     },
     {
@@ -3206,10 +3206,10 @@
       "start": "2026-12-04",
       "end": "2026-12-09",
       "distance_km": 19.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Heinrieter Straße 12, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 96548",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028280/weinstube-hrle"
     },
     {
@@ -3218,10 +3218,10 @@
       "start": "2026-12-07",
       "end": "2026-12-20",
       "distance_km": 19.7,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Gymnasiumstraße 68, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 2682",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
@@ -3230,10 +3230,10 @@
       "start": "2026-12-16",
       "end": "2026-12-20",
       "distance_km": 16.5,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Weidachstraße 48, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "01783664466",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
     },
     {
@@ -3242,10 +3242,10 @@
       "start": "2026-12-26",
       "end": "2026-12-30",
       "distance_km": 17.6,
-      "address": "",
-      "city": "",
-      "phone": "",
-      "website": "",
+      "address": "Friedenstraße 53, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 342200",
+      "website": "https://meta.et4.de/config/managed/besenstimme/favicon-shortcut.png",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100032586/der-rutenbieger"
     }
   ]
