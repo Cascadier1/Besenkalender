@@ -1,0 +1,35 @@
+name: Tägliches Besen-Update
+
+on:
+  workflow_dispatch: # Erlaubt manuelles Starten per Klick
+  schedule:
+    - cron: '0 4 * * *' # Läuft jeden Tag automatisch morgens (04:00 UTC)
+
+permissions:
+  contents: write
+
+jobs:
+  update-events:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Run Scraper
+        run: python scraper.py
+
+      - name: Commit and Push updated events.json
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add events.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Tägliches Update der Besentermine" && git push)
