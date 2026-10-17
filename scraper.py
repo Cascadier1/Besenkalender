@@ -49,136 +49,62 @@ def parse_dt_obj(val, default_offset=60, is_end=False):
         m_de = re.search(r'(\d{2})\.(\d{2})\.(\d{4})', s)
         if m_de:
             return f"{m_de.group(3)}-{m_de.group(2)}-{m_de.group(1)}"
+        return ""
 
     try:
         ts = float(raw_ts)
-        if ts > 10000000000:
-            ts = ts / 1000.0
-        if 1577836800 <= ts <= 2051222400:
-            dt = datetime.fromtimestamp(ts, tz=timezone.utc) + timedelta(minutes=offset_min)
-            # Wenn ein Endzeitpunkt exakt auf 00:00 Uhr (Mitternacht des Folgetags) fällt,
-            # zählt der Besentag zum Vortag (z.B. geöffnet bis 24:00 Uhr)
-            if is_end and dt.hour == 0 and dt.minute == 0:
-                dt = dt - timedelta(minutes=1)
-            return dt.strftime("%Y-%m-%d")
+        if ts > 1e11:
+            ts /= 1000.0
+        dt_utc = datetime.fromtimestamp(ts, tz=timezone.utc)
+        dt_local = dt_utc + timedelta(minutes=offset_min)
+        if is_end and dt_local.hour < 5:
+            dt_local -= timedelta(days=1)
+        return dt_local.strftime("%Y-%m-%d")
     except Exception:
-        pass
-    return ""
+        return ""
 
-def extract_window_item(html_text):
-    decoder = json.JSONDecoder()
-    for m in re.finditer(r'window\.ITEM\s*=\s*\{', html_text):
-        brace_pos = html_text.find('{', m.start())
-        try:
-            obj, _ = decoder.raw_decode(html_text[brace_pos:])
-            if isinstance(obj, dict):
-                return obj
-        except Exception:
-            pass
-    return None
-
-def find_all_intervals(obj):
-    results = []
-    if isinstance(obj, dict):
-        if "timeIntervals" in obj and isinstance(obj["timeIntervals"], list):
-            results.extend(obj["timeIntervals"])
-        for v in obj.values():
-            results.extend(find_all_intervals(v))
-    elif isinstance(obj, list):
-        for elem in obj:
-            results.extend(find_all_intervals(elem))
-    return results
-
-def find_coords(obj, html_text):
-    if isinstance(obj, dict):
-        stack = [obj]
-        while stack:
-            curr = stack.pop()
-            if isinstance(curr, dict):
-                lat = curr.get("latitude") or curr.get("lat")
-                lon = curr.get("longitude") or curr.get("lon") or curr.get("lng")
-                if lat is not None and lon is not None:
-                    try:
-                        lat_f, lon_f = float(lat), float(lon)
-                        if 47.0 <= lat_f <= 51.0 and 7.0 <= lon_f <= 12.0:
-                            return lat_f, lon_f
-                    except Exception:
-                        pass
-                for v in curr.values():
-                    if isinstance(v, (dict, list)):
-                        stack.append(v)
-            elif isinstance(curr, list):
-                for v in curr:
-                    if isinstance(v, (dict, list)):
-                        stack.append(v)
-
-    m_lat = re.search(r'"latitude"\s*:\s*(4[89]\.\d+)', html_text)
-    m_lon = re.search(r'"longitude"\s*:\s*([89]\.\d+|10\.\d+)', html_text)
-    if m_lat and m_lon:
-        return float(m_lat.group(1)), float(m_lon.group(1))
-    return None
-
-def extract_contact_info(html_text):
-    """Extrahiert Straße, PLZ, Ort, Telefon und Webseite direkt aus dem Schema.org JSON-LD / HTML der Detailseite."""
+def extract_contact_info(html):
     street, zip_code, city, phone, website = "", "", "", "", ""
-    if not html_text:
-        return street, zip_code, city, phone, website
+    
+    # 1. Adresse aus PostalAddress JSON
+    m_addr = re.search(r'"@type"\s*:\s*"PostalAddress"(.*?)\}', html, re.DOTALL)
+    if m_addr:
+        block = m_addr.group(1)
+        m_s = re.search(r'"streetAddress"\s*:\s*"([^"]+)"', block)
+        m_z = re.search(r'"postalCode"\s*:\s*"([^"]+)"', block)
+        m_c = re.search(r'"addressLocality"\s*:\s*"([^"]+)"', block)
+        if m_s: street = m_s.group(1).encode('utf-8').decode('unicode_escape', 'ignore').strip()
+        if m_z: zip_code = m_z.group(1).strip()
+        if m_c: city = m_c.group(1).encode('utf-8').decode('unicode_escape', 'ignore').strip()
 
-    # 1. Aus eingebettetem Schema.org PostalAddress JSON-LD lesen:
-    # "address":{"@type":"PostalAddress","addressLocality":"Bretzfeld","postalCode":"74626","streetAddress":"Unterheimbacherstraße 35"...}
-    m_street = re.search(r'"streetAddress"\s*:\s*"([^"]+)"', html_text)
-    if m_street:
-        street = html_lib.unescape(m_street.group(1)).strip()
-
-    m_zip = re.search(r'"postalCode"\s*:\s*"([^"]+)"', html_text)
-    if m_zip:
-        zip_code = html_lib.unescape(m_zip.group(1)).strip()
-
-    m_city = re.search(r'"addressLocality"\s*:\s*"([^"]+)"', html_text)
-    if m_city:
-        city = html_lib.unescape(m_city.group(1)).strip()
-
-    # 2. Fallback über Deutsche-Bahn-Routing-Link oder JS-Variablen im Quelltext
-    if not (street and zip_code and city):
-        m_db = re.search(r'bahn\.de/buchung/start#zo=(\d{5})\s+([^\'"<>]+)', html_text)
-        if m_db:
-            if not zip_code:
-                zip_code = m_db.group(1).strip()
-            rest = html_lib.unescape(m_db.group(2)).strip()
-            if not city and not street:
-                parts = rest.split(" ", 1)
-                city = parts[0]
-                if len(parts) > 1:
-                    street = parts[1]
-
-    # 3. Telefonnummer (aus JSON-LD "telephone" oder tel:-Link)
-    m_tel = re.search(r'"telephone"\s*:\s*"([^"]+)"', html_text)
+    # 2. Telefonnummer aus tel:-Link
+    m_tel = re.search(r'href=[\'"]tel:([^\'"]+)[\'"]', html)
     if m_tel:
-        phone = html_lib.unescape(m_tel.group(1)).strip()
-    else:
-        m_tel2 = re.search(r'href=["\']tel:([^"\']+)["\']', html_text, re.IGNORECASE)
-        if m_tel2:
-            phone = html_lib.unescape(m_tel2.group(1)).strip()
+        phone = m_tel.group(1).strip()
 
-    # 4. Externe Webseite des Besens
-    for m_web in re.finditer(r'href=["\'](https?://[^"\'\s<>]+)["\']', html_text, re.IGNORECASE):
-        u = m_web.group(1).strip()
-        u_low = u.lower()
-        if not any(ig in u_low for ig in [
-            "besenstimme.de", "heilbronnerland.de", "bahn.de", "bwegt.de",
-            "google.", "facebook.", "instagram.", "toubiz.", "openstreetmap.",
-            "w3.org", "schema.org", "cloudflare", "jquery", "bootstrap", "font"
-        ]):
-            website = u
-            break
+    # 3. Webseite: Link mit Text "Webseite" oder "www...."
+    m_web = re.search(r'<a[^>]+href=[\'"](https?://[^\'"]+)[\'"][^>]*>\s*Webseite\s*</a>', html, re.I)
+    if not m_web:
+        m_web = re.search(r'<a[^>]+href=[\'"](https?://[^\'"]+)[\'"][^>]*>\s*(?:www\.[^<]+)\s*</a>', html, re.I)
+    
+    if m_web:
+        found_url = m_web.group(1).strip()
+        blacklist = ["besenstimme.de", "destination.one", "bahn.de", "google.", "instagram.com", "facebook.com", "ecmaps.de", "et4.de"]
+        if not any(b in found_url for b in blacklist):
+            website = found_url
 
-    return street, zip_code, city, phone, website
+    parts = []
+    if street: parts.append(street)
+    if zip_code or city: parts.append(f"{zip_code} {city}".strip())
+    address_str = ", ".join(parts)
+
+    return address_str, city, phone, website
 
 def main():
     base_url = "https://www.besenstimme.de"
     portal_url = f"{base_url}/de/besenstimme/wlan/portal"
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "Accept-Language": "de-DE,de;q=0.9"
     }
 
@@ -189,57 +115,57 @@ def main():
     r = session.get(portal_url, timeout=20)
     r.raise_for_status()
 
-    matches = re.findall(r'(/(?:de|cs)/besenstimme/wlan/detail/Gastro/(g_\d+)[^"\'\s<>]*)', r.text)
-    seen_ids = set()
-    besen_list = []
-    for path, gid in matches:
-        if gid not in seen_ids:
-            seen_ids.add(gid)
-            clean_path = re.sub(r'^/cs/', '/de/', path)
-            besen_list.append((gid, f"{base_url}{clean_path}"))
-
-    print(f"2. {len(besen_list)} Besenwirtschaften im Portal gefunden.")
+    # Portal-Links parsen
+    detail_links = set(re.findall(r'href=[\'"](/de/besenstimme/wlan/detail/Gastro/[^\'"]+)[\'"]', r.text))
+    print(f"2. {len(detail_links)} Besenwirtschaften im Portal gefunden.")
     print(f"3. Prüfe Entfernungen und lade Termine (Radius: {MAX_DISTANCE_KM} km ab Pfedelbach)...")
 
-    places = []
     events = []
+    places = []
 
-    for gid, detail_url in besen_list:
+    for path in sorted(detail_links):
+        detail_url = f"{base_url}{path}"
         try:
-            res = session.get(detail_url, timeout=15)
-            if res.status_code != 200:
+            resp = session.get(detail_url, timeout=10)
+            if resp.status_code != 200:
                 continue
 
-            html = res.text
-            item_obj = extract_window_item(html)
-            coords = find_coords(item_obj, html)
-            if not coords:
+            html_text = resp.text
+
+            # window.ITEM extrahieren
+            m_item = re.search(r'window\.ITEM\s*=\s*(\{.+?\});\s*(?:window\.|\n|<)', html_text, re.DOTALL)
+            if not m_item:
                 continue
 
-            lat, lon = coords
-            dist = haversine(CENTER_LAT, CENTER_LON, lat, lon)
+            try:
+                item_data = json.loads(m_item.group(1))
+            except Exception:
+                continue
+
+            gid = item_data.get("global_id") or item_data.get("id") or path
+            name = item_data.get("title") or "Unbenannter Besen"
+
+            # Koordinaten & Distanz prüfen
+            geo = item_data.get("geo") or {}
+            main_geo = geo.get("main") or geo
+            lat = main_geo.get("latitude")
+            lon = main_geo.get("longitude")
+
+            if not lat or not lon:
+                continue
+
+            dist = haversine(CENTER_LAT, CENTER_LON, float(lat), float(lon))
             if dist > MAX_DISTANCE_KM:
                 continue
 
-            name = None
-            if isinstance(item_obj, dict):
-                name = item_obj.get("title") or item_obj.get("name") or item_obj.get("value")
-            if not name:
-                m_h1 = re.search(r'<h1[^>]*>(.*?)</h1>', html, re.DOTALL | re.IGNORECASE)
-                if m_h1:
-                    name = re.sub(r'<[^>]+>', '', m_h1.group(1)).strip()
-            if not name:
-                name = detail_url.split("/")[-1].replace("-", " ").title()
-
-            street, zip_code, city, phone, website = extract_contact_info(html)
-            address_parts = [p for p in [street, f"{zip_code} {city}".strip()] if p]
-            address_str = ", ".join(address_parts)
+            # Kontaktdaten & Webseite extrahieren
+            address_str, city, phone, website = extract_contact_info(html_text)
 
             places.append({
                 "id": gid,
                 "name": name,
-                "lat": lat,
-                "lon": lon,
+                "lat": float(lat),
+                "lon": float(lon),
                 "distance_km": round(dist, 1),
                 "address": address_str,
                 "city": city,
@@ -248,36 +174,20 @@ def main():
                 "url": detail_url
             })
 
-            intervals = find_all_intervals(item_obj) if item_obj else []
-
+            # Termine aus timeIntervals auswerten
+            intervals = item_data.get("timeIntervals") or []
             raw_ranges = []
-            for inv in intervals:
-                if not isinstance(inv, dict):
-                    continue
 
-                s_obj = inv.get("start") or inv.get("startDate") or inv.get("dateFrom")
-                # WICHTIG: repeatUntil ist das Ende des Besen-Zeitraums, end nur das Ende des 1. Öffnungstags!
-                e_obj = inv.get("repeatUntil") or inv.get("end") or inv.get("endDate") or inv.get("dateTo") or s_obj
+            for iv in intervals:
+                s_obj = iv.get("start")
+                e_obj = iv.get("repeatUntil") or iv.get("end") or s_obj
+                s_txt = parse_dt_obj(s_obj, is_end=False)
+                e_txt = parse_dt_obj(e_obj, is_end=True)
 
-                s_str = parse_dt_obj(s_obj, is_end=False)
-                e_str = parse_dt_obj(e_obj, is_end=True)
-
-                # Falls repeatUntil vor start liegen sollte, Fallback auf end
-                if s_str and (not e_str or e_str < s_str):
-                    e_str = parse_dt_obj(inv.get("end"), is_end=True) or s_str
-
-                if s_str and e_str:
-                    raw_ranges.append((s_str, e_str))
-
-            # Zusätzlich im sichtbaren HTML nach "dd.mm.yyyy bis dd.mm.yyyy" suchen
-            for m_txt in re.finditer(r'(\d{2})\.(\d{2})\.(\d{4})\s*(?:bis|-|–)\s*(\d{2})\.(\d{2})\.(\d{4})', html):
-                d1, m1, y1, d2, m2, y2 = m_txt.groups()
-                s_txt = f"{y1}-{m1}-{d1}"
-                e_txt = f"{y2}-{m2}-{d2}"
-                if "2025" <= y2 <= "2030":
+                if s_txt and e_txt and s_txt <= e_txt and e_txt >= "2024-01-01" and s_txt <= "2030-12-31":
                     raw_ranges.append((s_txt, e_txt))
 
-            # Überlappende oder direkt aneinandergrenzende Zeiträume desselben Besens zusammenfassen
+            # Überlappende oder zusammenhängende Tage verschmelzen
             raw_ranges = sorted(set(raw_ranges))
             merged_ranges = []
             for s_str, e_str in raw_ranges:
@@ -308,7 +218,7 @@ def main():
                 found += 1
 
             if found > 0:
-                print(f"🎯 [{dist:4.1f} km] {name} -> {found} Termine | 📍 {address_str or 'k.A.'}")
+                print(f"🎯 [{dist:4.1f} km] {name} -> {found} Termine | 📍 {address_str or 'k.A.'} | 🌐 {website or '-'}")
 
         except Exception:
             continue
@@ -328,9 +238,10 @@ def main():
         json.dump(data_out, f, ensure_ascii=False, indent=2)
 
     with_addr = sum(1 for p in places if p.get("address"))
+    with_web = sum(1 for p in places if p.get("website"))
     print("\n==========================================")
     print("ERFOLG!")
-    print(f"- {len(places)} Besen im Umkreis von {MAX_DISTANCE_KM} km erfasst ({with_addr} mit Adresse)")
+    print(f"- {len(places)} Besen im Umkreis von {MAX_DISTANCE_KM} km erfasst ({with_addr} mit Adresse, {with_web} mit Webseite)")
     print(f"- {len(events)} bereinigte Kalender-Einträge in 'events.json' gespeichert.")
 
 if __name__ == "__main__":
