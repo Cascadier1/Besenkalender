@@ -280,7 +280,7 @@
       .location-row { gap: 0.35rem; }
       .location-row input, .location-row select { min-width: 0; padding: 0.42rem 0.5rem; font-size: 0.78rem; }
       .location-btn { padding: 0.4rem 0.5rem; font-size: 0.72rem; }
-      .preset-chips, .location-status { display: none; }
+      .location-status { display: none; }
       .slider-box { gap: 0.2rem; }
       .slider-header { font-size: 0.78rem; }
       .slider-ticks { font-size: 0.62rem; }
@@ -607,9 +607,8 @@
     .location-box { grid-column: 1 / -1; background: #fffafc; border: 1px solid #ead2dc; border-radius: 12px; padding: .8rem 1rem; }
     .location-row { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
     .location-row input, .location-row select { border: 1px solid var(--border); border-radius: 7px; padding: .55rem .7rem; min-width: 190px; font: inherit; }
-    .location-btn, .preset-chip { border: 1px solid #d7b4c2; background: #fff; color: var(--wine-dark); border-radius: 7px; padding: .5rem .75rem; cursor: pointer; font: inherit; font-weight: 600; }
-    .location-btn:hover, .preset-chip:hover { background: var(--wine-light); }
-    .preset-chips { display: flex; gap: .35rem; flex-wrap: wrap; margin-top: .55rem; }
+    .location-btn { border: 1px solid #d7b4c2; background: #fff; color: var(--wine-dark); border-radius: 7px; padding: .5rem .75rem; cursor: pointer; font: inherit; font-weight: 600; }
+    .location-btn:hover { background: var(--wine-light); }
     .location-status { color: var(--muted); font-size: .82rem; margin-top: .4rem; }
   </style>
 </head>
@@ -652,7 +651,6 @@
             <option value="Künzelsau">Künzelsau</option>
           </select>
         </div>
-        <div class="preset-chips"><button class="preset-chip" type="button" data-location="Pfedelbach">Pfedelbach</button><button class="preset-chip" type="button" data-location="Öhringen">Öhringen</button><button class="preset-chip" type="button" data-location="Bretzfeld">Bretzfeld</button><button class="preset-chip" type="button" data-location="Weinsberg">Weinsberg</button><button class="preset-chip" type="button" data-location="Heilbronn">Heilbronn</button><button class="preset-chip" type="button" data-location="Neuenstein">Neuenstein</button><button class="preset-chip" type="button" data-location="Künzelsau">Künzelsau</button></div>
         <div class="location-status" id="locationStatus">Kartenmarker ziehen oder direkt auf die Karte klicken.</div>
       </div>
 
@@ -683,8 +681,10 @@
         <span>📅 Zeitraum</span>
         <select id="timeFilter" aria-label="Zeitraum filtern">
           <option value="today" selected>🟢 Heute offen</option>
-          <option value="all">Alle Termine</option>
           <option value="weekend">🥂 Dieses Wochenende</option>
+          <option value="week">Nächste 7 Tage</option>
+          <option value="month">Dieser Monat</option>
+          <option value="all">Alle Zeiträume</option>
           <option value="places">🏠 Alle Besen im Radius</option>
         </select>
       </label>
@@ -763,7 +763,7 @@
   <script>
     let rawData = { center: { name: "Pfedelbach", lat: 49.1764, lon: 9.5056 }, places: [], events: [] };
     let currentRadius = 15;
-    let currentFilter = "today"; // all | today | weekend | places
+    let currentFilter = "today"; // all | today | weekend | week | month | places
     let currentSearch = "";
     let currentView = "list"; // list | calendar
 
@@ -829,6 +829,18 @@
       if (!isoStr) return "";
       const [y, m, d] = isoStr.split("-");
       return `${d}.${m}.${y}`;
+    }
+
+    function addDaysISO(isoStr, days) {
+      const [y, m, d] = isoStr.split("-").map(Number);
+      const date = new Date(y, m - 1, d);
+      date.setDate(date.getDate() + days);
+      return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+    }
+
+    function getMonthEndISO(isoStr) {
+      const [y, m] = isoStr.split("-").map(Number);
+      return `${y}-${String(m).padStart(2, "0")}-${String(new Date(y, m, 0).getDate()).padStart(2, "0")}`;
     }
 
     function addOneDayISO(isoStr) {
@@ -970,6 +982,8 @@
     function updateUI() {
       const today = getTodayISO();
       const [wkFri, wkSun] = getUpcomingWeekendRange();
+      const weekEnd = addDaysISO(today, 6);
+      const monthEnd = getMonthEndISO(today);
 
       const placesInRadius = (rawData.places || []).filter(p =>
         p.distance_km <= currentRadius && matchesSearch(p)
@@ -997,6 +1011,12 @@
         filteredCalEvents = filteredListEvents;
       } else if (currentFilter === "weekend") {
         filteredListEvents = upcomingEventsInRadius.filter(ev => ev.start <= wkSun && ev.end >= wkFri);
+        filteredCalEvents = filteredListEvents;
+      } else if (currentFilter === "week") {
+        filteredListEvents = upcomingEventsInRadius.filter(ev => ev.start <= weekEnd && ev.end >= today);
+        filteredCalEvents = filteredListEvents;
+      } else if (currentFilter === "month") {
+        filteredListEvents = upcomingEventsInRadius.filter(ev => ev.start <= monthEnd && ev.end >= today);
         filteredCalEvents = filteredListEvents;
       }
 
@@ -1202,7 +1222,6 @@
     document.getElementById("locationSearchButton").addEventListener("click",()=>geocodeLocation(document.getElementById("locationSearch").value.trim()));
     document.getElementById("locationSearch").addEventListener("keydown",e=>{if(e.key==="Enter") geocodeLocation(e.target.value.trim());});
     document.getElementById("gpsButton").addEventListener("click",()=>{if(!navigator.geolocation){document.getElementById("locationStatus").textContent="GPS wird von diesem Browser nicht unterstützt.";return;} navigator.geolocation.getCurrentPosition(async pos=>{let name="Mein GPS-Standort"; try{const r=await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${pos.coords.latitude}&lon=${pos.coords.longitude}`);const d=await r.json();name=d.address?.town||d.address?.city||d.address?.village||name;}catch(e){} setCenter(pos.coords.latitude,pos.coords.longitude,name);},()=>document.getElementById("locationStatus").textContent="GPS-Standort konnte nicht ermittelt werden.",{enableHighAccuracy:true,timeout:10000});});
-    document.querySelectorAll(".preset-chip").forEach(b=>b.addEventListener("click",()=>geocodeLocation(b.dataset.location)));
     document.getElementById("locationPresets").addEventListener("change",e=>{if(e.target.value) geocodeLocation(e.target.value);});
 
     // Event-Listener für Schieberegler
