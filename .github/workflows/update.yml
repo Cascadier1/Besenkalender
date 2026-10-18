@@ -1,35 +1,54 @@
 name: Tägliches Besen-Update
 
 on:
-  workflow_dispatch: # Erlaubt manuelles Starten per Klick
+  push:
+    branches:
+      - main
+    paths:
+      - 'scraper.py'
+      - '.github/workflows/update.yml'
+  workflow_dispatch: # Erlaubt manuelles Starten per Klick im Reiter "Actions"
   schedule:
     - cron: '0 4 * * *' # Läuft jeden Tag automatisch morgens (04:00 UTC)
 
 permissions:
   contents: write
 
+concurrency:
+  group: besen-update
+  cancel-in-progress: true
+
 jobs:
   update-events:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install requests
-        run: pip install requests
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip requests
 
       - name: Run Scraper
         run: python scraper.py
 
       - name: Commit and Push updated events.json
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add events.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Tägliches Update der Besentermine" && git push)
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen an events.json."
+          else
+            git commit -m "chore: Tägliches Update der Besentermine [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
