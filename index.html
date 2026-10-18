@@ -197,12 +197,29 @@
       transform: scale(1.12);
     }
 
+    /* The tick labels use the same value-to-position mapping as the range input. */
     .slider-ticks {
-      display: flex;
-      justify-content: space-between;
+      position: relative;
+      height: 1.15rem;
       font-size: 0.74rem;
       color: var(--muted);
-      padding: 0 2px;
+      margin: 0 0.0rem;
+    }
+
+    .slider-tick {
+      position: absolute;
+      top: 0;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .slider-tick:hover,
+    .slider-tick:focus-visible {
+      color: var(--wine);
+      text-decoration: underline;
+      outline: none;
     }
 
     /* SUCHE */
@@ -661,12 +678,12 @@
           <span class="radius-pill" id="radiusLabel">15 km</span>
         </div>
         <input type="range" id="radiusSlider" min="2" max="50" step="1" value="15" />
-        <div class="slider-ticks">
-          <span>2 km</span>
-          <span>10 km</span>
-          <span>15 km</span>
-          <span>25 km</span>
-          <span>50 km</span>
+        <div class="slider-ticks" aria-label="Schnellauswahl Umkreis">
+          <span class="slider-tick" data-value="2" role="button" tabindex="0">2 km</span>
+          <span class="slider-tick" data-value="10" role="button" tabindex="0">10 km</span>
+          <span class="slider-tick" data-value="15" role="button" tabindex="0">15 km</span>
+          <span class="slider-tick" data-value="25" role="button" tabindex="0">25 km</span>
+          <span class="slider-tick" data-value="50" role="button" tabindex="0">50 km</span>
         </div>
       </div>
 
@@ -1225,11 +1242,40 @@
     document.getElementById("locationPresets").addEventListener("change",e=>{if(e.target.value) geocodeLocation(e.target.value);});
 
     // Event-Listener für Schieberegler
-    document.getElementById("radiusSlider").addEventListener("input", e => {
+    const radiusSlider = document.getElementById("radiusSlider");
+    const sliderTicks = document.querySelectorAll(".slider-tick");
+    const positionSliderTicks = () => {
+      const min = Number(radiusSlider.min);
+      const max = Number(radiusSlider.max);
+      const thumbWidth = window.matchMedia("(max-width: 700px)").matches ? 18 : 22;
+      const usableWidth = Math.max(0, radiusSlider.clientWidth - thumbWidth);
+      sliderTicks.forEach(tick => {
+        const value = Number(tick.dataset.value);
+        const ratio = (value - min) / (max - min);
+        // Match the native range thumb center, including its end insets.
+        tick.style.left = `${thumbWidth / 2 + ratio * usableWidth}px`;
+      });
+    };
+    radiusSlider.addEventListener("input", e => {
       currentRadius = Number(e.target.value);
       document.getElementById("radiusLabel").textContent = `${currentRadius} km`;
       updateUI();
     });
+    sliderTicks.forEach(tick => {
+      const chooseTick = () => {
+        radiusSlider.value = tick.dataset.value;
+        radiusSlider.dispatchEvent(new Event("input", { bubbles: true }));
+      };
+      tick.addEventListener("click", chooseTick);
+      tick.addEventListener("keydown", e => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          chooseTick();
+        }
+      });
+    });
+    window.addEventListener("resize", positionSliderTicks);
+    positionSliderTicks();
 
     document.getElementById("searchInput").addEventListener("input", e => {
       currentSearch = e.target.value.trim();
@@ -1277,6 +1323,7 @@
 
     loadEvents();
   </script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
 </body>
 </html>
