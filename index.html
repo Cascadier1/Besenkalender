@@ -677,7 +677,7 @@
           <span>📍 Maximaler Umkreis ab <span id="radiusLocationName">Pfedelbach</span>:</span>
           <span class="radius-pill" id="radiusLabel">15 km</span>
         </div>
-        <input type="range" id="radiusSlider" min="2" max="50" step="1" value="15" />
+        <input type="range" id="radiusSlider" min="2" max="50" step="1" value="15" autocomplete="off" />
         <div class="slider-ticks" aria-label="Schnellauswahl Umkreis">
           <span class="slider-tick" data-value="2" role="button" tabindex="0">2 km</span>
           <span class="slider-tick" data-value="10" role="button" tabindex="0">10 km</span>
@@ -1244,6 +1244,18 @@
     // Event-Listener für Schieberegler
     const radiusSlider = document.getElementById("radiusSlider");
     const sliderTicks = document.querySelectorAll(".slider-tick");
+
+    // Always make the native control authoritative on first load. Browsers may
+    // restore a previously used range value even when the HTML value is 15.
+    // Syncing here keeps the thumb, badge, filters, and map at the same radius.
+    const syncRadiusControl = () => {
+      const min = Number(radiusSlider.min);
+      const max = Number(radiusSlider.max);
+      currentRadius = Math.min(max, Math.max(min, Number(currentRadius) || 15));
+      radiusSlider.value = String(currentRadius);
+      document.getElementById("radiusLabel").textContent = `${currentRadius} km`;
+    };
+    syncRadiusControl();
     const positionSliderTicks = () => {
       const min = Number(radiusSlider.min);
       const max = Number(radiusSlider.max);
