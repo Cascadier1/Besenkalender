@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.10.2026, 11:51 Uhr",
+  "updated_at": "20.10.2026, 11:18 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -41,6 +41,18 @@
       "phone": "07941 33894",
       "website": "https://schluchters-weinstube.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028173/schluchters-weinstube"
+    },
+    {
+      "id": "g_100030043",
+      "name": "Zur Sonne, Familie Zinßer",
+      "lat": 49.1792271,
+      "lon": 9.4825889,
+      "distance_km": 1.7,
+      "address": "Adolzfurter Straße 41, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 33456",
+      "website": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030043/zur-sonne-familie-ziner"
     },
     {
       "id": "g_100030845",
@@ -259,6 +271,18 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028366/weinstube-hfele"
     },
     {
+      "id": "g_100028290",
+      "name": "Wengertstube Körner",
+      "lat": 49.159113250000004,
+      "lon": 9.350494511163658,
+      "distance_km": 11.4,
+      "address": "Hofäcker 3, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "07134 3340",
+      "website": "http://www.koerner-wimmental.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028290/wengertstube-krner"
+    },
+    {
       "id": "g_100028311",
       "name": "Zum hölzernen Besen",
       "lat": 49.17812495,
@@ -425,6 +449,18 @@
       "phone": "07134 6933",
       "website": "https://weingut-seyffer.de/pages/besen",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028169/besenwirtschaft-seyffer"
+    },
+    {
+      "id": "g_100031236",
+      "name": "Weingasthaus Burgblick",
+      "lat": 49.1507518,
+      "lon": 9.2822262,
+      "distance_km": 16.5,
+      "address": "Weidachstraße 48, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "01783664466",
+      "website": "http://www.weingasthaus-burgblick.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
     },
     {
       "id": "g_100029442",
@@ -691,6 +727,18 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028322/besenwirtschaft-able"
     },
     {
+      "id": "g_100028536",
+      "name": "Zur Weintenne",
+      "lat": 49.1062956,
+      "lon": 9.7741842,
+      "distance_km": 21.0,
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "http://zur-weintenne.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
+    },
+    {
       "id": "g_100028312",
       "name": "Weinstube \"Zur Bütte\"",
       "lat": 49.0386055,
@@ -859,6 +907,18 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029715/besen-wrner"
     },
     {
+      "id": "g_100028269",
+      "name": "Zum Lobmüller",
+      "lat": 49.087390049999996,
+      "lon": 9.204436058156912,
+      "distance_km": 24.0,
+      "address": "Hörnlesbrunnen 3, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 964997",
+      "website": "https://www.zumlobmueller.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028269/zum-lobmller"
+    },
+    {
       "id": "g_100029450",
       "name": "Fischerstüble Lorenz",
       "lat": 49.0007,
@@ -869,6 +929,18 @@
       "phone": "07148 1326",
       "website": "https://www.fischerstueble-lorenz.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029450/fischerstble-lorenz"
+    },
+    {
+      "id": "g_100030186",
+      "name": "Weinstube Bayer",
+      "lat": 49.077595,
+      "lon": 9.1959803,
+      "distance_km": 25.1,
+      "address": "Rohräcker 4, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 6921",
+      "website": "https://www.weinstube-bayer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030186/weinstube-bayer"
     },
     {
       "id": "g_100028342",
@@ -1087,6 +1159,18 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029429/weingut-kern-schaufler"
     },
     {
+      "id": "g_100028533",
+      "name": "Müller's Wengertstüble",
+      "lat": 49.1358659,
+      "lon": 9.0485618,
+      "distance_km": 33.5,
+      "address": "Waldweghöfe 7, 74193 Schwaigern",
+      "city": "Schwaigern",
+      "phone": "07138 8694",
+      "website": "http://www.besenwirtschaft-schwaigern.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028533/mllers-wengertstble"
+    },
+    {
       "id": "g_100041621",
       "name": "WeinGut Kleinle",
       "lat": 48.9092869,
@@ -1171,6 +1255,30 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029444/besen-leiterwgele"
     },
     {
+      "id": "g_100028295",
+      "name": "Sonnenbergbesen",
+      "lat": 49.13081871702051,
+      "lon": 8.981924057006836,
+      "distance_km": 38.4,
+      "address": "Sonnenberghof 1, 74193 Schwaigern",
+      "city": "Schwaigern",
+      "phone": "07138 67177",
+      "website": "http://www.willundwürz.de/sonnenbergbesen.html",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028295/sonnenbergbesen"
+    },
+    {
+      "id": "g_100028340",
+      "name": "Wengerthäusle Katzer",
+      "lat": 49.0013882,
+      "lon": 9.0146363,
+      "distance_km": 40.7,
+      "address": "Ochsenbacher Straße 46, 74343 Sachsenheim",
+      "city": "Sachsenheim",
+      "phone": "07147 272035",
+      "website": "http://www.weingut-katzer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028340/wengerthusle-katzer"
+    },
+    {
       "id": "g_100029449",
       "name": "Weinausschank Ochsenburger Besen",
       "lat": 49.0794781,
@@ -1193,6 +1301,18 @@
       "phone": "07258 234",
       "website": "https://weingut-plag.de/#events",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029457/weinstube-plag"
+    },
+    {
+      "id": "g_100029438",
+      "name": "Weinstube Häußermann",
+      "lat": 49.02321525,
+      "lon": 8.857958552994202,
+      "distance_km": 50.1,
+      "address": "Burrainstraße 55, 75447 Sternenfels",
+      "city": "Sternenfels",
+      "phone": "07043 8449",
+      "website": "https://www.weingut-haeussermann.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029438/weinstube-huermann"
     }
   ],
   "events": [
@@ -1209,6 +1329,34 @@
       "phone": "07135 7766",
       "website": "http://www.weingut-sommer-haberschlacht.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028365/besenwirtschaft-sommer"
+    },
+    {
+      "place_id": "g_100028533",
+      "title": "Müller's Wengertstüble",
+      "start": "2022-10-20",
+      "end": "2022-10-23",
+      "lat": 49.1358659,
+      "lon": 9.0485618,
+      "distance_km": 33.5,
+      "address": "Waldweghöfe 7, 74193 Schwaigern",
+      "city": "Schwaigern",
+      "phone": "07138 8694",
+      "website": "http://www.besenwirtschaft-schwaigern.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028533/mllers-wengertstble"
+    },
+    {
+      "place_id": "g_100028533",
+      "title": "Müller's Wengertstüble",
+      "start": "2022-12-03",
+      "end": "2022-12-04",
+      "lat": 49.1358659,
+      "lon": 9.0485618,
+      "distance_km": 33.5,
+      "address": "Waldweghöfe 7, 74193 Schwaigern",
+      "city": "Schwaigern",
+      "phone": "07138 8694",
+      "website": "http://www.besenwirtschaft-schwaigern.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028533/mllers-wengertstble"
     },
     {
       "place_id": "g_100029449",
@@ -1785,6 +1933,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028326/weinausschank-benz-am-wilfensee"
     },
     {
+      "place_id": "g_100030186",
+      "title": "Weinstube Bayer",
+      "start": "2026-07-08",
+      "end": "2026-07-12",
+      "lat": 49.077595,
+      "lon": 9.1959803,
+      "distance_km": 25.1,
+      "address": "Rohräcker 4, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 6921",
+      "website": "https://www.weinstube-bayer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030186/weinstube-bayer"
+    },
+    {
       "place_id": "g_100036308",
       "title": "Weingut G.A. Heinrich „Wein & Dine“",
       "start": "2026-07-16",
@@ -1853,6 +2015,20 @@
       "phone": "0176 96668664",
       "website": "http://www.aries-weingut.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028264/aries-besenwirtschaft"
+    },
+    {
+      "place_id": "g_100030186",
+      "title": "Weinstube Bayer",
+      "start": "2026-08-12",
+      "end": "2026-08-16",
+      "lat": 49.077595,
+      "lon": 9.1959803,
+      "distance_km": 25.1,
+      "address": "Rohräcker 4, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 6921",
+      "website": "https://www.weinstube-bayer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030186/weinstube-bayer"
     },
     {
       "place_id": "g_100029429",
@@ -2107,20 +2283,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028288/weinstube-busch"
     },
     {
-      "place_id": "g_100028498",
-      "title": "Fröscher’s Kelterstüble",
-      "start": "2026-10-01",
-      "end": "2026-10-04",
-      "lat": 49.2875988,
-      "lon": 9.560800459544284,
-      "distance_km": 13.0,
-      "address": "Öhringer Straße 32, 74670 Forchtenberg",
-      "city": "Forchtenberg",
-      "phone": "07947 9433601",
-      "website": "https://rebenhof-ff.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028498/frschers-kelterstble"
-    },
-    {
       "place_id": "g_100028382",
       "title": "Kühners Wild- und Spargelbesen",
       "start": "2026-10-01",
@@ -2133,6 +2295,20 @@
       "phone": "07139 452360",
       "website": "http://www.kuehnersbesen.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028382/khners-wild-und-spargelbesen"
+    },
+    {
+      "place_id": "g_100028269",
+      "title": "Zum Lobmüller",
+      "start": "2026-10-01",
+      "end": "2026-10-08",
+      "lat": 49.087390049999996,
+      "lon": 9.204436058156912,
+      "distance_km": 24.0,
+      "address": "Hörnlesbrunnen 3, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 964997",
+      "website": "https://www.zumlobmueller.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028269/zum-lobmller"
     },
     {
       "place_id": "g_100028174",
@@ -2189,6 +2365,20 @@
       "phone": "07132 951600",
       "website": "http://www.weingut-schoenbrunn.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022864/weinausschank-schnbrunn"
+    },
+    {
+      "place_id": "g_100028536",
+      "title": "Zur Weintenne",
+      "start": "2026-10-06",
+      "end": "2026-10-11",
+      "lat": 49.1062956,
+      "lon": 9.7741842,
+      "distance_km": 21.0,
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "http://zur-weintenne.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
     },
     {
       "place_id": "g_100028309",
@@ -2261,20 +2451,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028283/besenwirtschaft-alexander-bauer"
     },
     {
-      "place_id": "g_100028233",
-      "title": "Weinstube Borth",
-      "start": "2026-10-08",
-      "end": "2026-10-11",
-      "lat": 49.163638,
-      "lon": 9.4513938,
-      "distance_km": 4.2,
-      "address": "Unterheimbacherstraße 35, 74626 Bretzfeld",
-      "city": "Bretzfeld",
-      "phone": "07946 2139",
-      "website": "https://www.weingut-borth.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028233/weinstube-borth"
-    },
-    {
       "place_id": "g_100028311",
       "title": "Zum hölzernen Besen",
       "start": "2026-10-08",
@@ -2301,6 +2477,20 @@
       "phone": "07135 13023",
       "website": "https://www.winklerwein.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028297/uffm-scheuraboda"
+    },
+    {
+      "place_id": "g_100030043",
+      "title": "Zur Sonne, Familie Zinßer",
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "lat": 49.1792271,
+      "lon": 9.4825889,
+      "distance_km": 1.7,
+      "address": "Adolzfurter Straße 41, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 33456",
+      "website": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030043/zur-sonne-familie-ziner"
     },
     {
       "place_id": "g_100030845",
@@ -2443,6 +2633,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027491/besenwirtschaft-holzapfel"
     },
     {
+      "place_id": "g_100028340",
+      "title": "Wengerthäusle Katzer",
+      "start": "2026-10-13",
+      "end": "2026-10-17",
+      "lat": 49.0013882,
+      "lon": 9.0146363,
+      "distance_km": 40.7,
+      "address": "Ochsenbacher Straße 46, 74343 Sachsenheim",
+      "city": "Sachsenheim",
+      "phone": "07147 272035",
+      "website": "http://www.weingut-katzer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028340/wengerthusle-katzer"
+    },
+    {
       "place_id": "g_100028169",
       "title": "Besenwirtschaft Seyffer",
       "start": "2026-10-14",
@@ -2455,6 +2659,20 @@
       "phone": "07134 6933",
       "website": "https://weingut-seyffer.de/pages/besen",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028169/besenwirtschaft-seyffer"
+    },
+    {
+      "place_id": "g_100031236",
+      "title": "Weingasthaus Burgblick",
+      "start": "2026-10-14",
+      "end": "2026-10-18",
+      "lat": 49.1507518,
+      "lon": 9.2822262,
+      "distance_km": 16.5,
+      "address": "Weidachstraße 48, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "01783664466",
+      "website": "http://www.weingasthaus-burgblick.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
     },
     {
       "place_id": "g_100029135",
@@ -2807,6 +3025,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028496/weingut-berthold"
     },
     {
+      "place_id": "g_100029438",
+      "title": "Weinstube Häußermann",
+      "start": "2026-10-20",
+      "end": "2026-10-24",
+      "lat": 49.02321525,
+      "lon": 8.857958552994202,
+      "distance_km": 50.1,
+      "address": "Burrainstraße 55, 75447 Sternenfels",
+      "city": "Sternenfels",
+      "phone": "07043 8449",
+      "website": "https://www.weingut-haeussermann.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029438/weinstube-huermann"
+    },
+    {
       "place_id": "g_100028268",
       "title": "Weinausschank zum Engel",
       "start": "2026-10-21",
@@ -2975,6 +3207,34 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029432/burks-schlemmerbesen"
     },
     {
+      "place_id": "g_100028295",
+      "title": "Sonnenbergbesen",
+      "start": "2026-10-22",
+      "end": "2026-10-25",
+      "lat": 49.13081871702051,
+      "lon": 8.981924057006836,
+      "distance_km": 38.4,
+      "address": "Sonnenberghof 1, 74193 Schwaigern",
+      "city": "Schwaigern",
+      "phone": "07138 67177",
+      "website": "http://www.willundwürz.de/sonnenbergbesen.html",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028295/sonnenbergbesen"
+    },
+    {
+      "place_id": "g_100028290",
+      "title": "Wengertstube Körner",
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "lat": 49.159113250000004,
+      "lon": 9.350494511163658,
+      "distance_km": 11.4,
+      "address": "Hofäcker 3, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "07134 3340",
+      "website": "http://www.koerner-wimmental.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028290/wengertstube-krner"
+    },
+    {
       "place_id": "g_100028541",
       "title": "Frieder's Weinstube",
       "start": "2026-10-23",
@@ -2987,6 +3247,20 @@
       "phone": "07134 17469",
       "website": "http://www.weingut-heinrich.com/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028541/frieders-weinstube"
+    },
+    {
+      "place_id": "g_100028536",
+      "title": "Zur Weintenne",
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "lat": 49.1062956,
+      "lon": 9.7741842,
+      "distance_km": 21.0,
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "http://zur-weintenne.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
     },
     {
       "place_id": "g_100029450",
@@ -3015,6 +3289,20 @@
       "phone": "07946 1418",
       "website": "https://schwab-wein.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028309/weingut-und-weinstube-schwab"
+    },
+    {
+      "place_id": "g_100031236",
+      "title": "Weingasthaus Burgblick",
+      "start": "2026-10-28",
+      "end": "2026-11-01",
+      "lat": 49.1507518,
+      "lon": 9.2822262,
+      "distance_km": 16.5,
+      "address": "Weidachstraße 48, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "01783664466",
+      "website": "http://www.weingasthaus-burgblick.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
     },
     {
       "place_id": "g_100022875",
@@ -3073,6 +3361,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028286/weinausschank-khner"
     },
     {
+      "place_id": "g_100028269",
+      "title": "Zum Lobmüller",
+      "start": "2026-10-29",
+      "end": "2026-11-05",
+      "lat": 49.087390049999996,
+      "lon": 9.204436058156912,
+      "distance_km": 24.0,
+      "address": "Hörnlesbrunnen 3, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 964997",
+      "website": "https://www.zumlobmueller.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028269/zum-lobmller"
+    },
+    {
       "place_id": "g_100028174",
       "title": "Wahl's Kuhstall",
       "start": "2026-10-29",
@@ -3087,6 +3389,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028174/wahls-kuhstall"
     },
     {
+      "place_id": "g_100028290",
+      "title": "Wengertstube Körner",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "lat": 49.159113250000004,
+      "lon": 9.350494511163658,
+      "distance_km": 11.4,
+      "address": "Hofäcker 3, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "07134 3340",
+      "website": "http://www.koerner-wimmental.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028290/wengertstube-krner"
+    },
+    {
       "place_id": "g_100028312",
       "title": "Weinstube \"Zur Bütte\"",
       "start": "2026-11-01",
@@ -3099,6 +3415,20 @@
       "phone": "+49 7062 / 3725",
       "website": "https://weingut-krohmer.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
+    },
+    {
+      "place_id": "g_100028536",
+      "title": "Zur Weintenne",
+      "start": "2026-11-03",
+      "end": "2026-11-08",
+      "lat": 49.1062956,
+      "lon": 9.7741842,
+      "distance_km": 21.0,
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "http://zur-weintenne.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
     },
     {
       "place_id": "g_100028287",
@@ -3241,6 +3571,34 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030049/besenwirtschaft-baumann"
     },
     {
+      "place_id": "g_100029438",
+      "title": "Weinstube Häußermann",
+      "start": "2026-11-10",
+      "end": "2026-11-14",
+      "lat": 49.02321525,
+      "lon": 8.857958552994202,
+      "distance_km": 50.1,
+      "address": "Burrainstraße 55, 75447 Sternenfels",
+      "city": "Sternenfels",
+      "phone": "07043 8449",
+      "website": "https://www.weingut-haeussermann.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029438/weinstube-huermann"
+    },
+    {
+      "place_id": "g_100031236",
+      "title": "Weingasthaus Burgblick",
+      "start": "2026-11-11",
+      "end": "2026-11-15",
+      "lat": 49.1507518,
+      "lon": 9.2822262,
+      "distance_km": 16.5,
+      "address": "Weidachstraße 48, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "01783664466",
+      "website": "http://www.weingasthaus-burgblick.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
+    },
+    {
       "place_id": "g_100028289",
       "title": "Weinstube Weihbrecht",
       "start": "2026-11-12",
@@ -3253,6 +3611,20 @@
       "phone": "07946 2788",
       "website": "https://www.weingut-weihbrecht.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028289/weinstube-weihbrecht"
+    },
+    {
+      "place_id": "g_100028498",
+      "title": "Fröscher’s Kelterstüble",
+      "start": "2026-11-12",
+      "end": "2026-11-15",
+      "lat": 49.2875988,
+      "lon": 9.560800459544284,
+      "distance_km": 13.0,
+      "address": "Öhringer Straße 32, 74670 Forchtenberg",
+      "city": "Forchtenberg",
+      "phone": "07947 9433601",
+      "website": "https://rebenhof-ff.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028498/frschers-kelterstble"
     },
     {
       "place_id": "g_100028280",
@@ -3353,6 +3725,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
+      "place_id": "g_100031236",
+      "title": "Weingasthaus Burgblick",
+      "start": "2026-11-25",
+      "end": "2026-11-29",
+      "lat": 49.1507518,
+      "lon": 9.2822262,
+      "distance_km": 16.5,
+      "address": "Weidachstraße 48, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "01783664466",
+      "website": "http://www.weingasthaus-burgblick.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
+    },
+    {
       "place_id": "g_100029135",
       "title": "Weinstube Goldener Besen",
       "start": "2026-12-01",
@@ -3365,6 +3751,20 @@
       "phone": "07132 6214",
       "website": "https://www.haberkern-betz.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029135/weinstube-goldener-besen"
+    },
+    {
+      "place_id": "g_100028536",
+      "title": "Zur Weintenne",
+      "start": "2026-12-01",
+      "end": "2026-12-06",
+      "lat": 49.1062956,
+      "lon": 9.7741842,
+      "distance_km": 21.0,
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "http://zur-weintenne.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
     },
     {
       "place_id": "g_100028233",
@@ -3407,6 +3807,20 @@
       "phone": "07132 2682",
       "website": "https://besen-benz.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
+    },
+    {
+      "place_id": "g_100031236",
+      "title": "Weingasthaus Burgblick",
+      "start": "2026-12-16",
+      "end": "2026-12-20",
+      "lat": 49.1507518,
+      "lon": 9.2822262,
+      "distance_km": 16.5,
+      "address": "Weidachstraße 48, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "01783664466",
+      "website": "http://www.weingasthaus-burgblick.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
     },
     {
       "place_id": "g_100032586",
