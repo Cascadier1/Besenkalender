@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.10.2026, 11:18 Uhr",
+  "updated_at": "21.10.2026, 11:14 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -2297,20 +2297,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028382/khners-wild-und-spargelbesen"
     },
     {
-      "place_id": "g_100028269",
-      "title": "Zum Lobmüller",
-      "start": "2026-10-01",
-      "end": "2026-10-08",
-      "lat": 49.087390049999996,
-      "lon": 9.204436058156912,
-      "distance_km": 24.0,
-      "address": "Hörnlesbrunnen 3, 74388 Talheim",
-      "city": "Talheim",
-      "phone": "07133 964997",
-      "website": "https://www.zumlobmueller.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028269/zum-lobmller"
-    },
-    {
       "place_id": "g_100028174",
       "title": "Wahl's Kuhstall",
       "start": "2026-10-01",
@@ -2521,20 +2507,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028248/weinausschank-seeblick"
     },
     {
-      "place_id": "g_100028541",
-      "title": "Frieder's Weinstube",
-      "start": "2026-10-09",
-      "end": "2026-10-12",
-      "lat": 49.14538385,
-      "lon": 9.343422146154456,
-      "distance_km": 12.3,
-      "address": "Kümmelstraße 2, 74182 Obersulm",
-      "city": "Obersulm",
-      "phone": "07134 17469",
-      "website": "http://www.weingut-heinrich.com/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028541/frieders-weinstube"
-    },
-    {
       "place_id": "g_100028264",
       "title": "Aries Besenwirtschaft",
       "start": "2026-10-09",
@@ -2547,20 +2519,6 @@
       "phone": "0176 96668664",
       "website": "http://www.aries-weingut.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028264/aries-besenwirtschaft"
-    },
-    {
-      "place_id": "g_100028281",
-      "title": "Böckinger Besen - Weinausschank Petra Störzbach-Nothwang",
-      "start": "2026-10-09",
-      "end": "2026-10-14",
-      "lat": 49.131561,
-      "lon": 9.1877606,
-      "distance_km": 23.6,
-      "address": "Heuchelbergstraße 22, 74080 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 33992",
-      "website": "https://böckinger-besen.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028281/bckinger-besen"
     },
     {
       "place_id": "g_100029493",
@@ -2843,20 +2801,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028497/besenwirtschaft-gall-niklas"
     },
     {
-      "place_id": "g_100028286",
-      "title": "Weinausschank Kühner",
-      "start": "2026-10-15",
-      "end": "2026-10-18",
-      "lat": 49.12000265,
-      "lon": 9.197351698796776,
-      "distance_km": 23.3,
-      "address": "Raidweg 12, 74081 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 255261",
-      "website": "https://www.weinbau-kuehner.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028286/weinausschank-khner"
-    },
-    {
       "place_id": "g_100028297",
       "title": "Uff'm Scheuraboda",
       "start": "2026-10-15",
@@ -2967,20 +2911,6 @@
       "phone": "07132 2682",
       "website": "https://besen-benz.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
-    },
-    {
-      "place_id": "g_100028321",
-      "title": "Weinstube Wieder",
-      "start": "2026-10-16",
-      "end": "2026-10-18",
-      "lat": 49.11972625,
-      "lon": 9.153729343478167,
-      "distance_km": 26.4,
-      "address": "Leingartener Straße 4, 74081 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 30139",
-      "website": "http://www.weinstube-wieder.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
     },
     {
       "place_id": "g_100028312",
@@ -3277,6 +3207,34 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029450/fischerstble-lorenz"
     },
     {
+      "place_id": "g_100028321",
+      "title": "Weinstube Wieder",
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "lat": 49.11972625,
+      "lon": 9.153729343478167,
+      "distance_km": 26.4,
+      "address": "Leingartener Straße 4, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 30139",
+      "website": "http://www.weinstube-wieder.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
+    },
+    {
+      "place_id": "g_100028281",
+      "title": "Böckinger Besen - Weinausschank Petra Störzbach-Nothwang",
+      "start": "2026-10-26",
+      "end": "2026-10-30",
+      "lat": 49.131561,
+      "lon": 9.1877606,
+      "distance_km": 23.6,
+      "address": "Heuchelbergstraße 22, 74080 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 33992",
+      "website": "https://böckinger-besen.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028281/bckinger-besen"
+    },
+    {
       "place_id": "g_100028309",
       "title": "Weingut und Weinstube Schwab",
       "start": "2026-10-28",
@@ -3347,20 +3305,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100032586/der-rutenbieger"
     },
     {
-      "place_id": "g_100028286",
-      "title": "Weinausschank Kühner",
-      "start": "2026-10-29",
-      "end": "2026-11-01",
-      "lat": 49.12000265,
-      "lon": 9.197351698796776,
-      "distance_km": 23.3,
-      "address": "Raidweg 12, 74081 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 255261",
-      "website": "https://www.weinbau-kuehner.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028286/weinausschank-khner"
-    },
-    {
       "place_id": "g_100028269",
       "title": "Zum Lobmüller",
       "start": "2026-10-29",
@@ -3387,6 +3331,20 @@
       "phone": "07131 42805",
       "website": "https://www.wahlskuhstall.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028174/wahls-kuhstall"
+    },
+    {
+      "place_id": "g_100028286",
+      "title": "Weinausschank Kühner",
+      "start": "2026-10-30",
+      "end": "2026-11-01",
+      "lat": 49.12000265,
+      "lon": 9.197351698796776,
+      "distance_km": 23.3,
+      "address": "Raidweg 12, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 255261",
+      "website": "https://www.weinbau-kuehner.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028286/weinausschank-khner"
     },
     {
       "place_id": "g_100028290",
@@ -3779,6 +3737,20 @@
       "phone": "07946 2139",
       "website": "https://www.weingut-borth.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028233/weinstube-borth"
+    },
+    {
+      "place_id": "g_100028269",
+      "title": "Zum Lobmüller",
+      "start": "2026-12-03",
+      "end": "2026-12-10",
+      "lat": 49.087390049999996,
+      "lon": 9.204436058156912,
+      "distance_km": 24.0,
+      "address": "Hörnlesbrunnen 3, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 964997",
+      "website": "https://www.zumlobmueller.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028269/zum-lobmller"
     },
     {
       "place_id": "g_100028280",
