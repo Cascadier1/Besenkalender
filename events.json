@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.10.2026, 11:15 Uhr",
+  "updated_at": "23.10.2026, 11:14 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -2045,20 +2045,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029429/weingut-kern-schaufler"
     },
     {
-      "place_id": "g_100028534",
-      "title": "Besenwirtschaft Föll",
-      "start": "2026-08-27",
-      "end": "2026-08-30",
-      "lat": 49.0698366,
-      "lon": 9.3124264,
-      "distance_km": 18.4,
-      "address": "Vohenlohe 10, 74232 Abstatt",
-      "city": "Abstatt",
-      "phone": "07062 61412",
-      "website": "",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028534/besenwirtschaft-fll"
-    },
-    {
       "place_id": "g_100030808",
       "title": "Moststraussen Hofmann",
       "start": "2026-08-29",
@@ -2199,20 +2185,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029270/hldener-besen"
     },
     {
-      "place_id": "g_100028370",
-      "title": "Besenwirtschaft Spundloch",
-      "start": "2026-09-26",
-      "end": "2026-09-29",
-      "lat": 49.0641105,
-      "lon": 9.0638891,
-      "distance_km": 34.5,
-      "address": "Schleifweg 94, 74336 Brackenheim",
-      "city": "Brackenheim",
-      "phone": "07135 12656",
-      "website": "http://www.weingut-holzwarth.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028370/besenwirtschaft-spundloch"
-    },
-    {
       "place_id": "g_100027482",
       "title": "Weinausschank \"zum Benz\"",
       "start": "2026-09-27",
@@ -2339,20 +2311,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
     },
     {
-      "place_id": "g_100028309",
-      "title": "Weingut und Weinstube Schwab",
-      "start": "2026-10-07",
-      "end": "2026-10-11",
-      "lat": 49.169275999999996,
-      "lon": 9.385850533524586,
-      "distance_km": 8.7,
-      "address": "Wassergasse 2, 74626 Bretzfeld",
-      "city": "Bretzfeld",
-      "phone": "07946 1418",
-      "website": "https://schwab-wein.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028309/weingut-und-weinstube-schwab"
-    },
-    {
       "place_id": "g_100028287",
       "title": "Winzerstube Löhe",
       "start": "2026-10-07",
@@ -2421,20 +2379,6 @@
       "phone": "07135 13023",
       "website": "https://www.winklerwein.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028297/uffm-scheuraboda"
-    },
-    {
-      "place_id": "g_100030043",
-      "title": "Zur Sonne, Familie Zinßer",
-      "start": "2026-10-09",
-      "end": "2026-10-10",
-      "lat": 49.1792271,
-      "lon": 9.4825889,
-      "distance_km": 1.7,
-      "address": "Adolzfurter Straße 41, 74629 Pfedelbach",
-      "city": "Pfedelbach",
-      "phone": "07941 33456",
-      "website": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030043/zur-sonne-familie-ziner"
     },
     {
       "place_id": "g_100028248",
@@ -3137,6 +3081,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
     },
     {
+      "place_id": "g_100030043",
+      "title": "Zur Sonne, Familie Zinßer",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "lat": 49.1792271,
+      "lon": 9.4825889,
+      "distance_km": 1.7,
+      "address": "Adolzfurter Straße 41, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 33456",
+      "website": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030043/zur-sonne-familie-ziner"
+    },
+    {
       "place_id": "g_100028281",
       "title": "Böckinger Besen - Weinausschank Petra Störzbach-Nothwang",
       "start": "2026-10-26",
@@ -3263,6 +3221,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028174/wahls-kuhstall"
     },
     {
+      "place_id": "g_100028534",
+      "title": "Besenwirtschaft Föll",
+      "start": "2026-10-30",
+      "end": "2026-11-08",
+      "lat": 49.0698366,
+      "lon": 9.3124264,
+      "distance_km": 18.4,
+      "address": "Vohenlohe 10, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 61412",
+      "website": "",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028534/besenwirtschaft-fll"
+    },
+    {
       "place_id": "g_100028286",
       "title": "Weinausschank Kühner",
       "start": "2026-10-30",
@@ -3275,6 +3247,20 @@
       "phone": "07131 255261",
       "website": "https://www.weinbau-kuehner.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028286/weinausschank-khner"
+    },
+    {
+      "place_id": "g_100028370",
+      "title": "Besenwirtschaft Spundloch",
+      "start": "2026-10-30",
+      "end": "2026-11-03",
+      "lat": 49.0641105,
+      "lon": 9.0638891,
+      "distance_km": 34.5,
+      "address": "Schleifweg 94, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 12656",
+      "website": "http://www.weingut-holzwarth.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028370/besenwirtschaft-spundloch"
     },
     {
       "place_id": "g_100028290",
