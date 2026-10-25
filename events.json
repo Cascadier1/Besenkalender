@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.10.2026, 11:14 Uhr",
+  "updated_at": "25.10.2026, 17:57 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -2227,20 +2227,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028313/besenwirtschaft-birkert"
     },
     {
-      "place_id": "g_100028288",
-      "title": "Weinstube Busch",
-      "start": "2026-10-01",
-      "end": "2026-10-04",
-      "lat": 49.1707511,
-      "lon": 9.3756886,
-      "distance_km": 9.5,
-      "address": "Greuthof 1, 74626 Bretzfeld",
-      "city": "Bretzfeld",
-      "phone": "07946 2465",
-      "website": "https://www.karl-busch.com/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028288/weinstube-busch"
-    },
-    {
       "place_id": "g_100028382",
       "title": "Kühners Wild- und Spargelbesen",
       "start": "2026-10-01",
@@ -3625,6 +3611,20 @@
       "phone": "07946 2139",
       "website": "https://www.weingut-borth.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028233/weinstube-borth"
+    },
+    {
+      "place_id": "g_100028288",
+      "title": "Weinstube Busch",
+      "start": "2026-11-19",
+      "end": "2026-11-22",
+      "lat": 49.1707511,
+      "lon": 9.3756886,
+      "distance_km": 9.5,
+      "address": "Greuthof 1, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2465",
+      "website": "https://www.karl-busch.com/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028288/weinstube-busch"
     },
     {
       "place_id": "g_100027482",
