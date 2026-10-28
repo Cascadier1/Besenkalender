@@ -1,5 +1,5 @@
 {
-  "updated_at": "28.10.2026, 09:03 Uhr",
+  "updated_at": "28.10.2026, 12:26 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -571,6 +571,18 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028534/besenwirtschaft-fll"
     },
     {
+      "id": "g_100028217",
+      "name": "Blockhaus Seeger",
+      "lat": 49.075814750000006,
+      "lon": 9.29931325319048,
+      "distance_km": 18.7,
+      "address": "Im Hohbuch 6, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 63206",
+      "website": "https://blockhaus-seeger.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028217/blockhaus-seeger"
+    },
+    {
       "id": "g_100028496",
       "name": "Besenwirtschaft Berthold",
       "lat": 49.1900557,
@@ -617,6 +629,18 @@
       "phone": "07131-175948",
       "website": "http://www.weingut-heinrich.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100036308/weingut-ga-heinrich-wein-dine"
+    },
+    {
+      "id": "g_100028280",
+      "name": "Weinstube Härle",
+      "lat": 49.070157699999996,
+      "lon": 9.291509851351417,
+      "distance_km": 19.6,
+      "address": "Heinrieter Straße 12, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 96548",
+      "website": "http://www.weingut-abstatt.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028280/weinstube-hrle"
     },
     {
       "id": "g_100027482",
@@ -2119,6 +2143,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
     },
     {
+      "place_id": "g_100028217",
+      "title": "Blockhaus Seeger",
+      "start": "2026-10-07",
+      "end": "2026-10-23",
+      "lat": 49.075814750000006,
+      "lon": 9.29931325319048,
+      "distance_km": 18.7,
+      "address": "Im Hohbuch 6, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 63206",
+      "website": "https://blockhaus-seeger.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028217/blockhaus-seeger"
+    },
+    {
       "place_id": "g_100029494",
       "title": "Weinstube Stutz",
       "start": "2026-10-07",
@@ -2357,20 +2395,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028246/besenwirtschaft-rolf-heinrich"
     },
     {
-      "place_id": "g_100028384",
-      "title": "Besen Weingut Springer",
-      "start": "2026-10-15",
-      "end": "2026-10-18",
-      "lat": 49.1158212,
-      "lon": 9.2265274,
-      "distance_km": 21.4,
-      "address": "Staufenberger Weg 4, 74074 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 570695",
-      "website": "https://www.weingut-springer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028384/weingut-springer"
-    },
-    {
       "place_id": "g_100029670",
       "title": "Besenwirtschaft \"Zum Rädle\"",
       "start": "2026-10-15",
@@ -2537,6 +2561,20 @@
       "phone": "07131 2901",
       "website": "http://www.weingut-klaushaberkern.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028268/weinausschank-zum-engel"
+    },
+    {
+      "place_id": "g_100028280",
+      "title": "Weinstube Härle",
+      "start": "2026-10-21",
+      "end": "2026-10-28",
+      "lat": 49.070157699999996,
+      "lon": 9.291509851351417,
+      "distance_km": 19.6,
+      "address": "Heinrieter Straße 12, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 96548",
+      "website": "http://www.weingut-abstatt.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028280/weinstube-hrle"
     },
     {
       "place_id": "g_100028283",
@@ -3085,6 +3123,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028287/winzerstube-lhe"
     },
     {
+      "place_id": "g_100028217",
+      "title": "Blockhaus Seeger",
+      "start": "2026-11-04",
+      "end": "2026-11-22",
+      "lat": 49.075814750000006,
+      "lon": 9.29931325319048,
+      "distance_km": 18.7,
+      "address": "Im Hohbuch 6, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 63206",
+      "website": "https://blockhaus-seeger.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028217/blockhaus-seeger"
+    },
+    {
       "place_id": "g_100028283",
       "title": "Besenwirtschaft Alexander Bauer",
       "start": "2026-11-04",
@@ -3153,6 +3205,20 @@
       "phone": "07132 951600",
       "website": "http://www.weingut-schoenbrunn.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022864/weinausschank-schnbrunn"
+    },
+    {
+      "place_id": "g_100028384",
+      "title": "Besen Weingut Springer",
+      "start": "2026-11-05",
+      "end": "2026-11-08",
+      "lat": 49.1158212,
+      "lon": 9.2265274,
+      "distance_km": 21.4,
+      "address": "Staufenberger Weg 4, 74074 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 570695",
+      "website": "https://www.weingut-springer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028384/weingut-springer"
     },
     {
       "place_id": "g_100028297",
@@ -3337,6 +3403,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028498/frschers-kelterstble"
     },
     {
+      "place_id": "g_100028280",
+      "title": "Weinstube Härle",
+      "start": "2026-11-13",
+      "end": "2026-11-20",
+      "lat": 49.070157699999996,
+      "lon": 9.291509851351417,
+      "distance_km": 19.6,
+      "address": "Heinrieter Straße 12, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 96548",
+      "website": "http://www.weingut-abstatt.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028280/weinstube-hrle"
+    },
+    {
       "place_id": "g_100029450",
       "title": "Fischerstüble Lorenz",
       "start": "2026-11-13",
@@ -3363,6 +3443,20 @@
       "phone": "0713237869",
       "website": "http://www.weingut-holzapfel.de/besenwirtschaft",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027491/besenwirtschaft-holzapfel"
+    },
+    {
+      "place_id": "g_100028269",
+      "title": "Zum Lobmüller",
+      "start": "2026-11-17",
+      "end": "2026-11-20",
+      "lat": 49.087390049999996,
+      "lon": 9.204436058156912,
+      "distance_km": 24.0,
+      "address": "Hörnlesbrunnen 3, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 964997",
+      "website": "https://www.zumlobmueller.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028269/zum-lobmller"
     },
     {
       "place_id": "g_100029438",
@@ -3629,6 +3723,20 @@
       "phone": "07133 964997",
       "website": "https://www.zumlobmueller.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028269/zum-lobmller"
+    },
+    {
+      "place_id": "g_100028280",
+      "title": "Weinstube Härle",
+      "start": "2026-12-04",
+      "end": "2026-12-09",
+      "lat": 49.070157699999996,
+      "lon": 9.291509851351417,
+      "distance_km": 19.6,
+      "address": "Heinrieter Straße 12, 74232 Abstatt",
+      "city": "Abstatt",
+      "phone": "07062 96548",
+      "website": "http://www.weingut-abstatt.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028280/weinstube-hrle"
     },
     {
       "place_id": "g_100027482",
