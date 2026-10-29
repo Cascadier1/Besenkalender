@@ -1,5 +1,5 @@
 {
-  "updated_at": "28.10.2026, 12:26 Uhr",
+  "updated_at": "29.10.2026, 12:46 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -1779,20 +1779,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028502/gutsgasthof-gruber"
     },
     {
-      "place_id": "g_100029436",
-      "title": "Besen im Weingut Hanke",
-      "start": "2026-02-13",
-      "end": "2026-02-21",
-      "lat": 49.025139249999995,
-      "lon": 9.3210556125,
-      "distance_km": 21.5,
-      "address": "Gronauer Straße 8, 71720 Oberstenfeld",
-      "city": "Oberstenfeld",
-      "phone": "07062 9039409",
-      "website": "http://www.hanke-weingut.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029436/besen-im-weingut-hanke"
-    },
-    {
       "place_id": "g_100029455",
       "title": "Besenwirtschaft Stapf",
       "start": "2026-02-18",
@@ -1805,20 +1791,6 @@
       "phone": "07133 6552",
       "website": "",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029455/besenwirtschaft-stapf"
-    },
-    {
-      "place_id": "g_100043601",
-      "title": "Besenwirtschaft am Bahndamm",
-      "start": "2026-02-26",
-      "end": "2026-03-01",
-      "lat": 49.24880055,
-      "lon": 9.165015135684174,
-      "distance_km": 26.0,
-      "address": "Jahnstraße 5, 74254 Offenau",
-      "city": "Offenau",
-      "phone": "07136 6426",
-      "website": "",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100043601/besenwirtschaft-am-bahndamm"
     },
     {
       "place_id": "g_100028383",
@@ -2379,20 +2351,6 @@
       "phone": "",
       "website": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030044/weinstube-volz"
-    },
-    {
-      "place_id": "g_100028246",
-      "title": "Besenwirtschaft Rolf Heinrich",
-      "start": "2026-10-15",
-      "end": "2026-10-24",
-      "lat": 49.149427349999996,
-      "lon": 9.244366234449021,
-      "distance_km": 19.2,
-      "address": "Riedstraße 23, 74076 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 982240",
-      "website": "https://www.heinrich-wein.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028246/besenwirtschaft-rolf-heinrich"
     },
     {
       "place_id": "g_100029670",
@@ -3207,6 +3165,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022864/weinausschank-schnbrunn"
     },
     {
+      "place_id": "g_100028246",
+      "title": "Besenwirtschaft Rolf Heinrich",
+      "start": "2026-11-05",
+      "end": "2026-11-14",
+      "lat": 49.149427349999996,
+      "lon": 9.244366234449021,
+      "distance_km": 19.2,
+      "address": "Riedstraße 23, 74076 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 982240",
+      "website": "https://www.heinrich-wein.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028246/besenwirtschaft-rolf-heinrich"
+    },
+    {
       "place_id": "g_100028384",
       "title": "Besen Weingut Springer",
       "start": "2026-11-05",
@@ -3219,6 +3191,20 @@
       "phone": "07131 570695",
       "website": "https://www.weingut-springer.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028384/weingut-springer"
+    },
+    {
+      "place_id": "g_100043601",
+      "title": "Besenwirtschaft am Bahndamm",
+      "start": "2026-11-05",
+      "end": "2026-11-08",
+      "lat": 49.24880055,
+      "lon": 9.165015135684174,
+      "distance_km": 26.0,
+      "address": "Jahnstraße 5, 74254 Offenau",
+      "city": "Offenau",
+      "phone": "07136 6426",
+      "website": "",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100043601/besenwirtschaft-am-bahndamm"
     },
     {
       "place_id": "g_100028297",
@@ -3247,6 +3233,20 @@
       "phone": "07941 33894",
       "website": "https://schluchters-weinstube.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028173/schluchters-weinstube"
+    },
+    {
+      "place_id": "g_100029436",
+      "title": "Besen im Weingut Hanke",
+      "start": "2026-11-06",
+      "end": "2026-11-14",
+      "lat": 49.025139249999995,
+      "lon": 9.3210556125,
+      "distance_km": 21.5,
+      "address": "Gronauer Straße 8, 71720 Oberstenfeld",
+      "city": "Oberstenfeld",
+      "phone": "07062 9039409",
+      "website": "http://www.hanke-weingut.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029436/besen-im-weingut-hanke"
     },
     {
       "place_id": "g_100028291",
@@ -3569,6 +3569,20 @@
       "phone": "07132 2682",
       "website": "https://besen-benz.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
+    },
+    {
+      "place_id": "g_100043601",
+      "title": "Besenwirtschaft am Bahndamm",
+      "start": "2026-11-19",
+      "end": "2026-11-22",
+      "lat": 49.24880055,
+      "lon": 9.165015135684174,
+      "distance_km": 26.0,
+      "address": "Jahnstraße 5, 74254 Offenau",
+      "city": "Offenau",
+      "phone": "07136 6426",
+      "website": "",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100043601/besenwirtschaft-am-bahndamm"
     },
     {
       "place_id": "g_100028287",
