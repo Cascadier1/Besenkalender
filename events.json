@@ -1,5 +1,5 @@
 {
-  "updated_at": "29.10.2026, 12:46 Uhr",
+  "updated_at": "30.10.2026, 12:46 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -2157,20 +2157,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028311/zum-hoelzernen-besen"
     },
     {
-      "place_id": "g_100028248",
-      "title": "Weinausschank Seeblick",
-      "start": "2026-10-09",
-      "end": "2026-10-11",
-      "lat": 49.10681515,
-      "lon": 9.39789108004095,
-      "distance_km": 11.0,
-      "address": "Lichtensterner Straße 16, 74245 Löwenstein",
-      "city": "Löwenstein",
-      "phone": "07130 8885",
-      "website": "https://www.seeblick-loewenstein.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028248/weinausschank-seeblick"
-    },
-    {
       "place_id": "g_100028264",
       "title": "Aries Besenwirtschaft",
       "start": "2026-10-09",
@@ -2281,20 +2267,6 @@
       "phone": "07132 6214",
       "website": "https://www.haberkern-betz.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029135/weinstube-goldener-besen"
-    },
-    {
-      "place_id": "g_100028322",
-      "title": "Besenwirtschaft Able",
-      "start": "2026-10-14",
-      "end": "2026-10-18",
-      "lat": 49.13472915,
-      "lon": 9.224919023860199,
-      "distance_km": 20.9,
-      "address": "Ludwig-Pfau-Straße 7, 74072 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 86904",
-      "website": "https://www.able-wein.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028322/besenwirtschaft-able"
     },
     {
       "place_id": "g_100028317",
@@ -3095,6 +3067,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028217/blockhaus-seeger"
     },
     {
+      "place_id": "g_100028322",
+      "title": "Besenwirtschaft Able",
+      "start": "2026-11-04",
+      "end": "2026-11-08",
+      "lat": 49.13472915,
+      "lon": 9.224919023860199,
+      "distance_km": 20.9,
+      "address": "Ludwig-Pfau-Straße 7, 74072 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 86904",
+      "website": "https://www.able-wein.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028322/besenwirtschaft-able"
+    },
+    {
       "place_id": "g_100028283",
       "title": "Besenwirtschaft Alexander Bauer",
       "start": "2026-11-04",
@@ -3149,6 +3135,20 @@
       "phone": "07946 2139",
       "website": "https://www.weingut-borth.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028233/weinstube-borth"
+    },
+    {
+      "place_id": "g_100028248",
+      "title": "Weinausschank Seeblick",
+      "start": "2026-11-05",
+      "end": "2026-11-08",
+      "lat": 49.10681515,
+      "lon": 9.39789108004095,
+      "distance_km": 11.0,
+      "address": "Lichtensterner Straße 16, 74245 Löwenstein",
+      "city": "Löwenstein",
+      "phone": "07130 8885",
+      "website": "https://www.seeblick-loewenstein.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028248/weinausschank-seeblick"
     },
     {
       "place_id": "g_100022864",
