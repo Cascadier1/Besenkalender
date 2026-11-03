@@ -1,5 +1,5 @@
 {
-  "updated_at": "02.11.2026, 14:06 Uhr",
+  "updated_at": "03.11.2026, 13:42 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -1975,20 +1975,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028319/gutsausschank-laicher"
     },
     {
-      "place_id": "g_100029442",
-      "title": "Weinstube zum Kachelofen",
-      "start": "2026-09-03",
-      "end": "2026-09-06",
-      "lat": 49.0582503,
-      "lon": 9.3591567,
-      "distance_km": 16.9,
-      "address": "Maad 10, 71717 Beilstein",
-      "city": "Beilstein",
-      "phone": "07062 22159",
-      "website": "https://www.weinbau-steinbacher.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029442/weinstube-zum-kachelofen"
-    },
-    {
       "place_id": "g_100027482",
       "title": "Weinausschank \"zum Benz\"",
       "start": "2026-09-07",
@@ -2269,20 +2255,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028325/weinstube-reinhard"
     },
     {
-      "place_id": "g_100028320",
-      "title": "Kupferzeller Besen - Weingut Braun",
-      "start": "2026-10-16",
-      "end": "2026-10-18",
-      "lat": 49.2283156,
-      "lon": 9.693291668314881,
-      "distance_km": 14.8,
-      "address": "Langenburgerstraße 11, 74635 Kupferzell",
-      "city": "Kupferzell",
-      "phone": "0178 2837916",
-      "website": "https://kupferzellerbesenbraun.jimdofree.com/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028320/kupferzeller-besen"
-    },
-    {
       "place_id": "g_100027482",
       "title": "Weinausschank \"zum Benz\"",
       "start": "2026-10-16",
@@ -2437,20 +2409,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028875/leissium"
     },
     {
-      "place_id": "g_100028362",
-      "title": "Weinausschank Fischer",
-      "start": "2026-10-22",
-      "end": "2026-10-25",
-      "lat": 49.13913595,
-      "lon": 9.228211438259635,
-      "distance_km": 20.6,
-      "address": "Wollhausstraße 63/1, 74072 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 89325",
-      "website": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028362/weinausschank-fischer"
-    },
-    {
       "place_id": "g_100028342",
       "title": "Kuhberg-Schänke",
       "start": "2026-10-22",
@@ -2463,20 +2421,6 @@
       "phone": "06269 90254",
       "website": "http://www.kuhberg-schaenke.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028342/kuhberg-schnke"
-    },
-    {
-      "place_id": "g_100028295",
-      "title": "Sonnenbergbesen",
-      "start": "2026-10-22",
-      "end": "2026-10-25",
-      "lat": 49.13081871702051,
-      "lon": 8.981924057006836,
-      "distance_km": 38.4,
-      "address": "Sonnenberghof 1, 74193 Schwaigern",
-      "city": "Schwaigern",
-      "phone": "07138 67177",
-      "website": "http://www.willundwürz.de/sonnenbergbesen.html",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028295/sonnenbergbesen"
     },
     {
       "place_id": "g_100028290",
@@ -2801,20 +2745,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029457/weinstube-plag"
     },
     {
-      "place_id": "g_100028321",
-      "title": "Weinstube Wieder",
-      "start": "2026-11-01",
-      "end": "2026-11-01",
-      "lat": 49.11972625,
-      "lon": 9.153729343478167,
-      "distance_km": 26.4,
-      "address": "Leingartener Straße 4, 74081 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 30139",
-      "website": "http://www.weinstube-wieder.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
-    },
-    {
       "place_id": "g_100041621",
       "title": "WeinGut Kleinle",
       "start": "2026-11-01",
@@ -2955,6 +2885,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028248/weinausschank-seeblick"
     },
     {
+      "place_id": "g_100029442",
+      "title": "Weinstube zum Kachelofen",
+      "start": "2026-11-05",
+      "end": "2026-11-08",
+      "lat": 49.0582503,
+      "lon": 9.3591567,
+      "distance_km": 16.9,
+      "address": "Maad 10, 71717 Beilstein",
+      "city": "Beilstein",
+      "phone": "07062 22159",
+      "website": "https://www.weinbau-steinbacher.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029442/weinstube-zum-kachelofen"
+    },
+    {
       "place_id": "g_100022864",
       "title": "Weinausschank Schönbrunn",
       "start": "2026-11-05",
@@ -3053,6 +2997,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028297/uffm-scheuraboda"
     },
     {
+      "place_id": "g_100028295",
+      "title": "Sonnenbergbesen",
+      "start": "2026-11-05",
+      "end": "2026-11-08",
+      "lat": 49.13081871702051,
+      "lon": 8.981924057006836,
+      "distance_km": 38.4,
+      "address": "Sonnenberghof 1, 74193 Schwaigern",
+      "city": "Schwaigern",
+      "phone": "07138 67177",
+      "website": "http://www.willundwürz.de/sonnenbergbesen.html",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028295/sonnenbergbesen"
+    },
+    {
       "place_id": "g_100022876",
       "title": "Winzerstube Lösch",
       "start": "2026-11-06",
@@ -3095,6 +3053,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028279/weinstube-stein"
     },
     {
+      "place_id": "g_100028320",
+      "title": "Kupferzeller Besen - Weingut Braun",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "lat": 49.2283156,
+      "lon": 9.693291668314881,
+      "distance_km": 14.8,
+      "address": "Langenburgerstraße 11, 74635 Kupferzell",
+      "city": "Kupferzell",
+      "phone": "0178 2837916",
+      "website": "https://kupferzellerbesenbraun.jimdofree.com/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028320/kupferzeller-besen"
+    },
+    {
       "place_id": "g_100028169",
       "title": "Besenwirtschaft Seyffer",
       "start": "2026-11-06",
@@ -3135,6 +3107,20 @@
       "phone": "07062 9039409",
       "website": "http://www.hanke-weingut.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029436/besen-im-weingut-hanke"
+    },
+    {
+      "place_id": "g_100028321",
+      "title": "Weinstube Wieder",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "lat": 49.11972625,
+      "lon": 9.153729343478167,
+      "distance_km": 26.4,
+      "address": "Leingartener Straße 4, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 30139",
+      "website": "http://www.weinstube-wieder.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
     },
     {
       "place_id": "g_100028291",
@@ -3219,6 +3205,20 @@
       "phone": "07132 18299",
       "website": "http://www.weingut-benz-wilfensee.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028326/weinausschank-benz-am-wilfensee"
+    },
+    {
+      "place_id": "g_100028362",
+      "title": "Weinausschank Fischer",
+      "start": "2026-11-10",
+      "end": "2026-11-15",
+      "lat": 49.13913595,
+      "lon": 9.228211438259635,
+      "distance_km": 20.6,
+      "address": "Wollhausstraße 63/1, 74072 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 89325",
+      "website": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028362/weinausschank-fischer"
     },
     {
       "place_id": "g_100030049",
