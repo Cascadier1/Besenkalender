@@ -1,5 +1,5 @@
 {
-  "updated_at": "04.11.2026, 13:56 Uhr",
+  "updated_at": "05.11.2026, 14:01 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -567,7 +567,7 @@
       "address": "Vohenlohe 10, 74232 Abstatt",
       "city": "Abstatt",
       "phone": "07062 61412",
-      "website": "",
+      "website": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028534/besenwirtschaft-fll"
     },
     {
@@ -737,18 +737,6 @@
       "phone": "0791 491011",
       "website": "http://zur-weintenne.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
-    },
-    {
-      "id": "g_100028312",
-      "name": "Weinstube \"Zur Bütte\"",
-      "lat": 49.0386055,
-      "lon": 9.3052583,
-      "distance_km": 21.2,
-      "address": "Winzerhausener Weg 22, 71717 Beilstein",
-      "city": "Beilstein",
-      "phone": "+49 7062 / 3725",
-      "website": "https://weingut-krohmer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
     },
     {
       "id": "g_100029427",
@@ -1947,20 +1935,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030808/moststraussen-hofmann"
     },
     {
-      "place_id": "g_100028363",
-      "title": "Weinstube Ungerer",
-      "start": "2026-09-01",
-      "end": "2026-09-06",
-      "lat": 49.1474797,
-      "lon": 9.5513848,
-      "distance_km": 4.6,
-      "address": "Harsberger Straße 15, 74629 Pfedelbach",
-      "city": "Pfedelbach",
-      "phone": "07949 940690",
-      "website": "http://www.weingut-ungerer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028363/weinstube-ungerer"
-    },
-    {
       "place_id": "g_100028319",
       "title": "Gutsausschank Laicher",
       "start": "2026-09-01",
@@ -2227,20 +2201,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
-      "place_id": "g_100028312",
-      "title": "Weinstube \"Zur Bütte\"",
-      "start": "2026-10-18",
-      "end": "2026-10-21",
-      "lat": 49.0386055,
-      "lon": 9.3052583,
-      "distance_km": 21.2,
-      "address": "Winzerhausener Weg 22, 71717 Beilstein",
-      "city": "Beilstein",
-      "phone": "+49 7062 / 3725",
-      "website": "https://weingut-krohmer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
-    },
-    {
       "place_id": "g_100028306",
       "title": "Dieterichs Weinstüble",
       "start": "2026-10-19",
@@ -2267,20 +2227,6 @@
       "phone": "07132 37117",
       "website": "https://www.weingut-berthold.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028496/weingut-berthold"
-    },
-    {
-      "place_id": "g_100030845",
-      "title": "Beck's Weinschenke",
-      "start": "2026-10-21",
-      "end": "2026-10-25",
-      "lat": 49.177551,
-      "lon": 9.4815899,
-      "distance_km": 1.8,
-      "address": "Adolzfurter Str. 69, 74629 Pfedelbach",
-      "city": "Pfedelbach",
-      "phone": "07941 8506",
-      "website": "",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030845/becks-weinschenke"
     },
     {
       "place_id": "g_100028268",
@@ -2493,20 +2439,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100032586/der-rutenbieger"
     },
     {
-      "place_id": "g_100028312",
-      "title": "Weinstube \"Zur Bütte\"",
-      "start": "2026-10-29",
-      "end": "2026-11-05",
-      "lat": 49.0386055,
-      "lon": 9.3052583,
-      "distance_km": 21.2,
-      "address": "Winzerhausener Weg 22, 71717 Beilstein",
-      "city": "Beilstein",
-      "phone": "+49 7062 / 3725",
-      "website": "https://weingut-krohmer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
-    },
-    {
       "place_id": "g_100028497",
       "title": "Besenwirtschaft Gall & Niklas",
       "start": "2026-10-29",
@@ -2573,7 +2505,7 @@
       "address": "Vohenlohe 10, 74232 Abstatt",
       "city": "Abstatt",
       "phone": "07062 61412",
-      "website": "",
+      "website": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028534/besenwirtschaft-fll"
     },
     {
@@ -2941,6 +2873,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028173/schluchters-weinstube"
     },
     {
+      "place_id": "g_100030845",
+      "title": "Beck's Weinschenke",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "lat": 49.177551,
+      "lon": 9.4815899,
+      "distance_km": 1.8,
+      "address": "Adolzfurter Str. 69, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 8506",
+      "website": "",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030845/becks-weinschenke"
+    },
+    {
       "place_id": "g_100028541",
       "title": "Frieder's Weinstube",
       "start": "2026-11-06",
@@ -3093,6 +3039,34 @@
       "phone": "07134 4480",
       "website": "http://www.wolf-weine.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028368/besen-im-weingut-wolf"
+    },
+    {
+      "place_id": "g_100030845",
+      "title": "Beck's Weinschenke",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "lat": 49.177551,
+      "lon": 9.4815899,
+      "distance_km": 1.8,
+      "address": "Adolzfurter Str. 69, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 8506",
+      "website": "",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030845/becks-weinschenke"
+    },
+    {
+      "place_id": "g_100028363",
+      "title": "Weinstube Ungerer",
+      "start": "2026-11-10",
+      "end": "2026-11-15",
+      "lat": 49.1474797,
+      "lon": 9.5513848,
+      "distance_km": 4.6,
+      "address": "Harsberger Straße 15, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07949 940690",
+      "website": "http://www.weingut-ungerer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028363/weinstube-ungerer"
     },
     {
       "place_id": "g_100028284",
@@ -3583,20 +3557,6 @@
       "phone": "07131 42805",
       "website": "https://www.wahlskuhstall.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028174/wahls-kuhstall"
-    },
-    {
-      "place_id": "g_100028312",
-      "title": "Weinstube \"Zur Bütte\"",
-      "start": "2026-11-30",
-      "end": "2026-12-03",
-      "lat": 49.0386055,
-      "lon": 9.3052583,
-      "distance_km": 21.2,
-      "address": "Winzerhausener Weg 22, 71717 Beilstein",
-      "city": "Beilstein",
-      "phone": "+49 7062 / 3725",
-      "website": "https://weingut-krohmer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
     },
     {
       "place_id": "g_100029135",
