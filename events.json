@@ -1,5 +1,5 @@
 {
-  "updated_at": "05.11.2026, 14:01 Uhr",
+  "updated_at": "06.11.2026, 13:55 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -149,6 +149,18 @@
       "phone": "07946 2185",
       "website": "https://www.weingut-lederer.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028284/weinstube-lederer"
+    },
+    {
+      "id": "g_100029443",
+      "name": "Weingut und Weinstube Mai",
+      "lat": 49.1407654,
+      "lon": 9.4641852,
+      "distance_km": 5.0,
+      "address": "Otto-Schäffler-Straße 44, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2215",
+      "website": "https://www.weingut-mai.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029443/weingut-und-weinstube-mai"
     },
     {
       "id": "g_100028289",
@@ -737,6 +749,18 @@
       "phone": "0791 491011",
       "website": "http://zur-weintenne.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
+    },
+    {
+      "id": "g_100028312",
+      "name": "Weinstube \"Zur Bütte\"",
+      "lat": 49.0386055,
+      "lon": 9.3052583,
+      "distance_km": 21.2,
+      "address": "Winzerhausener Weg 22, 71717 Beilstein",
+      "city": "Beilstein",
+      "phone": "+49 7062 / 3725",
+      "website": "https://weingut-krohmer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
     },
     {
       "id": "g_100029427",
@@ -1739,6 +1763,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028366/weinstube-hfele"
     },
     {
+      "place_id": "g_100029443",
+      "title": "Weingut und Weinstube Mai",
+      "start": "2025-11-06",
+      "end": "2026-11-09",
+      "lat": 49.1407654,
+      "lon": 9.4641852,
+      "distance_km": 5.0,
+      "address": "Otto-Schäffler-Straße 44, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2215",
+      "website": "https://www.weingut-mai.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029443/weingut-und-weinstube-mai"
+    },
+    {
       "place_id": "g_100028366",
       "title": "Weinstube Häfele",
       "start": "2025-11-15",
@@ -2201,6 +2239,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
+      "place_id": "g_100028312",
+      "title": "Weinstube \"Zur Bütte\"",
+      "start": "2026-10-18",
+      "end": "2026-10-21",
+      "lat": 49.0386055,
+      "lon": 9.3052583,
+      "distance_km": 21.2,
+      "address": "Winzerhausener Weg 22, 71717 Beilstein",
+      "city": "Beilstein",
+      "phone": "+49 7062 / 3725",
+      "website": "https://weingut-krohmer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
+    },
+    {
       "place_id": "g_100028306",
       "title": "Dieterichs Weinstüble",
       "start": "2026-10-19",
@@ -2437,6 +2489,20 @@
       "phone": "07132 342200",
       "website": "https://www.der-rutenbieger.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100032586/der-rutenbieger"
+    },
+    {
+      "place_id": "g_100028312",
+      "title": "Weinstube \"Zur Bütte\"",
+      "start": "2026-10-29",
+      "end": "2026-11-05",
+      "lat": 49.0386055,
+      "lon": 9.3052583,
+      "distance_km": 21.2,
+      "address": "Winzerhausener Weg 22, 71717 Beilstein",
+      "city": "Beilstein",
+      "phone": "+49 7062 / 3725",
+      "website": "https://weingut-krohmer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
     },
     {
       "place_id": "g_100028497",
@@ -3557,6 +3623,20 @@
       "phone": "07131 42805",
       "website": "https://www.wahlskuhstall.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028174/wahls-kuhstall"
+    },
+    {
+      "place_id": "g_100028312",
+      "title": "Weinstube \"Zur Bütte\"",
+      "start": "2026-11-30",
+      "end": "2026-12-03",
+      "lat": 49.0386055,
+      "lon": 9.3052583,
+      "distance_km": 21.2,
+      "address": "Winzerhausener Weg 22, 71717 Beilstein",
+      "city": "Beilstein",
+      "phone": "+49 7062 / 3725",
+      "website": "https://weingut-krohmer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
     },
     {
       "place_id": "g_100029135",
