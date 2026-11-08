@@ -1,5 +1,5 @@
 {
-  "updated_at": "07.11.2026, 12:56 Uhr",
+  "updated_at": "08.11.2026, 13:10 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -581,18 +581,6 @@
       "phone": "07062 61412",
       "website": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028534/besenwirtschaft-fll"
-    },
-    {
-      "id": "g_100028217",
-      "name": "Blockhaus Seeger",
-      "lat": 49.075814750000006,
-      "lon": 9.29931325319048,
-      "distance_km": 18.7,
-      "address": "Im Hohbuch 6, 74232 Abstatt",
-      "city": "Abstatt",
-      "phone": "07062 63206",
-      "website": "https://blockhaus-seeger.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028217/blockhaus-seeger"
     },
     {
       "id": "g_100028496",
@@ -1229,18 +1217,6 @@
       "phone": "07143 60777",
       "website": "http://www.weingutjoos.de/index.html",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029454/besenwirtschaft-schwalbennest"
-    },
-    {
-      "id": "g_100028370",
-      "name": "Besenwirtschaft Spundloch",
-      "lat": 49.0641105,
-      "lon": 9.0638891,
-      "distance_km": 34.5,
-      "address": "Schleifweg 94, 74336 Brackenheim",
-      "city": "Brackenheim",
-      "phone": "07135 12656",
-      "website": "http://www.weingut-holzwarth.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028370/besenwirtschaft-spundloch"
     },
     {
       "id": "g_100028365",
@@ -2603,20 +2579,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028324/weinausschank-zum-weinreuter"
     },
     {
-      "place_id": "g_100028370",
-      "title": "Besenwirtschaft Spundloch",
-      "start": "2026-10-30",
-      "end": "2026-11-03",
-      "lat": 49.0641105,
-      "lon": 9.0638891,
-      "distance_km": 34.5,
-      "address": "Schleifweg 94, 74336 Brackenheim",
-      "city": "Brackenheim",
-      "phone": "07135 12656",
-      "website": "http://www.weingut-holzwarth.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028370/besenwirtschaft-spundloch"
-    },
-    {
       "place_id": "g_100028290",
       "title": "Wengertstube Körner",
       "start": "2026-10-31",
@@ -2685,20 +2647,6 @@
       "phone": "07132 2448",
       "website": "https://winzerstube-lohe.business.site/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028287/winzerstube-lhe"
-    },
-    {
-      "place_id": "g_100028217",
-      "title": "Blockhaus Seeger",
-      "start": "2026-11-04",
-      "end": "2026-11-22",
-      "lat": 49.075814750000006,
-      "lon": 9.29931325319048,
-      "distance_km": 18.7,
-      "address": "Im Hohbuch 6, 74232 Abstatt",
-      "city": "Abstatt",
-      "phone": "07062 63206",
-      "website": "https://blockhaus-seeger.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028217/blockhaus-seeger"
     },
     {
       "place_id": "g_100028322",
@@ -3679,20 +3627,6 @@
       "phone": "0791 491011",
       "website": "http://zur-weintenne.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
-    },
-    {
-      "place_id": "g_100028217",
-      "title": "Blockhaus Seeger",
-      "start": "2026-12-02",
-      "end": "2026-12-20",
-      "lat": 49.075814750000006,
-      "lon": 9.29931325319048,
-      "distance_km": 18.7,
-      "address": "Im Hohbuch 6, 74232 Abstatt",
-      "city": "Abstatt",
-      "phone": "07062 63206",
-      "website": "https://blockhaus-seeger.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028217/blockhaus-seeger"
     },
     {
       "place_id": "g_100028233",
