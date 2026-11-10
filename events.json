@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.11.2026, 14:39 Uhr",
+  "updated_at": "10.11.2026, 14:18 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -149,18 +149,6 @@
       "phone": "07946 2185",
       "website": "https://www.weingut-lederer.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028284/weinstube-lederer"
-    },
-    {
-      "id": "g_100029443",
-      "name": "Weingut und Weinstube Mai",
-      "lat": 49.1407654,
-      "lon": 9.4641852,
-      "distance_km": 5.0,
-      "address": "Otto-Schäffler-Straße 44, 74626 Bretzfeld",
-      "city": "Bretzfeld",
-      "phone": "07946 2215",
-      "website": "https://www.weingut-mai.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029443/weingut-und-weinstube-mai"
     },
     {
       "id": "g_100028289",
@@ -1763,20 +1751,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028366/weinstube-hfele"
     },
     {
-      "place_id": "g_100029443",
-      "title": "Weingut und Weinstube Mai",
-      "start": "2025-11-06",
-      "end": "2026-11-09",
-      "lat": 49.1407654,
-      "lon": 9.4641852,
-      "distance_km": 5.0,
-      "address": "Otto-Schäffler-Straße 44, 74626 Bretzfeld",
-      "city": "Bretzfeld",
-      "phone": "07946 2215",
-      "website": "https://www.weingut-mai.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029443/weingut-und-weinstube-mai"
-    },
-    {
       "place_id": "g_100028366",
       "title": "Weinstube Häfele",
       "start": "2025-11-15",
@@ -2153,20 +2127,6 @@
       "phone": "07941 36073",
       "website": "http://www.dieschnapsdrossel.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028341/die-schnapsdrossel"
-    },
-    {
-      "place_id": "g_100028325",
-      "title": "Weinstube Reinhard",
-      "start": "2026-10-16",
-      "end": "2026-10-18",
-      "lat": 49.2185884,
-      "lon": 9.3830472,
-      "distance_km": 10.1,
-      "address": "Siebeneicherweg 3, 74243 Langenbrettach",
-      "city": "Langenbrettach",
-      "phone": "07139 7471",
-      "website": "http://www.weinstube-reinhard.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028325/weinstube-reinhard"
     },
     {
       "place_id": "g_100027482",
@@ -2841,20 +2801,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029436/besen-im-weingut-hanke"
     },
     {
-      "place_id": "g_100028321",
-      "title": "Weinstube Wieder",
-      "start": "2026-11-06",
-      "end": "2026-11-08",
-      "lat": 49.11972625,
-      "lon": 9.153729343478167,
-      "distance_km": 26.4,
-      "address": "Leingartener Straße 4, 74081 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 30139",
-      "website": "http://www.weinstube-wieder.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
-    },
-    {
       "place_id": "g_100028291",
       "title": "Weinbau Pavillon",
       "start": "2026-11-06",
@@ -3233,6 +3179,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028369/baldeles-weinstube"
     },
     {
+      "place_id": "g_100028325",
+      "title": "Weinstube Reinhard",
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "lat": 49.2185884,
+      "lon": 9.3830472,
+      "distance_km": 10.1,
+      "address": "Siebeneicherweg 3, 74243 Langenbrettach",
+      "city": "Langenbrettach",
+      "phone": "07139 7471",
+      "website": "http://www.weinstube-reinhard.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028325/weinstube-reinhard"
+    },
+    {
       "place_id": "g_100028290",
       "title": "Wengertstube Körner",
       "start": "2026-11-13",
@@ -3287,6 +3247,20 @@
       "phone": "07148 1326",
       "website": "https://www.fischerstueble-lorenz.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029450/fischerstble-lorenz"
+    },
+    {
+      "place_id": "g_100028321",
+      "title": "Weinstube Wieder",
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "lat": 49.11972625,
+      "lon": 9.153729343478167,
+      "distance_km": 26.4,
+      "address": "Leingartener Straße 4, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 30139",
+      "website": "http://www.weinstube-wieder.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
     },
     {
       "place_id": "g_100028500",
