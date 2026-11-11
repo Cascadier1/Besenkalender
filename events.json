@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.11.2026, 14:18 Uhr",
+  "updated_at": "11.11.2026, 13:45 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -2073,20 +2073,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
     },
     {
-      "place_id": "g_100029135",
-      "title": "Weinstube Goldener Besen",
-      "start": "2026-10-14",
-      "end": "2026-10-19",
-      "lat": 49.1712622,
-      "lon": 9.26613034871795,
-      "distance_km": 17.4,
-      "address": "Friedenstraße 26, 74235 Erlenbach",
-      "city": "Erlenbach",
-      "phone": "07132 6214",
-      "website": "https://www.haberkern-betz.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029135/weinstube-goldener-besen"
-    },
-    {
       "place_id": "g_100030044",
       "title": "Weinstube Volz",
       "start": "2026-10-15",
@@ -2479,20 +2465,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028217/blockhaus-seeger"
     },
     {
-      "place_id": "g_100028322",
-      "title": "Besenwirtschaft Able",
-      "start": "2026-11-04",
-      "end": "2026-11-08",
-      "lat": 49.13472915,
-      "lon": 9.224919023860199,
-      "distance_km": 20.9,
-      "address": "Ludwig-Pfau-Straße 7, 74072 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 86904",
-      "website": "https://www.able-wein.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028322/besenwirtschaft-able"
-    },
-    {
       "place_id": "g_100028283",
       "title": "Besenwirtschaft Alexander Bauer",
       "start": "2026-11-04",
@@ -2505,20 +2477,6 @@
       "phone": "07131 570374",
       "website": "http://www.weingut-alexander-bauer.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028283/besenwirtschaft-alexander-bauer"
-    },
-    {
-      "place_id": "g_100028339",
-      "title": "Weinstube Politschek",
-      "start": "2026-11-04",
-      "end": "2026-11-08",
-      "lat": 49.233832050000004,
-      "lon": 9.191964978750974,
-      "distance_km": 23.7,
-      "address": "Wilhelmstraße 6, 74177 Bad Friedrichshall",
-      "city": "Bad Friedrichshall",
-      "phone": "07136 5652",
-      "website": "http://www.weingutpolitschek.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028339/weinstube-politschek"
     },
     {
       "place_id": "g_100030049",
@@ -3333,6 +3291,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029135/weinstube-goldener-besen"
     },
     {
+      "place_id": "g_100028322",
+      "title": "Besenwirtschaft Able",
+      "start": "2026-11-18",
+      "end": "2026-11-22",
+      "lat": 49.13472915,
+      "lon": 9.224919023860199,
+      "distance_km": 20.9,
+      "address": "Ludwig-Pfau-Straße 7, 74072 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 86904",
+      "website": "https://www.able-wein.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028322/besenwirtschaft-able"
+    },
+    {
       "place_id": "g_100028283",
       "title": "Besenwirtschaft Alexander Bauer",
       "start": "2026-11-18",
@@ -3345,6 +3317,20 @@
       "phone": "07131 570374",
       "website": "http://www.weingut-alexander-bauer.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028283/besenwirtschaft-alexander-bauer"
+    },
+    {
+      "place_id": "g_100028339",
+      "title": "Weinstube Politschek",
+      "start": "2026-11-18",
+      "end": "2026-11-22",
+      "lat": 49.233832050000004,
+      "lon": 9.191964978750974,
+      "distance_km": 23.7,
+      "address": "Wilhelmstraße 6, 74177 Bad Friedrichshall",
+      "city": "Bad Friedrichshall",
+      "phone": "07136 5652",
+      "website": "http://www.weingutpolitschek.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028339/weinstube-politschek"
     },
     {
       "place_id": "g_100028342",
@@ -3571,20 +3557,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
     },
     {
-      "place_id": "g_100029135",
-      "title": "Weinstube Goldener Besen",
-      "start": "2026-12-01",
-      "end": "2026-12-07",
-      "lat": 49.1712622,
-      "lon": 9.26613034871795,
-      "distance_km": 17.4,
-      "address": "Friedenstraße 26, 74235 Erlenbach",
-      "city": "Erlenbach",
-      "phone": "07132 6214",
-      "website": "https://www.haberkern-betz.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029135/weinstube-goldener-besen"
-    },
-    {
       "place_id": "g_100028326",
       "title": "Weinausschank Benz am Wilfensee",
       "start": "2026-12-01",
@@ -3611,6 +3583,20 @@
       "phone": "0791 491011",
       "website": "http://zur-weintenne.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
+    },
+    {
+      "place_id": "g_100029135",
+      "title": "Weinstube Goldener Besen",
+      "start": "2026-12-02",
+      "end": "2026-12-07",
+      "lat": 49.1712622,
+      "lon": 9.26613034871795,
+      "distance_km": 17.4,
+      "address": "Friedenstraße 26, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 6214",
+      "website": "https://www.haberkern-betz.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029135/weinstube-goldener-besen"
     },
     {
       "place_id": "g_100028217",
