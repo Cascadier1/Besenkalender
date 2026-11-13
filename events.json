@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.11.2026, 14:23 Uhr",
+  "updated_at": "13.11.2026, 13:59 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -1013,6 +1013,18 @@
       "phone": "07136 6426",
       "website": "",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100043601/besenwirtschaft-am-bahndamm"
+    },
+    {
+      "id": "g_100028321",
+      "name": "Weinstube Wieder",
+      "lat": 49.11972625,
+      "lon": 9.153729343478167,
+      "distance_km": 26.4,
+      "address": "Leingartener Straße 4, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 30139",
+      "website": "http://www.weinstube-wieder.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
     },
     {
       "id": "g_100029455",
@@ -3111,6 +3123,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029450/fischerstble-lorenz"
     },
     {
+      "place_id": "g_100028321",
+      "title": "Weinstube Wieder",
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "lat": 49.11972625,
+      "lon": 9.153729343478167,
+      "distance_km": 26.4,
+      "address": "Leingartener Straße 4, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 30139",
+      "website": "http://www.weinstube-wieder.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
+    },
+    {
       "place_id": "g_100030043",
       "title": "Zur Sonne, Familie Zinßer",
       "start": "2026-11-14",
@@ -3711,6 +3737,20 @@
       "phone": "07136 6426",
       "website": "",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100043601/besenwirtschaft-am-bahndamm"
+    },
+    {
+      "place_id": "g_100028339",
+      "title": "Weinstube Politschek",
+      "start": "2027-01-06",
+      "end": "2027-01-10",
+      "lat": 49.233832050000004,
+      "lon": 9.191964978750974,
+      "distance_km": 23.7,
+      "address": "Wilhelmstraße 6, 74177 Bad Friedrichshall",
+      "city": "Bad Friedrichshall",
+      "phone": "07136 5652",
+      "website": "http://www.weingutpolitschek.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028339/weinstube-politschek"
     }
   ]
 }
