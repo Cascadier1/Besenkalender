@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.11.2026, 13:49 Uhr",
+  "updated_at": "16.11.2026, 14:31 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -1947,20 +1947,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028319/gutsausschank-laicher"
     },
     {
-      "place_id": "g_100027482",
-      "title": "Weinausschank \"zum Benz\"",
-      "start": "2026-09-07",
-      "end": "2026-09-21",
-      "lat": 49.1905026,
-      "lon": 9.2349348,
-      "distance_km": 19.7,
-      "address": "Gymnasiumstraße 68, 74172 Neckarsulm",
-      "city": "Neckarsulm",
-      "phone": "07132 2682",
-      "website": "https://besen-benz.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
-    },
-    {
       "place_id": "g_100030364",
       "title": "Almhütte Weißlensberg",
       "start": "2026-09-10",
@@ -1987,20 +1973,6 @@
       "phone": "07946 7272",
       "website": "https://www.weinbau-hammel.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029270/hldener-besen"
-    },
-    {
-      "place_id": "g_100027482",
-      "title": "Weinausschank \"zum Benz\"",
-      "start": "2026-09-27",
-      "end": "2026-10-05",
-      "lat": 49.1905026,
-      "lon": 9.2349348,
-      "distance_km": 19.7,
-      "address": "Gymnasiumstraße 68, 74172 Neckarsulm",
-      "city": "Neckarsulm",
-      "phone": "07132 2682",
-      "website": "https://besen-benz.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
       "place_id": "g_100028382",
@@ -2059,20 +2031,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
     },
     {
-      "place_id": "g_100030044",
-      "title": "Weinstube Volz",
-      "start": "2026-10-15",
-      "end": "2026-10-18",
-      "lat": 49.243988994910694,
-      "lon": 9.28966999053955,
-      "distance_km": 17.4,
-      "address": "Hofäcker 1, 74229 Oedheim",
-      "city": "Oedheim",
-      "phone": "",
-      "website": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030044/weinstube-volz"
-    },
-    {
       "place_id": "g_100029670",
       "title": "Besenwirtschaft \"Zum Rädle\"",
       "start": "2026-10-15",
@@ -2099,20 +2057,6 @@
       "phone": "07941 36073",
       "website": "http://www.dieschnapsdrossel.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028341/die-schnapsdrossel"
-    },
-    {
-      "place_id": "g_100027482",
-      "title": "Weinausschank \"zum Benz\"",
-      "start": "2026-10-16",
-      "end": "2026-11-08",
-      "lat": 49.1905026,
-      "lon": 9.2349348,
-      "distance_km": 19.7,
-      "address": "Gymnasiumstraße 68, 74172 Neckarsulm",
-      "city": "Neckarsulm",
-      "phone": "07132 2682",
-      "website": "https://besen-benz.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
       "place_id": "g_100028312",
@@ -2185,20 +2129,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028875/leissium"
     },
     {
-      "place_id": "g_100028342",
-      "title": "Kuhberg-Schänke",
-      "start": "2026-10-22",
-      "end": "2026-10-25",
-      "lat": 49.2788594,
-      "lon": 9.1931802,
-      "distance_km": 25.4,
-      "address": "Hauptstraße 8, 74831 Gundelsheim",
-      "city": "Gundelsheim",
-      "phone": "06269 90254",
-      "website": "http://www.kuhberg-schaenke.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028342/kuhberg-schnke"
-    },
-    {
       "place_id": "g_100029427",
       "title": "Weinstube am Petersberg",
       "start": "2026-10-27",
@@ -2239,34 +2169,6 @@
       "phone": "01783664466",
       "website": "http://www.weingasthaus-burgblick.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
-    },
-    {
-      "place_id": "g_100022875",
-      "title": "Zum Weingärtner",
-      "start": "2026-10-28",
-      "end": "2026-11-01",
-      "lat": 49.029042849999996,
-      "lon": 9.15467975,
-      "distance_km": 30.4,
-      "address": "Kirchheimer Straße 14, 74376 Gemmrigheim",
-      "city": "Gemmrigheim",
-      "phone": "07143 93394",
-      "website": "https://www.besenwirtschaft-weingaertner.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022875/zum-weingrtner"
-    },
-    {
-      "place_id": "g_100028288",
-      "title": "Weinstube Busch",
-      "start": "2026-10-29",
-      "end": "2026-11-01",
-      "lat": 49.1707511,
-      "lon": 9.3756886,
-      "distance_km": 9.5,
-      "address": "Greuthof 1, 74626 Bretzfeld",
-      "city": "Bretzfeld",
-      "phone": "07946 2465",
-      "website": "https://www.karl-busch.com/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028288/weinstube-busch"
     },
     {
       "place_id": "g_100032586",
@@ -2395,20 +2297,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028500/besenwirtschaft-bauer"
     },
     {
-      "place_id": "g_100028539",
-      "title": "Weingut & Besenwirtschaft Burkhardt",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "lat": 49.14785925,
-      "lon": 9.31494968667645,
-      "distance_km": 14.2,
-      "address": "Kurze Straße 10, 74248 Ellhofen",
-      "city": "Ellhofen",
-      "phone": "07134 21974",
-      "website": "http://www.weingut-burkhardt.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028539/weingut-besenwirtschaft-burkhardt"
-    },
-    {
       "place_id": "g_100028287",
       "title": "Winzerstube Löhe",
       "start": "2026-11-04",
@@ -2463,20 +2351,6 @@
       "phone": "07133 4573",
       "website": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030049/besenwirtschaft-baumann"
-    },
-    {
-      "place_id": "g_100028233",
-      "title": "Weinstube Borth",
-      "start": "2026-11-05",
-      "end": "2026-11-08",
-      "lat": 49.163638,
-      "lon": 9.4513938,
-      "distance_km": 4.2,
-      "address": "Unterheimbacherstraße 35, 74626 Bretzfeld",
-      "city": "Bretzfeld",
-      "phone": "07946 2139",
-      "website": "https://www.weingut-borth.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028233/weinstube-borth"
     },
     {
       "place_id": "g_100028248",
@@ -2549,24 +2423,10 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028384/weingut-springer"
     },
     {
-      "place_id": "g_100028540",
-      "title": "Weinstube Götz",
-      "start": "2026-11-05",
-      "end": "2026-11-08",
-      "lat": 49.101842950000005,
-      "lon": 9.221151848005709,
-      "distance_km": 22.3,
-      "address": "Erlachstraße 55, 74223 Flein",
-      "city": "Flein",
-      "phone": "07131 9732722",
-      "website": "http://www.goetz-flein.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028540/weinstube-gtz"
-    },
-    {
       "place_id": "g_100029432",
       "title": "Burk's Schlemmerbesen",
       "start": "2026-11-05",
-      "end": "2026-11-09",
+      "end": "2026-11-23",
       "lat": 49.02817965,
       "lon": 9.181519530947444,
       "distance_km": 28.8,
@@ -2594,7 +2454,7 @@
       "place_id": "g_100028295",
       "title": "Sonnenbergbesen",
       "start": "2026-11-05",
-      "end": "2026-11-08",
+      "end": "2026-11-22",
       "lat": 49.13081871702051,
       "lon": 8.981924057006836,
       "distance_km": 38.4,
@@ -3347,6 +3207,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
+      "place_id": "g_100028540",
+      "title": "Weinstube Götz",
+      "start": "2026-11-19",
+      "end": "2026-11-22",
+      "lat": 49.101842950000005,
+      "lon": 9.221151848005709,
+      "distance_km": 22.3,
+      "address": "Erlachstraße 55, 74223 Flein",
+      "city": "Flein",
+      "phone": "07131 9732722",
+      "website": "http://www.goetz-flein.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028540/weinstube-gtz"
+    },
+    {
       "place_id": "g_100028286",
       "title": "Weinausschank Kühner",
       "start": "2026-11-19",
@@ -3485,6 +3359,34 @@
       "phone": "07131 570374",
       "website": "http://www.weingut-alexander-bauer.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028283/besenwirtschaft-alexander-bauer"
+    },
+    {
+      "place_id": "g_100022875",
+      "title": "Zum Weingärtner",
+      "start": "2026-11-25",
+      "end": "2026-11-29",
+      "lat": 49.029042849999996,
+      "lon": 9.15467975,
+      "distance_km": 30.4,
+      "address": "Kirchheimer Straße 14, 74376 Gemmrigheim",
+      "city": "Gemmrigheim",
+      "phone": "07143 93394",
+      "website": "https://www.besenwirtschaft-weingaertner.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022875/zum-weingrtner"
+    },
+    {
+      "place_id": "g_100030044",
+      "title": "Weinstube Volz",
+      "start": "2026-11-26",
+      "end": "2026-11-29",
+      "lat": 49.243988994910694,
+      "lon": 9.28966999053955,
+      "distance_km": 17.4,
+      "address": "Hofäcker 1, 74229 Oedheim",
+      "city": "Oedheim",
+      "phone": "",
+      "website": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030044/weinstube-volz"
     },
     {
       "place_id": "g_100028174",
@@ -3658,7 +3560,7 @@
       "place_id": "g_100027482",
       "title": "Weinausschank \"zum Benz\"",
       "start": "2026-12-07",
-      "end": "2026-12-20",
+      "end": "2026-12-23",
       "lat": 49.1905026,
       "lon": 9.2349348,
       "distance_km": 19.7,
@@ -3725,6 +3627,34 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100032586/der-rutenbieger"
     },
     {
+      "place_id": "g_100027482",
+      "title": "Weinausschank \"zum Benz\"",
+      "start": "2026-12-27",
+      "end": "2026-12-30",
+      "lat": 49.1905026,
+      "lon": 9.2349348,
+      "distance_km": 19.7,
+      "address": "Gymnasiumstraße 68, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 2682",
+      "website": "https://besen-benz.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
+    },
+    {
+      "place_id": "g_100028342",
+      "title": "Kuhberg-Schänke",
+      "start": "2026-12-27",
+      "end": "2026-12-30",
+      "lat": 49.2788594,
+      "lon": 9.1931802,
+      "distance_km": 25.4,
+      "address": "Hauptstraße 8, 74831 Gundelsheim",
+      "city": "Gundelsheim",
+      "phone": "06269 90254",
+      "website": "http://www.kuhberg-schaenke.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028342/kuhberg-schnke"
+    },
+    {
       "place_id": "g_100043601",
       "title": "Besenwirtschaft am Bahndamm",
       "start": "2026-12-27",
@@ -3739,6 +3669,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100043601/besenwirtschaft-am-bahndamm"
     },
     {
+      "place_id": "g_100027482",
+      "title": "Weinausschank \"zum Benz\"",
+      "start": "2027-01-03",
+      "end": "2027-01-11",
+      "lat": 49.1905026,
+      "lon": 9.2349348,
+      "distance_km": 19.7,
+      "address": "Gymnasiumstraße 68, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 2682",
+      "website": "https://besen-benz.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
+    },
+    {
       "place_id": "g_100028339",
       "title": "Weinstube Politschek",
       "start": "2027-01-06",
@@ -3751,6 +3695,34 @@
       "phone": "07136 5652",
       "website": "http://www.weingutpolitschek.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028339/weinstube-politschek"
+    },
+    {
+      "place_id": "g_100027482",
+      "title": "Weinausschank \"zum Benz\"",
+      "start": "2027-01-18",
+      "end": "2027-01-30",
+      "lat": 49.1905026,
+      "lon": 9.2349348,
+      "distance_km": 19.7,
+      "address": "Gymnasiumstraße 68, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 2682",
+      "website": "https://besen-benz.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
+    },
+    {
+      "place_id": "g_100028288",
+      "title": "Weinstube Busch",
+      "start": "2027-01-21",
+      "end": "2027-01-24",
+      "lat": 49.1707511,
+      "lon": 9.3756886,
+      "distance_km": 9.5,
+      "address": "Greuthof 1, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2465",
+      "website": "https://www.karl-busch.com/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028288/weinstube-busch"
     }
   ]
 }
