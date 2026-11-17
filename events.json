@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.11.2026, 14:31 Uhr",
+  "updated_at": "17.11.2026, 14:53 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -2283,34 +2283,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100041621/weingut-kleinle"
     },
     {
-      "place_id": "g_100028500",
-      "title": "Besenwirtschaft Bauer",
-      "start": "2026-11-03",
-      "end": "2026-11-08",
-      "lat": 49.1921438,
-      "lon": 9.223421348818281,
-      "distance_km": 20.6,
-      "address": "Schlossgasse 10, 74172 Neckarsulm",
-      "city": "Neckarsulm",
-      "phone": "07132 17493",
-      "website": "http://www.weingutbauernsu.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028500/besenwirtschaft-bauer"
-    },
-    {
-      "place_id": "g_100028287",
-      "title": "Winzerstube Löhe",
-      "start": "2026-11-04",
-      "end": "2026-11-07",
-      "lat": 49.1709217,
-      "lon": 9.265742982401054,
-      "distance_km": 17.4,
-      "address": "Friedenstraße 27/1, 74235 Erlenbach",
-      "city": "Erlenbach",
-      "phone": "07132 2448",
-      "website": "https://winzerstube-lohe.business.site/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028287/winzerstube-lhe"
-    },
-    {
       "place_id": "g_100028217",
       "title": "Blockhaus Seeger",
       "start": "2026-11-04",
@@ -2409,34 +2381,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028246/besenwirtschaft-rolf-heinrich"
     },
     {
-      "place_id": "g_100028384",
-      "title": "Besen Weingut Springer",
-      "start": "2026-11-05",
-      "end": "2026-11-08",
-      "lat": 49.1158212,
-      "lon": 9.2265274,
-      "distance_km": 21.4,
-      "address": "Staufenberger Weg 4, 74074 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 570695",
-      "website": "https://www.weingut-springer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028384/weingut-springer"
-    },
-    {
-      "place_id": "g_100029432",
-      "title": "Burk's Schlemmerbesen",
-      "start": "2026-11-05",
-      "end": "2026-11-23",
-      "lat": 49.02817965,
-      "lon": 9.181519530947444,
-      "distance_km": 28.8,
-      "address": "Liebensteiner Weg 2, 74376 Gemmrigheim",
-      "city": "Gemmrigheim",
-      "phone": "07143 91215",
-      "website": "https://www.schlemmerbesen.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029432/burks-schlemmerbesen"
-    },
-    {
       "place_id": "g_100028297",
       "title": "Uff'm Scheuraboda",
       "start": "2026-11-05",
@@ -2477,34 +2421,6 @@
       "phone": "07941 8506",
       "website": "",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030845/becks-weinschenke"
-    },
-    {
-      "place_id": "g_100028541",
-      "title": "Frieder's Weinstube",
-      "start": "2026-11-06",
-      "end": "2026-11-08",
-      "lat": 49.14538385,
-      "lon": 9.343422146154456,
-      "distance_km": 12.3,
-      "address": "Kümmelstraße 2, 74182 Obersulm",
-      "city": "Obersulm",
-      "phone": "07134 17469",
-      "website": "http://www.weingut-heinrich.com/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028541/frieders-weinstube"
-    },
-    {
-      "place_id": "g_100028279",
-      "title": "Weinstube Stein",
-      "start": "2026-11-06",
-      "end": "2026-11-08",
-      "lat": 49.131024100000005,
-      "lon": 9.328372404386045,
-      "distance_km": 13.8,
-      "address": "Willsbacher Straße 9, 74251 Lehrensteinsfeld",
-      "city": "Lehrensteinsfeld",
-      "phone": "07134 10193",
-      "website": "http://www.weingut-stein.com/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028279/weinstube-stein"
     },
     {
       "place_id": "g_100028320",
@@ -2589,20 +2505,6 @@
       "phone": "07946 2287",
       "website": "https://www.weibler.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029493/weingut-weibler"
-    },
-    {
-      "place_id": "g_100028368",
-      "title": "Besen im Weingut Wolf",
-      "start": "2026-11-07",
-      "end": "2026-11-08",
-      "lat": 49.1845525,
-      "lon": 9.321388627249968,
-      "distance_km": 13.4,
-      "address": "Weinstraße 23, 74246 Eberstadt",
-      "city": "Eberstadt",
-      "phone": "07134 4480",
-      "website": "http://www.wolf-weine.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028368/besen-im-weingut-wolf"
     },
     {
       "place_id": "g_100030845",
@@ -2983,20 +2885,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029450/fischerstble-lorenz"
     },
     {
-      "place_id": "g_100028321",
-      "title": "Weinstube Wieder",
-      "start": "2026-11-13",
-      "end": "2026-11-15",
-      "lat": 49.11972625,
-      "lon": 9.153729343478167,
-      "distance_km": 26.4,
-      "address": "Leingartener Straße 4, 74081 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 30139",
-      "website": "http://www.weinstube-wieder.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
-    },
-    {
       "place_id": "g_100030043",
       "title": "Zur Sonne, Familie Zinßer",
       "start": "2026-11-14",
@@ -3009,20 +2897,6 @@
       "phone": "07941 33456",
       "website": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030043/zur-sonne-familie-ziner"
-    },
-    {
-      "place_id": "g_100028500",
-      "title": "Besenwirtschaft Bauer",
-      "start": "2026-11-14",
-      "end": "2026-11-15",
-      "lat": 49.1921438,
-      "lon": 9.223421348818281,
-      "distance_km": 20.6,
-      "address": "Schlossgasse 10, 74172 Neckarsulm",
-      "city": "Neckarsulm",
-      "phone": "07132 17493",
-      "website": "http://www.weingutbauernsu.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028500/besenwirtschaft-bauer"
     },
     {
       "place_id": "g_100027491",
@@ -3249,6 +3123,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100043601/besenwirtschaft-am-bahndamm"
     },
     {
+      "place_id": "g_100029432",
+      "title": "Burk's Schlemmerbesen",
+      "start": "2026-11-19",
+      "end": "2026-11-23",
+      "lat": 49.02817965,
+      "lon": 9.181519530947444,
+      "distance_km": 28.8,
+      "address": "Liebensteiner Weg 2, 74376 Gemmrigheim",
+      "city": "Gemmrigheim",
+      "phone": "07143 91215",
+      "website": "https://www.schlemmerbesen.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029432/burks-schlemmerbesen"
+    },
+    {
       "place_id": "g_100028173",
       "title": "Schluchter's Weinstube",
       "start": "2026-11-20",
@@ -3289,6 +3177,62 @@
       "phone": "07134 17469",
       "website": "http://www.weingut-heinrich.com/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028541/frieders-weinstube"
+    },
+    {
+      "place_id": "g_100028279",
+      "title": "Weinstube Stein",
+      "start": "2026-11-20",
+      "end": "2026-11-22",
+      "lat": 49.131024100000005,
+      "lon": 9.328372404386045,
+      "distance_km": 13.8,
+      "address": "Willsbacher Straße 9, 74251 Lehrensteinsfeld",
+      "city": "Lehrensteinsfeld",
+      "phone": "07134 10193",
+      "website": "http://www.weingut-stein.com/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028279/weinstube-stein"
+    },
+    {
+      "place_id": "g_100028321",
+      "title": "Weinstube Wieder",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "lat": 49.11972625,
+      "lon": 9.153729343478167,
+      "distance_km": 26.4,
+      "address": "Leingartener Straße 4, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 30139",
+      "website": "http://www.weinstube-wieder.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
+    },
+    {
+      "place_id": "g_100028368",
+      "title": "Besen im Weingut Wolf",
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "lat": 49.1845525,
+      "lon": 9.321388627249968,
+      "distance_km": 13.4,
+      "address": "Weinstraße 23, 74246 Eberstadt",
+      "city": "Eberstadt",
+      "phone": "07134 4480",
+      "website": "http://www.wolf-weine.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028368/besen-im-weingut-wolf"
+    },
+    {
+      "place_id": "g_100028321",
+      "title": "Weinstube Wieder",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "lat": 49.11972625,
+      "lon": 9.153729343478167,
+      "distance_km": 26.4,
+      "address": "Leingartener Straße 4, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 30139",
+      "website": "http://www.weinstube-wieder.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028321/weinstube-wieder"
     },
     {
       "place_id": "g_100028287",
@@ -3389,6 +3333,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030044/weinstube-volz"
     },
     {
+      "place_id": "g_100028384",
+      "title": "Besen Weingut Springer",
+      "start": "2026-11-26",
+      "end": "2026-11-29",
+      "lat": 49.1158212,
+      "lon": 9.2265274,
+      "distance_km": 21.4,
+      "address": "Staufenberger Weg 4, 74074 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 570695",
+      "website": "https://www.weingut-springer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028384/weingut-springer"
+    },
+    {
       "place_id": "g_100028174",
       "title": "Wahl's Kuhstall",
       "start": "2026-11-26",
@@ -3401,6 +3359,20 @@
       "phone": "07131 42805",
       "website": "https://www.wahlskuhstall.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028174/wahls-kuhstall"
+    },
+    {
+      "place_id": "g_100028290",
+      "title": "Wengertstube Körner",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "lat": 49.159113250000004,
+      "lon": 9.350494511163658,
+      "distance_km": 11.4,
+      "address": "Hofäcker 3, 74189 Weinsberg",
+      "city": "Weinsberg",
+      "phone": "07134 3340",
+      "website": "http://www.koerner-wimmental.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028290/wengertstube-krner"
     },
     {
       "place_id": "g_100028312",
@@ -3613,6 +3585,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
     },
     {
+      "place_id": "g_100028541",
+      "title": "Frieder's Weinstube",
+      "start": "2026-12-18",
+      "end": "2026-12-20",
+      "lat": 49.14538385,
+      "lon": 9.343422146154456,
+      "distance_km": 12.3,
+      "address": "Kümmelstraße 2, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07134 17469",
+      "website": "http://www.weingut-heinrich.com/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028541/frieders-weinstube"
+    },
+    {
       "place_id": "g_100032586",
       "title": "Der Rutenbieger",
       "start": "2026-12-26",
@@ -3669,6 +3655,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100043601/besenwirtschaft-am-bahndamm"
     },
     {
+      "place_id": "g_100028287",
+      "title": "Winzerstube Löhe",
+      "start": "2027-01-03",
+      "end": "2027-01-05",
+      "lat": 49.1709217,
+      "lon": 9.265742982401054,
+      "distance_km": 17.4,
+      "address": "Friedenstraße 27/1, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 2448",
+      "website": "https://winzerstube-lohe.business.site/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028287/winzerstube-lhe"
+    },
+    {
       "place_id": "g_100027482",
       "title": "Weinausschank \"zum Benz\"",
       "start": "2027-01-03",
@@ -3695,6 +3695,34 @@
       "phone": "07136 5652",
       "website": "http://www.weingutpolitschek.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028339/weinstube-politschek"
+    },
+    {
+      "place_id": "g_100028500",
+      "title": "Besenwirtschaft Bauer",
+      "start": "2027-01-07",
+      "end": "2027-01-10",
+      "lat": 49.1921438,
+      "lon": 9.223421348818281,
+      "distance_km": 20.6,
+      "address": "Schlossgasse 10, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 17493",
+      "website": "http://www.weingutbauernsu.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028500/besenwirtschaft-bauer"
+    },
+    {
+      "place_id": "g_100029432",
+      "title": "Burk's Schlemmerbesen",
+      "start": "2027-01-14",
+      "end": "2027-01-18",
+      "lat": 49.02817965,
+      "lon": 9.181519530947444,
+      "distance_km": 28.8,
+      "address": "Liebensteiner Weg 2, 74376 Gemmrigheim",
+      "city": "Gemmrigheim",
+      "phone": "07143 91215",
+      "website": "https://www.schlemmerbesen.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029432/burks-schlemmerbesen"
     },
     {
       "place_id": "g_100027482",
