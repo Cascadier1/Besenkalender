@@ -1,5 +1,5 @@
 {
-  "updated_at": "17.11.2026, 14:53 Uhr",
+  "updated_at": "18.11.2026, 14:45 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -3709,6 +3709,20 @@
       "phone": "07132 17493",
       "website": "http://www.weingutbauernsu.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028500/besenwirtschaft-bauer"
+    },
+    {
+      "place_id": "g_100022864",
+      "title": "Weinausschank Schönbrunn",
+      "start": "2027-01-13",
+      "end": "2027-01-24",
+      "lat": 49.18012055,
+      "lon": 9.253876296998758,
+      "distance_km": 18.3,
+      "address": "Im Petersrain 1, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 951600",
+      "website": "http://www.weingut-schoenbrunn.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022864/weinausschank-schnbrunn"
     },
     {
       "place_id": "g_100029432",
