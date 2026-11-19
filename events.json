@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.11.2026, 14:45 Uhr",
+  "updated_at": "19.11.2026, 14:36 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -1933,20 +1933,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030808/moststraussen-hofmann"
     },
     {
-      "place_id": "g_100028319",
-      "title": "Gutsausschank Laicher",
-      "start": "2026-09-01",
-      "end": "2026-09-06",
-      "lat": 49.1324531,
-      "lon": 9.3572697,
-      "distance_km": 11.8,
-      "address": "Heerweg 21, 74182 Obersulm",
-      "city": "Obersulm",
-      "phone": "07134 3374",
-      "website": "http://www.weingut-laicher.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028319/gutsausschank-laicher"
-    },
-    {
       "place_id": "g_100030364",
       "title": "Almhütte Weißlensberg",
       "start": "2026-09-10",
@@ -2059,20 +2045,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028341/die-schnapsdrossel"
     },
     {
-      "place_id": "g_100028312",
-      "title": "Weinstube \"Zur Bütte\"",
-      "start": "2026-10-18",
-      "end": "2026-10-21",
-      "lat": 49.0386055,
-      "lon": 9.3052583,
-      "distance_km": 21.2,
-      "address": "Winzerhausener Weg 22, 71717 Beilstein",
-      "city": "Beilstein",
-      "phone": "+49 7062 / 3725",
-      "website": "https://weingut-krohmer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
-    },
-    {
       "place_id": "g_100028306",
       "title": "Dieterichs Weinstüble",
       "start": "2026-10-19",
@@ -2143,20 +2115,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029427/weinstube-am-petersberg"
     },
     {
-      "place_id": "g_100028309",
-      "title": "Weingut und Weinstube Schwab",
-      "start": "2026-10-28",
-      "end": "2026-11-01",
-      "lat": 49.169275999999996,
-      "lon": 9.385850533524586,
-      "distance_km": 8.7,
-      "address": "Wassergasse 2, 74626 Bretzfeld",
-      "city": "Bretzfeld",
-      "phone": "07946 1418",
-      "website": "https://schwab-wein.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028309/weingut-und-weinstube-schwab"
-    },
-    {
       "place_id": "g_100031236",
       "title": "Weingasthaus Burgblick",
       "start": "2026-10-28",
@@ -2169,34 +2127,6 @@
       "phone": "01783664466",
       "website": "http://www.weingasthaus-burgblick.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100031236/weingasthaus-burgblick"
-    },
-    {
-      "place_id": "g_100032586",
-      "title": "Der Rutenbieger",
-      "start": "2026-10-29",
-      "end": "2026-11-04",
-      "lat": 49.1722949,
-      "lon": 9.263174138636366,
-      "distance_km": 17.6,
-      "address": "Friedenstraße 53, 74235 Erlenbach",
-      "city": "Erlenbach",
-      "phone": "07132 342200",
-      "website": "https://www.der-rutenbieger.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100032586/der-rutenbieger"
-    },
-    {
-      "place_id": "g_100028312",
-      "title": "Weinstube \"Zur Bütte\"",
-      "start": "2026-10-29",
-      "end": "2026-11-05",
-      "lat": 49.0386055,
-      "lon": 9.3052583,
-      "distance_km": 21.2,
-      "address": "Winzerhausener Weg 22, 71717 Beilstein",
-      "city": "Beilstein",
-      "phone": "+49 7062 / 3725",
-      "website": "https://weingut-krohmer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
     },
     {
       "place_id": "g_100028174",
@@ -2295,20 +2225,6 @@
       "phone": "07062 63206",
       "website": "https://blockhaus-seeger.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028217/blockhaus-seeger"
-    },
-    {
-      "place_id": "g_100028283",
-      "title": "Besenwirtschaft Alexander Bauer",
-      "start": "2026-11-04",
-      "end": "2026-11-07",
-      "lat": 49.12142505,
-      "lon": 9.197039816214211,
-      "distance_km": 23.3,
-      "address": "Spitzwegstraße 15/1-17, 74081 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 570374",
-      "website": "http://www.weingut-alexander-bauer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028283/besenwirtschaft-alexander-bauer"
     },
     {
       "place_id": "g_100030049",
@@ -2563,20 +2479,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028284/weinstube-lederer"
     },
     {
-      "place_id": "g_100028319",
-      "title": "Gutsausschank Laicher",
-      "start": "2026-11-10",
-      "end": "2026-11-15",
-      "lat": 49.1324531,
-      "lon": 9.3572697,
-      "distance_km": 11.8,
-      "address": "Heerweg 21, 74182 Obersulm",
-      "city": "Obersulm",
-      "phone": "07134 3374",
-      "website": "http://www.weingut-laicher.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028319/gutsausschank-laicher"
-    },
-    {
       "place_id": "g_100028326",
       "title": "Weinausschank Benz am Wilfensee",
       "start": "2026-11-10",
@@ -2659,20 +2561,6 @@
       "phone": "07131 2901",
       "website": "http://www.weingut-klaushaberkern.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028268/weinausschank-zum-engel"
-    },
-    {
-      "place_id": "g_100028283",
-      "title": "Besenwirtschaft Alexander Bauer",
-      "start": "2026-11-11",
-      "end": "2026-11-14",
-      "lat": 49.12142505,
-      "lon": 9.197039816214211,
-      "distance_km": 23.3,
-      "address": "Spitzwegstraße 15/1-17, 74081 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 570374",
-      "website": "http://www.weingut-alexander-bauer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028283/besenwirtschaft-alexander-bauer"
     },
     {
       "place_id": "g_100028297",
@@ -3263,6 +3151,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028500/besenwirtschaft-bauer"
     },
     {
+      "place_id": "g_100028309",
+      "title": "Weingut und Weinstube Schwab",
+      "start": "2026-11-25",
+      "end": "2026-11-29",
+      "lat": 49.169275999999996,
+      "lon": 9.385850533524586,
+      "distance_km": 8.7,
+      "address": "Wassergasse 2, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 1418",
+      "website": "https://schwab-wein.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028309/weingut-und-weinstube-schwab"
+    },
+    {
       "place_id": "g_100031236",
       "title": "Weingasthaus Burgblick",
       "start": "2026-11-25",
@@ -3317,6 +3219,20 @@
       "phone": "07143 93394",
       "website": "https://www.besenwirtschaft-weingaertner.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022875/zum-weingrtner"
+    },
+    {
+      "place_id": "g_100022876",
+      "title": "Winzerstube Lösch",
+      "start": "2026-11-26",
+      "end": "2026-11-29",
+      "lat": 49.1801956,
+      "lon": 9.4837317,
+      "distance_km": 1.6,
+      "address": "Adolzfurter Straße 33, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 602364",
+      "website": "http://www.weinstube-hohenlohe.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022876/winzerstube-lsch"
     },
     {
       "place_id": "g_100030044",
@@ -3571,6 +3487,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022864/weinausschank-schnbrunn"
     },
     {
+      "place_id": "g_100028312",
+      "title": "Weinstube \"Zur Bütte\"",
+      "start": "2026-12-14",
+      "end": "2026-12-17",
+      "lat": 49.0386055,
+      "lon": 9.3052583,
+      "distance_km": 21.2,
+      "address": "Winzerhausener Weg 22, 71717 Beilstein",
+      "city": "Beilstein",
+      "phone": "+49 7062 / 3725",
+      "website": "https://weingut-krohmer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
+    },
+    {
       "place_id": "g_100031236",
       "title": "Weingasthaus Burgblick",
       "start": "2026-12-16",
@@ -3683,6 +3613,34 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
+      "place_id": "g_100028536",
+      "title": "Zur Weintenne",
+      "start": "2027-01-05",
+      "end": "2027-01-10",
+      "lat": 49.1062956,
+      "lon": 9.7741842,
+      "distance_km": 21.0,
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "http://zur-weintenne.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
+    },
+    {
+      "place_id": "g_100029135",
+      "title": "Weinstube Goldener Besen",
+      "start": "2027-01-06",
+      "end": "2027-01-11",
+      "lat": 49.1712622,
+      "lon": 9.26613034871795,
+      "distance_km": 17.4,
+      "address": "Friedenstraße 26, 74235 Erlenbach",
+      "city": "Erlenbach",
+      "phone": "07132 6214",
+      "website": "https://www.haberkern-betz.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029135/weinstube-goldener-besen"
+    },
+    {
       "place_id": "g_100028339",
       "title": "Weinstube Politschek",
       "start": "2027-01-06",
@@ -3709,6 +3667,20 @@
       "phone": "07132 17493",
       "website": "http://www.weingutbauernsu.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028500/besenwirtschaft-bauer"
+    },
+    {
+      "place_id": "g_100028309",
+      "title": "Weingut und Weinstube Schwab",
+      "start": "2027-01-13",
+      "end": "2027-01-17",
+      "lat": 49.169275999999996,
+      "lon": 9.385850533524586,
+      "distance_km": 8.7,
+      "address": "Wassergasse 2, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 1418",
+      "website": "https://schwab-wein.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028309/weingut-und-weinstube-schwab"
     },
     {
       "place_id": "g_100022864",
@@ -3753,6 +3725,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
+      "place_id": "g_100028319",
+      "title": "Gutsausschank Laicher",
+      "start": "2027-01-19",
+      "end": "2027-01-24",
+      "lat": 49.1324531,
+      "lon": 9.3572697,
+      "distance_km": 11.8,
+      "address": "Heerweg 21, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07134 3374",
+      "website": "http://www.weingut-laicher.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028319/gutsausschank-laicher"
+    },
+    {
       "place_id": "g_100028288",
       "title": "Weinstube Busch",
       "start": "2027-01-21",
@@ -3765,6 +3751,104 @@
       "phone": "07946 2465",
       "website": "https://www.karl-busch.com/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028288/weinstube-busch"
+    },
+    {
+      "place_id": "g_100028536",
+      "title": "Zur Weintenne",
+      "start": "2027-02-02",
+      "end": "2027-02-07",
+      "lat": 49.1062956,
+      "lon": 9.7741842,
+      "distance_km": 21.0,
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "http://zur-weintenne.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
+    },
+    {
+      "place_id": "g_100028319",
+      "title": "Gutsausschank Laicher",
+      "start": "2027-02-23",
+      "end": "2027-02-28",
+      "lat": 49.1324531,
+      "lon": 9.3572697,
+      "distance_km": 11.8,
+      "address": "Heerweg 21, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07134 3374",
+      "website": "http://www.weingut-laicher.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028319/gutsausschank-laicher"
+    },
+    {
+      "place_id": "g_100028536",
+      "title": "Zur Weintenne",
+      "start": "2027-03-02",
+      "end": "2027-03-07",
+      "lat": 49.1062956,
+      "lon": 9.7741842,
+      "distance_km": 21.0,
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "http://zur-weintenne.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
+    },
+    {
+      "place_id": "g_100028319",
+      "title": "Gutsausschank Laicher",
+      "start": "2027-03-09",
+      "end": "2027-03-14",
+      "lat": 49.1324531,
+      "lon": 9.3572697,
+      "distance_km": 11.8,
+      "address": "Heerweg 21, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07134 3374",
+      "website": "http://www.weingut-laicher.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028319/gutsausschank-laicher"
+    },
+    {
+      "place_id": "g_100028536",
+      "title": "Zur Weintenne",
+      "start": "2027-04-06",
+      "end": "2027-04-11",
+      "lat": 49.1062956,
+      "lon": 9.7741842,
+      "distance_km": 21.0,
+      "address": "Im Katzenzipfel 6, 74523 Schwäbisch Hall",
+      "city": "Schwäbisch Hall",
+      "phone": "0791 491011",
+      "website": "http://zur-weintenne.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028536/zur-weintenne"
+    },
+    {
+      "place_id": "g_100028319",
+      "title": "Gutsausschank Laicher",
+      "start": "2027-05-25",
+      "end": "2027-05-30",
+      "lat": 49.1324531,
+      "lon": 9.3572697,
+      "distance_km": 11.8,
+      "address": "Heerweg 21, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07134 3374",
+      "website": "http://www.weingut-laicher.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028319/gutsausschank-laicher"
+    },
+    {
+      "place_id": "g_100028319",
+      "title": "Gutsausschank Laicher",
+      "start": "2027-06-29",
+      "end": "2027-07-04",
+      "lat": 49.1324531,
+      "lon": 9.3572697,
+      "distance_km": 11.8,
+      "address": "Heerweg 21, 74182 Obersulm",
+      "city": "Obersulm",
+      "phone": "07134 3374",
+      "website": "http://www.weingut-laicher.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028319/gutsausschank-laicher"
     }
   ]
 }
