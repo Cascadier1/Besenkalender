@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.11.2026, 14:36 Uhr",
+  "updated_at": "20.11.2026, 14:36 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -3023,6 +3023,20 @@
       "phone": "07143 91215",
       "website": "https://www.schlemmerbesen.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029432/burks-schlemmerbesen"
+    },
+    {
+      "place_id": "g_100029670",
+      "title": "Besenwirtschaft \"Zum Rädle\"",
+      "start": "2026-11-19",
+      "end": "2026-11-22",
+      "lat": 49.10796925,
+      "lon": 9.048391694265312,
+      "distance_km": 34.1,
+      "address": "Gänsberg 20, 74336 Brackenheim",
+      "city": "Brackenheim",
+      "phone": "07135 4804",
+      "website": "http://www.weingut-seiter.de/index.htm",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029670/besenwirtschaft-zum-raedle"
     },
     {
       "place_id": "g_100028173",
