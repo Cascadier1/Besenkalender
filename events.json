@@ -1,5 +1,5 @@
 {
-  "updated_at": "24.11.2026, 16:42 Uhr",
+  "updated_at": "25.11.2026, 15:59 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -665,6 +665,18 @@
       "phone": "07132 18299",
       "website": "http://www.weingut-benz-wilfensee.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028326/weinausschank-benz-am-wilfensee"
+    },
+    {
+      "id": "g_100029494",
+      "name": "Weinstube Stutz",
+      "lat": 49.1253571,
+      "lon": 9.238243842315683,
+      "distance_km": 20.3,
+      "address": "In den Stahlbühlwiesen 30, 74074 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://www.weingut-stutz.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029494/weinstube-stutz"
     },
     {
       "id": "g_100028265",
@@ -1879,20 +1891,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029448/weinstube-unser"
     },
     {
-      "place_id": "g_100028264",
-      "title": "Aries Besenwirtschaft",
-      "start": "2026-08-01",
-      "end": "2026-10-03",
-      "lat": 49.3179985,
-      "lon": 9.422307860126601,
-      "distance_km": 16.9,
-      "address": "Keltergasse 3, 74259 Widdern",
-      "city": "Widdern",
-      "phone": "0176 96668664",
-      "website": "http://www.aries-weingut.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028264/aries-besenwirtschaft"
-    },
-    {
       "place_id": "g_100030186",
       "title": "Weinstube Bayer",
       "start": "2026-08-12",
@@ -2803,20 +2801,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028540/weinstube-gtz"
     },
     {
-      "place_id": "g_100028286",
-      "title": "Weinausschank Kühner",
-      "start": "2026-11-19",
-      "end": "2026-11-21",
-      "lat": 49.12000265,
-      "lon": 9.197351698796776,
-      "distance_km": 23.3,
-      "address": "Raidweg 12, 74081 Heilbronn",
-      "city": "Heilbronn",
-      "phone": "07131 255261",
-      "website": "https://www.weinbau-kuehner.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028286/weinausschank-khner"
-    },
-    {
       "place_id": "g_100043601",
       "title": "Besenwirtschaft am Bahndamm",
       "start": "2026-11-19",
@@ -3041,20 +3025,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022876/winzerstube-lsch"
     },
     {
-      "place_id": "g_100030044",
-      "title": "Weinstube Volz",
-      "start": "2026-11-26",
-      "end": "2026-11-29",
-      "lat": 49.243988994910694,
-      "lon": 9.28966999053955,
-      "distance_km": 17.4,
-      "address": "Hofäcker 1, 74229 Oedheim",
-      "city": "Oedheim",
-      "phone": "",
-      "website": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030044/weinstube-volz"
-    },
-    {
       "place_id": "g_100028384",
       "title": "Besen Weingut Springer",
       "start": "2026-11-26",
@@ -3223,6 +3193,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028217/blockhaus-seeger"
     },
     {
+      "place_id": "g_100029494",
+      "title": "Weinstube Stutz",
+      "start": "2026-12-02",
+      "end": "2026-12-13",
+      "lat": 49.1253571,
+      "lon": 9.238243842315683,
+      "distance_km": 20.3,
+      "address": "In den Stahlbühlwiesen 30, 74074 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 767600",
+      "website": "https://www.weingut-stutz.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029494/weinstube-stutz"
+    },
+    {
       "place_id": "g_100028283",
       "title": "Besenwirtschaft Alexander Bauer",
       "start": "2026-12-02",
@@ -3263,6 +3247,20 @@
       "phone": "07946 2788",
       "website": "https://www.weingut-weihbrecht.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028289/weinstube-weihbrecht"
+    },
+    {
+      "place_id": "g_100028286",
+      "title": "Weinausschank Kühner",
+      "start": "2026-12-03",
+      "end": "2026-12-06",
+      "lat": 49.12000265,
+      "lon": 9.197351698796776,
+      "distance_km": 23.3,
+      "address": "Raidweg 12, 74081 Heilbronn",
+      "city": "Heilbronn",
+      "phone": "07131 255261",
+      "website": "https://www.weinbau-kuehner.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028286/weinausschank-khner"
     },
     {
       "place_id": "g_100028269",
@@ -3461,6 +3459,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028541/frieders-weinstube"
     },
     {
+      "place_id": "g_100030044",
+      "title": "Weinstube Volz",
+      "start": "2026-12-18",
+      "end": "2026-12-20",
+      "lat": 49.243988994910694,
+      "lon": 9.28966999053955,
+      "distance_km": 17.4,
+      "address": "Hofäcker 1, 74229 Oedheim",
+      "city": "Oedheim",
+      "phone": "",
+      "website": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030044/weinstube-volz"
+    },
+    {
       "place_id": "g_100032586",
       "title": "Der Rutenbieger",
       "start": "2026-12-26",
@@ -3515,6 +3527,20 @@
       "phone": "07136 6426",
       "website": "",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100043601/besenwirtschaft-am-bahndamm"
+    },
+    {
+      "place_id": "g_100028291",
+      "title": "Weinbau Pavillon",
+      "start": "2027-01-02",
+      "end": "2027-01-24",
+      "lat": 49.28400945,
+      "lon": 9.161317548877935,
+      "distance_km": 27.7,
+      "address": "Oststraße 5, 74831 Gundelsheim",
+      "city": "Gundelsheim",
+      "phone": "06269  8015",
+      "website": "https://weingut-burg-hornberg.de/weinbau-pavillon/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028291/weinbau-pavillon"
     },
     {
       "place_id": "g_100028287",
@@ -3613,6 +3639,20 @@
       "phone": "07132 17493",
       "website": "http://www.weingutbauernsu.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028500/besenwirtschaft-bauer"
+    },
+    {
+      "place_id": "g_100028264",
+      "title": "Aries Besenwirtschaft",
+      "start": "2027-01-08",
+      "end": "2027-01-31",
+      "lat": 49.3179985,
+      "lon": 9.422307860126601,
+      "distance_km": 16.9,
+      "address": "Keltergasse 3, 74259 Widdern",
+      "city": "Widdern",
+      "phone": "0176 96668664",
+      "website": "http://www.aries-weingut.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028264/aries-besenwirtschaft"
     },
     {
       "place_id": "g_100028326",
