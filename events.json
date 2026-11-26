@@ -1,5 +1,5 @@
 {
-  "updated_at": "25.11.2026, 15:59 Uhr",
+  "updated_at": "26.11.2026, 15:39 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -1989,20 +1989,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029670/besenwirtschaft-zum-raedle"
     },
     {
-      "place_id": "g_100028341",
-      "title": "Die Schnapsdrossel",
-      "start": "2026-10-16",
-      "end": "2026-10-18",
-      "lat": 49.1799895,
-      "lon": 9.484939853317202,
-      "distance_km": 1.6,
-      "address": "Pfedelbacher Straße 15, 74629 Pfedelbach",
-      "city": "Pfedelbach",
-      "phone": "07941 36073",
-      "website": "http://www.dieschnapsdrossel.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028341/die-schnapsdrossel"
-    },
-    {
       "place_id": "g_100028306",
       "title": "Dieterichs Weinstüble",
       "start": "2026-10-19",
@@ -2339,20 +2325,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028313/besenwirtschaft-birkert"
     },
     {
-      "place_id": "g_100028363",
-      "title": "Weinstube Ungerer",
-      "start": "2026-11-10",
-      "end": "2026-11-15",
-      "lat": 49.1474797,
-      "lon": 9.5513848,
-      "distance_km": 4.6,
-      "address": "Harsberger Straße 15, 74629 Pfedelbach",
-      "city": "Pfedelbach",
-      "phone": "07949 940690",
-      "website": "http://www.weingut-ungerer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028363/weinstube-ungerer"
-    },
-    {
       "place_id": "g_100028284",
       "title": "Weinstube Lederer",
       "start": "2026-11-10",
@@ -2491,20 +2463,6 @@
       "phone": "07947 9433601",
       "website": "https://rebenhof-ff.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028498/frschers-kelterstble"
-    },
-    {
-      "place_id": "g_100028314",
-      "title": "Arnolds gutes Kupferkrügle",
-      "start": "2026-11-12",
-      "end": "2026-11-15",
-      "lat": 49.14915415,
-      "lon": 9.319487427951389,
-      "distance_km": 13.9,
-      "address": "Hallerstraße 1-3, 74248 Ellhofen",
-      "city": "Ellhofen",
-      "phone": "+49 7134 21136",
-      "website": "https://www.kupferkruegle.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028314/arnolds-gutes-kupferkrgle"
     },
     {
       "place_id": "g_100028265",
@@ -2729,34 +2687,6 @@
       "phone": "07143 93394",
       "website": "https://www.besenwirtschaft-weingaertner.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022875/zum-weingrtner"
-    },
-    {
-      "place_id": "g_100022876",
-      "title": "Winzerstube Lösch",
-      "start": "2026-11-19",
-      "end": "2026-11-22",
-      "lat": 49.1801956,
-      "lon": 9.4837317,
-      "distance_km": 1.6,
-      "address": "Adolzfurter Straße 33, 74629 Pfedelbach",
-      "city": "Pfedelbach",
-      "phone": "07941 602364",
-      "website": "http://www.weinstube-hohenlohe.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022876/winzerstube-lsch"
-    },
-    {
-      "place_id": "g_100028233",
-      "title": "Weinstube Borth",
-      "start": "2026-11-19",
-      "end": "2026-11-22",
-      "lat": 49.163638,
-      "lon": 9.4513938,
-      "distance_km": 4.2,
-      "address": "Unterheimbacherstraße 35, 74626 Bretzfeld",
-      "city": "Bretzfeld",
-      "phone": "07946 2139",
-      "website": "https://www.weingut-borth.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028233/weinstube-borth"
     },
     {
       "place_id": "g_100028288",
@@ -3011,20 +2941,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022875/zum-weingrtner"
     },
     {
-      "place_id": "g_100022876",
-      "title": "Winzerstube Lösch",
-      "start": "2026-11-26",
-      "end": "2026-11-29",
-      "lat": 49.1801956,
-      "lon": 9.4837317,
-      "distance_km": 1.6,
-      "address": "Adolzfurter Straße 33, 74629 Pfedelbach",
-      "city": "Pfedelbach",
-      "phone": "07941 602364",
-      "website": "http://www.weinstube-hohenlohe.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022876/winzerstube-lsch"
-    },
-    {
       "place_id": "g_100028384",
       "title": "Besen Weingut Springer",
       "start": "2026-11-26",
@@ -3051,6 +2967,20 @@
       "phone": "07131 42805",
       "website": "https://www.wahlskuhstall.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028174/wahls-kuhstall"
+    },
+    {
+      "place_id": "g_100028341",
+      "title": "Die Schnapsdrossel",
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "lat": 49.1799895,
+      "lon": 9.484939853317202,
+      "distance_km": 1.6,
+      "address": "Pfedelbacher Straße 15, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 36073",
+      "website": "http://www.dieschnapsdrossel.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028341/die-schnapsdrossel"
     },
     {
       "place_id": "g_100028369",
@@ -3109,6 +3039,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028324/weinausschank-zum-weinreuter"
     },
     {
+      "place_id": "g_100028233",
+      "title": "Weinstube Borth",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "lat": 49.163638,
+      "lon": 9.4513938,
+      "distance_km": 4.2,
+      "address": "Unterheimbacherstraße 35, 74626 Bretzfeld",
+      "city": "Bretzfeld",
+      "phone": "07946 2139",
+      "website": "https://www.weingut-borth.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028233/weinstube-borth"
+    },
+    {
       "place_id": "g_100028290",
       "title": "Wengertstube Körner",
       "start": "2026-11-28",
@@ -3135,6 +3079,20 @@
       "phone": "+49 7062 / 3725",
       "website": "https://weingut-krohmer.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028312/weinstube-zur-btte"
+    },
+    {
+      "place_id": "g_100028363",
+      "title": "Weinstube Ungerer",
+      "start": "2026-12-01",
+      "end": "2026-12-06",
+      "lat": 49.1474797,
+      "lon": 9.5513848,
+      "distance_km": 4.6,
+      "address": "Harsberger Straße 15, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07949 940690",
+      "website": "http://www.weingut-ungerer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028363/weinstube-ungerer"
     },
     {
       "place_id": "g_100028326",
@@ -3221,6 +3179,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028283/besenwirtschaft-alexander-bauer"
     },
     {
+      "place_id": "g_100022876",
+      "title": "Winzerstube Lösch",
+      "start": "2026-12-03",
+      "end": "2026-12-06",
+      "lat": 49.1801956,
+      "lon": 9.4837317,
+      "distance_km": 1.6,
+      "address": "Adolzfurter Straße 33, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 602364",
+      "website": "http://www.weinstube-hohenlohe.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100022876/winzerstube-lsch"
+    },
+    {
       "place_id": "g_100028233",
       "title": "Weinstube Borth",
       "start": "2026-12-03",
@@ -3247,6 +3219,20 @@
       "phone": "07946 2788",
       "website": "https://www.weingut-weihbrecht.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028289/weinstube-weihbrecht"
+    },
+    {
+      "place_id": "g_100028314",
+      "title": "Arnolds gutes Kupferkrügle",
+      "start": "2026-12-03",
+      "end": "2026-12-06",
+      "lat": 49.14915415,
+      "lon": 9.319487427951389,
+      "distance_km": 13.9,
+      "address": "Hallerstraße 1-3, 74248 Ellhofen",
+      "city": "Ellhofen",
+      "phone": "+49 7134 21136",
+      "website": "https://www.kupferkruegle.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028314/arnolds-gutes-kupferkrgle"
     },
     {
       "place_id": "g_100028286",
@@ -3336,7 +3322,7 @@
       "place_id": "g_100027482",
       "title": "Weinausschank \"zum Benz\"",
       "start": "2026-12-07",
-      "end": "2026-12-23",
+      "end": "2026-12-09",
       "lat": 49.1905026,
       "lon": 9.2349348,
       "distance_km": 19.7,
@@ -3401,6 +3387,20 @@
       "phone": "07131 570374",
       "website": "http://www.weingut-alexander-bauer.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028283/besenwirtschaft-alexander-bauer"
+    },
+    {
+      "place_id": "g_100027482",
+      "title": "Weinausschank \"zum Benz\"",
+      "start": "2026-12-13",
+      "end": "2026-12-23",
+      "lat": 49.1905026,
+      "lon": 9.2349348,
+      "distance_km": 19.7,
+      "address": "Gymnasiumstraße 68, 74172 Neckarsulm",
+      "city": "Neckarsulm",
+      "phone": "07132 2682",
+      "website": "https://besen-benz.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100027482/weinausschank-zum-benz"
     },
     {
       "place_id": "g_100028312",
@@ -3473,6 +3473,20 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030044/weinstube-volz"
     },
     {
+      "place_id": "g_100028341",
+      "title": "Die Schnapsdrossel",
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "lat": 49.1799895,
+      "lon": 9.484939853317202,
+      "distance_km": 1.6,
+      "address": "Pfedelbacher Straße 15, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07941 36073",
+      "website": "http://www.dieschnapsdrossel.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028341/die-schnapsdrossel"
+    },
+    {
       "place_id": "g_100032586",
       "title": "Der Rutenbieger",
       "start": "2026-12-26",
@@ -3527,6 +3541,20 @@
       "phone": "07136 6426",
       "website": "",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100043601/besenwirtschaft-am-bahndamm"
+    },
+    {
+      "place_id": "g_100028363",
+      "title": "Weinstube Ungerer",
+      "start": "2026-12-30",
+      "end": "2026-12-30",
+      "lat": 49.1474797,
+      "lon": 9.5513848,
+      "distance_km": 4.6,
+      "address": "Harsberger Straße 15, 74629 Pfedelbach",
+      "city": "Pfedelbach",
+      "phone": "07949 940690",
+      "website": "http://www.weingut-ungerer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028363/weinstube-ungerer"
     },
     {
       "place_id": "g_100028291",
