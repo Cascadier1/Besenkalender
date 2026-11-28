@@ -1,5 +1,5 @@
 {
-  "updated_at": "27.11.2026, 15:34 Uhr",
+  "updated_at": "28.11.2026, 14:47 Uhr",
   "center": {
     "name": "Pfedelbach",
     "lat": 49.1764,
@@ -1849,20 +1849,6 @@
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029456/weinstube-klee-1"
     },
     {
-      "place_id": "g_100030186",
-      "title": "Weinstube Bayer",
-      "start": "2026-07-08",
-      "end": "2026-07-12",
-      "lat": 49.077595,
-      "lon": 9.1959803,
-      "distance_km": 25.1,
-      "address": "Rohräcker 4, 74388 Talheim",
-      "city": "Talheim",
-      "phone": "07133 6921",
-      "website": "https://www.weinstube-bayer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030186/weinstube-bayer"
-    },
-    {
       "place_id": "g_100036308",
       "title": "Weingut G.A. Heinrich „Wein & Dine“",
       "start": "2026-07-16",
@@ -1889,20 +1875,6 @@
       "phone": "07131 401580",
       "website": "https://www.weingut-unser.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100029448/weinstube-unser"
-    },
-    {
-      "place_id": "g_100030186",
-      "title": "Weinstube Bayer",
-      "start": "2026-08-12",
-      "end": "2026-08-16",
-      "lat": 49.077595,
-      "lon": 9.1959803,
-      "distance_km": 25.1,
-      "address": "Rohräcker 4, 74388 Talheim",
-      "city": "Talheim",
-      "phone": "07133 6921",
-      "website": "https://www.weinstube-bayer.de/",
-      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030186/weinstube-bayer"
     },
     {
       "place_id": "g_100030808",
@@ -3317,6 +3289,20 @@
       "phone": "07062 96548",
       "website": "http://www.weingut-abstatt.de/",
       "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100028280/weinstube-hrle"
+    },
+    {
+      "place_id": "g_100030186",
+      "title": "Weinstube Bayer",
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "lat": 49.077595,
+      "lon": 9.1959803,
+      "distance_km": 25.1,
+      "address": "Rohräcker 4, 74388 Talheim",
+      "city": "Talheim",
+      "phone": "07133 6921",
+      "website": "https://www.weinstube-bayer.de/",
+      "url": "https://www.besenstimme.de/de/besenstimme/wlan/detail/Gastro/g_100030186/weinstube-bayer"
     },
     {
       "place_id": "g_100027482",
